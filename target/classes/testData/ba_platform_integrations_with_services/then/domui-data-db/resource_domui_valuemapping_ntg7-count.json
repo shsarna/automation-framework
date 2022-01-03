@@ -1,4 +1,0 @@
-{
- "selectStatement": "select count(*) from domui_data_service.resource_domui_valuemapping where resource_id in (select resource_id from domui_data_service.resource where n_tuple_id =(select n_tuple_id from domui_data_service.n_tuple where n_tuple_name='hu ntg7.0') and resource_type_id=-6)",
- "expectedCount": 1
-}

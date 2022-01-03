@@ -2,7 +2,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>automated-integration</artifactId>
+    <artifactId>automation-framework</artifactId>
     <packaging>jar</packaging>
     <name>automated-integration</name>
     <version>1.0.1-${BUILD_ID}</version>
@@ -94,11 +94,6 @@
             <artifactId>artifactory-java-client-services</artifactId>
             <version>0.16</version>
         </dependency>
-        <dependency>
-            <groupId>io.kubernetes</groupId>
-            <artifactId>client-java</artifactId>
-            <version>10.0.0</version>
-        </dependency>
 
 
         <dependency>
@@ -186,12 +181,6 @@
             <artifactId>jackson-core</artifactId>
             <version>2.12.0</version>
         </dependency>
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>5.5.0</version>
-            <scope>compile</scope>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -264,12 +253,12 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>automated-integration: Regression Tests</projectName>
+                            <projectName>automation-framework</projectName>
                             <buildNumber>${project.version}</buildNumber>
                             <outputDirectory>target/cucumber-reports</outputDirectory>
                             <inputDirectory>target/cucumber-reports</inputDirectory>
                             <jsonFiles>
-                                <param>cucumber-automated-integration.json</param>
+                                <param>cucumber-automation-framework.json</param>
                             </jsonFiles>
                             <parallelTesting>false</parallelTesting>
                             <checkBuildResult>false</checkBuildResult>
@@ -291,7 +280,6 @@
     <repositories>
         <repository>
             <id>project</id>
-<!--            <url>https://sbs.t-systems.com/nexus/content/groups/ddibaconv/</url>-->
         </repository>
     </repositories>
 

@@ -1,4 +1,0 @@
-{
- "selectStatement": "select count(*) from dom_content.keyword;",
- "expectedCount": 3331
-}

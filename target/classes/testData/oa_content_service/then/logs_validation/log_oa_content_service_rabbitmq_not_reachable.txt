@@ -1,1 +1,0 @@
-[main, "", ""] INFO  o.s.a.r.l.DirectMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.net.UnknownHostException:

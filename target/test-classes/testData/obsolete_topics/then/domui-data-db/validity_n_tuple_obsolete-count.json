@@ -1,4 +1,0 @@
-{
- "selectStatement": "SELECT count(*) FROM domui_data_service.validity_n_tuple where n_tuple_ID=(SELECT n_tuple_id fROM domui_data_service.n_tuple where n_tuple_name like '%pa000000%')and validity_id=(SELECT validity_id FROM domui_data_service.validity where validity_code= 'pa200033')",
- "expectedCount": 0
-}

@@ -1,4 +1,0 @@
-{
-  "selectStatement": "select count(*) from oa_content.media_ref_data;",
-  "expectedCount": 286
-}

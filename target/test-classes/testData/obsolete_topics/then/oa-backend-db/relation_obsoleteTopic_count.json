@@ -1,4 +1,0 @@
-{
-  "selectStatement": "select count(*) from oa_content.relation where object_id_1 = 7 and relation_type_id = '-1' and object_id_2 = 6",
-  "expectedCount":1
-}

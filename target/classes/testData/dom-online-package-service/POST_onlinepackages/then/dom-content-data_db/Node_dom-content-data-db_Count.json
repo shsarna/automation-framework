@@ -1,4 +1,0 @@
-{
- "selectStatement": "select count(*) from NODE",
- "expectedCount": 829
-}

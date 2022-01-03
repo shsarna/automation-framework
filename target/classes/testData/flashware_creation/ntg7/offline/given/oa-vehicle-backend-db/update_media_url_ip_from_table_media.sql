@@ -1,1 +1,0 @@
-update dom_content.media set ext_media_url ='http://10.194.127.52:80/cmsweb/1234media/00e553b52c1de2fbac190d2b10199b1d/1/--_--/JPEG_DIBA55hi' where ext_media_url ='http://10.194.127.52:80/cmsweb/media/00e553b52c1de2fbac190d2b10199b1d/1/--_--/JPEG_DIBA55hi';

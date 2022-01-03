@@ -1,8 +1,0 @@
-\[Request Id: \d*, Content Request Id: \d*\] Masterdata
-\[Request Id: \d*, Content Request Id: \d*\] Objects
-\[Request Id: \d*, Content Request Id: \d*\] Payloads
-\[Request Id: \d*, Content Request Id: \d*\] Relations
-\{CREATED = 6
-\[Request Id: \d*, Content Request Id: \d*\] Creating log file...
-\[Request Id: \d*, Content Request Id: \d*\] Publishing log file 'protocol_\d*.json' to Cloud Object Storage...
-\[Request Id: \d*, Content Request Id: \d*\] Log file 'protocol_1.json' successfully pushed to folder \/ in bucket 'ba-oacore-test-logfiles' on Cloud Object Storage\"

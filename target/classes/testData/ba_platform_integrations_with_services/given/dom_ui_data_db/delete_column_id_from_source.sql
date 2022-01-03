@@ -1,1 +1,0 @@
-alter table domui_data_service.resource drop column id_from_source cascade;

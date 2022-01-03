@@ -1,4 +1,0 @@
-{
-  "selectStatement": "SELECT COUNT(*) FROM xxxml_v10_import.xxxml_import WHERE xxxml_import.xxxml_import_service_status='2' AND xxxml_import.oa_content_post_bulk_status='2' AND xxxml_import.dom_content_sync_status='2' AND xxxml_import.masterdata_normalization_status='2' AND xxxml_import.masterdata_post_bulk_status='2' AND xxxml_import.core_status='2' AND xxxml_import.sync_status='2' AND xxxml_import.callback_arki_after_import_status='2' AND xxxml_import.callback_arki_after_sync_status='2';",
-  "expectedCount": 7
-}

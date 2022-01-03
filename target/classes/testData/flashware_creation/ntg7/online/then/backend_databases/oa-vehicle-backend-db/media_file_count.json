@@ -1,4 +1,0 @@
-{
-  "selectStatement": "select count(*) from dom_content.media where ",
-  "expectedCount": 480
-}

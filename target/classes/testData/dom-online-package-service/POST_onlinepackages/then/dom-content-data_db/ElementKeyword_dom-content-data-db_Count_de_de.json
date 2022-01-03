@@ -1,4 +1,0 @@
-{
- "selectStatement": "select count(*) from ELEMENT_KEYWORD",
- "expectedCount": 3358
-}

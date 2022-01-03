@@ -1,4 +1,0 @@
-{
-  "selectStatement": "select count(*) from oa_content.media_ref_data where ext_media_url ='http://10.194.127.4:80/cmsweb/media/e707a96fe570c18cac190d2b4beb76c7/1/--_--/JPEG_DIBA55hi' ;",
-  "expectedCount": 1
-}

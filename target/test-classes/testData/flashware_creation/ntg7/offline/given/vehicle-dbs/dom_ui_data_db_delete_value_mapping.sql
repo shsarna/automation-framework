@@ -1,2 +1,0 @@
-delete from domui_data_service.resource_domui_valuemapping;
-delete from domui_data_service.domui_valuemapping;

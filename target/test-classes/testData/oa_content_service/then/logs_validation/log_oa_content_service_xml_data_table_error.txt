@@ -1,1 +1,0 @@
-ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: column "data_id_from_source" of relation "xml_data" does not exist

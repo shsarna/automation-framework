@@ -1,1 +1,0 @@
-Request-ID:"10", Location:"http://dom-content-service-tsy-integration.ba-ntg7:10110/dom-content-service/v1/packages/8", Content-MD5:"TestString", Link:"http://json-schema.org/draft-04/schema#", Content-Type:"application/json;charset=UTF-8", Transfer-Encoding:"chunked", Date:DAY, TIME"

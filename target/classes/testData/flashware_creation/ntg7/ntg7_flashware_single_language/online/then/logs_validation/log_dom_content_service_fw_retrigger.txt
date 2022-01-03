@@ -1,1 +1,0 @@
-The request is not accepted due to retrigger time limits. Retry in milliseconds: \d* \(\d{2} minutes, \d{2} seconds\).

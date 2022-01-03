@@ -1,5 +1,0 @@
-Uploading files to Artifactory...
-Failed to upload the file to Artifactory at attempt number: 1.
-Failed to upload the file to Artifactory at attempt number: 2.
-Failed to upload the file to Artifactory at attempt number: 3.
-Failed to upload the file to Artifactory at attempt number: 4.

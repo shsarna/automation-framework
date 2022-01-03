@@ -1,7 +1,0 @@
-[main, "", ""] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/oa-content-service/v1'
-"version" :"1.1", "host" : "/oa-content-service/v1", "short_message": "Started OaContentApplication in
-"version" :"1.1", "host" : "/oa-content-service/v1", "short_message": "Service has successfully started on ba-oacore namespace on TEST stage with configuration:
-RabbitMQ exchange oa-content-v1-bulk-waiting_exchange-tsy-integration,
-RabbitMQ exchange oa-content-v1-query_exchange-tsy-integration,
-RabbitMQ exchange oa-content-v1-bulk_exchange-tsy-integration,
-COS on ba-oacore-test-cos/ba-oacore-test-results

@@ -1,4 +1,0 @@
-{
- "selectStatement": "select count(*) from element where language != 'de' and language != 'en' and locale != 'de' and locale != 'gb';",
- "expectedCount": 0
-}

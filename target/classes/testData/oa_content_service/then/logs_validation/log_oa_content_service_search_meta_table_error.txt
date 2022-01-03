@@ -1,1 +1,0 @@
-ERROR: column "search_meta_id_from_source" of relation "search_meta" does not exist

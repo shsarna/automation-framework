@@ -11,8 +11,6 @@ import org.springframework.http.HttpStatus;
  */
 public class CustomException extends RuntimeException {
 
-    private static final long serialVersionUID = -6212956324556815516L;
-
     /**
      * The type of the exception: BUSINESS, SERVER.
      */

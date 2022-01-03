@@ -1,1 +1,0 @@
-update dom_sw_service.dom_release set url='dom-sw-releases/OA_1.999.8.zip' , minor_version='999', patch_version='8' where dom_release_id='-202';

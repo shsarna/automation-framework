@@ -1,4 +1,0 @@
-{
- "selectStatement": "select count(*) from sys_param",
- "expectedCount": 27
-}

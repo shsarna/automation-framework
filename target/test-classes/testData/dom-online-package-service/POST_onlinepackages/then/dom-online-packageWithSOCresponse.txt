@@ -1,2 +1,0 @@
-
-      "message" : "Accepted. DOM online package creation started.",

@@ -1,4 +1,0 @@
-{
- "selectStatement": "select count(*) from element where element_type >= 3;",
- "expectedCount": 2394
-}

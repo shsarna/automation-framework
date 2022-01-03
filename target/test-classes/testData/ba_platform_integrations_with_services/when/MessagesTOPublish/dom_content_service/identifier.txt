@@ -1,5 +1,0 @@
-{
-"uuid": "a8a71044-6d29-454a-ab9f-a2bf378a06ba",
-"operation": "changed",
-"elementType": "text"
-}

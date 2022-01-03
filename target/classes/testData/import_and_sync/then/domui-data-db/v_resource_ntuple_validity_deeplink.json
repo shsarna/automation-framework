@@ -1,4 +1,0 @@
-{
-  "selectStatement": "SELECT count(*) FROM domui_data_service.v_resource_ntuple_validity where resource_type_name = 'valuemapping' and n_tuple_id = 1 and validity_code in ('p','223.0','ma-ece/row','ece/row','hu','ntg7.0','premium','hu-ece/row','ip_diba','pa180567','<802>');",
-  "expectedCount": 10
-}

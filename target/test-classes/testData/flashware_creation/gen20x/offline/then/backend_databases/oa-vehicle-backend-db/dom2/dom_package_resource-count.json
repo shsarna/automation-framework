@@ -1,4 +1,0 @@
-{
-  "selectStatement": "select count(*) from dom_content.dom_package_resource where resource_url like '%https://ntg7.om-systems-test.cloud.corpintra.net/artifactory/local/dom-flashware/300030_3333003011/%';",
-  "expectedCount": 3
-}

@@ -1,4 +1,0 @@
-{
- "selectStatement": "select count(*) from dom_content.media where element_type_from_source like '%mediahub-arkikipicng%'",
- "expectedCount": 0
-}

@@ -1,1 +1,0 @@
-ALTER TABLE oa_content.search_meta DROP COLUMN search_meta_id cascade;

@@ -1,4 +1,0 @@
-{
- "selectStatement": "select count(*) from domui_data_service.resource_domui_text;",
- "expectedCount": 17
-}

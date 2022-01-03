@@ -161,30 +161,6 @@ public class KubernetesUtils {
         return logLineWithoutWhiteSpaces.startsWith("#");
     }
 
-    private static String namespace(String cmName) {
-        Map<String, List<String>> namespaceToCm = Map.of(
-                BA_NTG_7, List.of("dom-container-service", "dom-content-service", "dom-online-facade",
-                        "dom-online-package-service", "dom-sw-service", "dom-ui-data-service", "dom-validation-service",
-                        "oa-gw-data-service"),
-
-                BA_OACORE, List.of("oa-content-service", "xxxml-import-service", "standalone-adapter", "dom-view", "arki-dom-preview-service")
-
-//                BA_PREVIEW, List.of("arki-dom-preview-service", "dom-preview", "dom-view")
-        );
-
-        Set<Map.Entry<String, List<String>>> entries = namespaceToCm.entrySet();
-
-        for (Map.Entry<String, List<String>> entry : entries) {
-            List<String> services = entry.getValue();
-
-            if (services.stream().anyMatch(cmName::startsWith)) {
-                return entry.getKey();
-            }
-
-        }
-        throw new IllegalArgumentException(cmName + "cannot be mapped to a namespace");
-    }
-
     public void restartDeployment(String deploymentName) {
         LOGGER.info("Restarting deployment {}...", deploymentName);
         String namespace = namespace(deploymentName);

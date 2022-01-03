@@ -1,5 +1,0 @@
-{
-"uuid": null,
-"elementType": null,
-"operation": "synchronize"
-}

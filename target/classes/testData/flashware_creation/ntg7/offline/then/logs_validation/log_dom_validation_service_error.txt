@@ -1,2 +1,0 @@
-Flashware creation failed
-Successfully validated flashware, writing output to COS at path https:\/\/s3.eu-de.cloud-object-storage.appdomain.cloud\/ba-oacore-test-resource-storage\/dom-validation-result\/300030_\d*\/

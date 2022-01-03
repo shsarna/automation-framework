@@ -1,4 +1,0 @@
-{
- "selectStatement": "select count(*) from domui_menu_item",
- "expectedCount": 146
-}

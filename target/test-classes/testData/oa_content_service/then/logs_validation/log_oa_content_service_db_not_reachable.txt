@@ -1,6 +1,0 @@
-Started OaContentApplication in
-WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 42P01
-ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: relation "oa_content.sys_param" does not exist
-could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
-Something went wrong while trying to check the database version.
-ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: relation "oa_content.content_request" does not exist

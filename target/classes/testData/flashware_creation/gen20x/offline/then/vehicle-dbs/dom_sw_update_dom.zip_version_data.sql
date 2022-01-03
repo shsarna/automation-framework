@@ -1,1 +1,0 @@
-update dom_sw_service.dom_release set url='dom-sw-releases/DOM_1.23.0.zip' , minor_version='23' where dom_release_id='-101'

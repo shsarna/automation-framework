@@ -1,7 +1,0 @@
-Started OaContentApplication
-Service has successfully started on ba-oacore namespace on TEST stage with configuration:
-        RabbitMQ exchange oa-content-v1-bulk-waiting_exchange-tooling-sync,
-        RabbitMQ exchange oa-content-v1-query_exchange-tooling-sync,
-        RabbitMQ exchange oa-content-v1-bulk_exchange-tooling-sync,
-        COS on ba-oacore-test-cos\/ba-oacore-test-results
-        COS on ba-oacore-test-cos\/ba-oacore-test-logfiles and OA_DB_VERSION v\d.\d.\d.

@@ -1,9 +1,0 @@
-{
-  "message" : {
-    "info" : [ {
-      "message" : "Processing of the posted bulk has failed. org.hibernate.exception.SQLGrammarException: could not extract ResultSet",
-      "timestamp" : "2021-04-26T15:54:09.128Z",
-      "type" : 3
-    } ]
-  }
-}

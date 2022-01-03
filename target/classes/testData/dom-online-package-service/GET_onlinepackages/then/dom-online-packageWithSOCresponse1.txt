@@ -1,7 +1,0 @@
-"cdnUrl" : "https://s3.eu-de.cloud-object-storage.appdomain.cloud/ba-ntg7-test-resource-storage/dom-online-packages/1/instr.db",
-        "contentRevision" : 1,
-        "dataCard" : [ "ZN20", "ZN19", "ZN21" ],
-        "hashValue" : "00000u",
-        "language" : "en",
-        "locale" : "gb",
-        "log" : "NO LOG IMPLEMENTED YET.",

@@ -1,5 +1,0 @@
-{
-  "selectStatement": "SELECT * FROM domui_data_service.resource where id_from_source like '%pa190548%' and n_tuple_id= (SELECT n_tuple_id FROM domui_data_service.n_tuple where n_tuple_name like '%pa190548%') and resource_id=(SELECT resource_id FROM domui_data_service.resource_domui_text where domui_text_id= (SELECT domui_text_id FROM domui_data_service.domui_text  where text_key= (select text_key from domui_data_service.domui_menu_item where object_id_from_source like '%Not obsoleteid --need to be change here%')) ) ",
-
-  "expectedCount": 1
-}

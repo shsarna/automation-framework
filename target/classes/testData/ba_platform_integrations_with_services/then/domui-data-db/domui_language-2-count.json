@@ -1,4 +1,0 @@
-{
- "selectStatement": "select count(*) from domui_data_service.domui_language where reading_direction = 2;",
- "expectedCount": 2
-}

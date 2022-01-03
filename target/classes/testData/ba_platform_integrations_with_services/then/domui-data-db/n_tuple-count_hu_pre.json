@@ -1,4 +1,0 @@
-{
- "selectStatement": "select count(*) from domui_data_service.n_tuple where n_tuple_name='808+059 ma-ece/row hu premium 223.1 hu-ece/row p ip_diba ece/row pa180554 ntg7.0'",
- "expectedCount": 1
-}

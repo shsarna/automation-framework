@@ -1,4 +1,0 @@
-{
- "selectStatement": "select count(*) from domui_data_service.validity_n_tuple",
- "expectedCount": 15
-}

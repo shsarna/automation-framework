@@ -1,4 +1,0 @@
-{
-  "selectStatement": "select count(*) from dom_content.media where ext_media_filename ='5519.jpg' ;",
-  "expectedCount": 1
-}

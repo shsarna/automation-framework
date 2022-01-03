@@ -1,4 +1,0 @@
-{
-  "selectStatement": "SELECT COUNT(*) FROM DOMUI_TEXT WHERE text_value LIKE '%§§%';",
-  "expectedCount": 99
-}

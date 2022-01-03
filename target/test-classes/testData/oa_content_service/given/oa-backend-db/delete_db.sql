@@ -1,1 +1,0 @@
-DROP DATABASE "oa_backend_db-tsy-integration";

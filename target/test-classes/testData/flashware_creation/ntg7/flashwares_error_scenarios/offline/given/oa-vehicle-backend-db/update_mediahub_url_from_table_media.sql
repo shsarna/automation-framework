@@ -1,1 +1,0 @@
-update dom_content.media set ext_media_url ='https://mh.om-systems-test123.cloud.corpintra.net/mm/arki/download/61854-61855-61953.png' where ext_media_url ='https://mh.om-systems-test.cloud.corpintra.net/mm/arki/download/61854-61855-61953.png';

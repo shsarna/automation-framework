@@ -1,2 +1,0 @@
-Detected unsupported information product ip_diba_test_test. Synchronization will not be performed. Supported information product is IP_DIBA
-All the consumers subscribed to dom-ui-data-v1-contentsync_exchange-tsy-integration have been notified of the status of the synchronisation process.

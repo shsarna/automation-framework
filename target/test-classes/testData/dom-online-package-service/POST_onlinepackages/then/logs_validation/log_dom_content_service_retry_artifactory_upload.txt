@@ -1,1 +1,0 @@
-Failed to upload the file to Artifactory at attempt number: 4.
