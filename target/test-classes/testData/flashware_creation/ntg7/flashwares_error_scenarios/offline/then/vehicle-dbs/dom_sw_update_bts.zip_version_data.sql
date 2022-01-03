@@ -1,0 +1,1 @@
+update dom_sw_service.dom_release set url='dom-sw-releases/BTS_1.6.0.zip' , minor_version='6' where dom_release_id='-301';

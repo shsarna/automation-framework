@@ -1,0 +1,14 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "PAR_NAME",
+      "columnValue": "ONLINE_PACKAGE"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "PAR_VALUE",
+      "columnValue": "1"
+    }
+  ]
+}

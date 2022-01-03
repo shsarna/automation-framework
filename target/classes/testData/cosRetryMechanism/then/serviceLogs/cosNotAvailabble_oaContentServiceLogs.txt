@@ -1,0 +1,1 @@
+Could not publish log file. Cloud Object Storage not available. Please contact IBM.

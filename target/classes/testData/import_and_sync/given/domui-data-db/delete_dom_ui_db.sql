@@ -1,0 +1,1 @@
+drop DATABASE "domui_data_db-tsy-integration";

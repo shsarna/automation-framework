@@ -1,0 +1,29 @@
+{
+	"message": {
+		"partNumber": "A3333003018",
+		"swVersionsNumber": "300030",
+		"packageType": "online",
+		"packageMetadata": {
+			"maxPackageSize": 500,
+			"packageSizeUnit": "MB"
+		},
+		"businessLine": "p",
+		"vehicleLine": ["223.0"],
+		"stateOfConstruction": "802",
+		"paId": "pa180567",
+		"vehicleMarket": ["ma-ece/row"],
+		"huModel": "ntg7.0",
+		"huVariant": "premium",
+		"huLayout": ["hu"],
+		"huMarket": ["hu-ece/row"],
+		"market": ["ece/row"],
+		"languages": [
+		{
+			"language": "de",
+			"locale": "de"
+		}],
+		"domType": "DOM1",
+		"estand": "12.0",
+		"deeplink": "https://oa.daimler.com/butis?partnumber=A2230000000"
+	}
+}

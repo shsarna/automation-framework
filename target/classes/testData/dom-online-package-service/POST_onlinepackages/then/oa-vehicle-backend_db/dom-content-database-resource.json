@@ -1,0 +1,18 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "dom_database_resource_id",
+      "columnValue": "1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "database_status",
+      "columnValue": "COMPLETED"
+    },
+    {
+      "columnName": "database_url",
+      "columnValue": "https://s3.eu-de.cloud-object-storage.appdomain.cloud/ba-ntg7-test-resource-storage/dom-online-packages/1/"
+    }
+  ]
+}

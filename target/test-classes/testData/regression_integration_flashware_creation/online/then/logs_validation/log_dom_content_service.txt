@@ -1,0 +1,113 @@
+span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Received package creation trigger with metadata partNumber:A3333003012; swVersion: 300030; DOM type: DOM1; package type: online; E-Stand: 12.0 and n-tuple \(vehicle line: \[223.1]; vehicle market: \[ma-cn]; hu model: ntg7.0; huLayout: \[hu]; hu variant: premium; hu market: \[hu-cn]; market: \[cn]; state of construction: 0e1; pa-id: pa180554\) and languages:en_gb, de_de.
+For flashware creation request with request id \d{2}, the new traceId is: \w{16} and the old traceId was: \w{16}
+"level": "INFO ", "span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Validating request"
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Created package resource with id \d{1}. Set status in database to STARTED.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "ZIP creation response composed successfully.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Request Accepted. DOM package creation started.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Base folder structure for the ZIP has been prepared successfully.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Getting DOM release information from DOM SW Service.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Received DOM release from DOM SW Service.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Creating online flashware.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Starting to check if the valid nodes found match the locale and languages provided: de_de
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Reading DOM profile: DOM1
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Downloading from cos folder dom-sw-releases/OA_1.4.7.zip.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Release OA_GW.zip downloaded.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Starting creation of OA_GW.zip
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Unzipped OA_GW.zip retrieved from cos.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Downloading from cos folder dom-symb\/mbsymb_NTG7.0.zip.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Release MBSYMBOLS.zip downloaded.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Starting creation of MBSYMBOLS.zip
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Unzipped MBSYMBOLS.zip retrieved from cos.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Successfully deleted COS source \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/OA_GW.zip
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Successfully deleted COS source \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/MBSYMBOLS.zip
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Successfully cleanup the ZIP content for all unnecessary files.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Starting creation of dom-content-data.db...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Created empty dom-content-data.db out of dll dom-content-data_create.sql DB version 1.2.0
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "dom-content-service.db DDL structure completed successfully.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The Vehicle Database has been cleared of data.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Online case, valid nodes contains all valid nodes, market independent \(no market, device-market, vehicle-market included in filtering\).
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Complex query has been prepared.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The service found \d{4} nodes that match the selected validities.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Putting data into dom-content-data.db.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Starting to check if the valid nodes found match the locale and languages provided: de_de
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Creating online flashware with warning messages. Only topics of type 4 and 5 will be included.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Collecting warning messages from database...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Warning messages found. Persisting into vehicle database...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Warning messages found \(\d{3} long messages and \d{3} short messages\). Persisting data into dom-content-data.db.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Added \d{3} nodeElements.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "For the selected languages exist: \d{3} elements. Transferring topics into the Vehicle Db...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "NodeElements have been persisted into the VeDb.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Collecting keywords from database...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Keywords found. Persisting into vehicle database...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Keywords persisted.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Topics persisted.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Warning messages persisted.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "\d{3} nodes and \d{1} elements persisted into nodes\/elements table of dom-content-data.db.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "\d{3} long and \d{3} short messages persisted into nodes\/elements table of dom-content-data.db.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Nodes, Elements and Keywords have been persisted into the VeDb.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Vehicle Database completed successfully.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The file dom-content-data.db was relocated.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The Ve-Db has been successfully created and relocated to: \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Successfully dom-content-data.db and integrated in OA\/data folder
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Starting creation of dom-ui-data.db...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Created empty dom-ui-data.db out of dll dom-ui-data_create.sql DB version 1.5.0
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Collecting DOM UI Data...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Getting texts from DOM UI Data Service...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Received \d{3} texts from DOM UI Data Service.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Getting menu from DOM UI Data Service...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Received \d{3} menu items from DOM UI Data Service.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Getting value mappings from DOM UI Data Service...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Received \d{1} value mappings from DOM UI Data Service.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Getting warning message references from DOM UI Data Service...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Received \d{3} warning message reference\(s\) from DOM UI Data Service.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Getting language information from DOM UI Data Service...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Received \d{1} language information from DOM UI Data Service.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Populating dom-ui-data.db...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "DOM_UI Char Maps tables were succesfully populated.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Putting texts into dom-ui-data.db
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Putting menu items into dom-ui-data.db
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Putting language information into dom-ui-data.db
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Putting value mappings into dom-ui-data.db
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Putting warning message reference\(s\) into dom-ui-data.db
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Successfully populated dom-ui-data.db with texts, menu items, languages, value mappings and warning messages.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The file dom-ui-data.db was relocated.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The dom-ui-data.db has been succesfully created and relocated to: \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/oa-gw\/data\/dom-ui-data.db
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Successfully dom-ui-data.db and integrated in OA\/data folder
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Starting creation of oa-system-data.db...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Created empty oa-system-data.db out of dll oa-system-data_create.sql DB version 1.2.0
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Collecting OA GW data...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Getting parameters from OA GW Data Service...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Received \d{2} parameters from OA GW Data Service.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Getting schedules from OA GW Data Service...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Received \d{1} schedules from OA GW Data Service.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Putting parameters into oa-system-data.db
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Putting schedules into oa-system-data.db
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Successfully populated oa-system-data.db with validities, schedules and parameters from OA-GW-Service.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The file oa-system-data.db was relocated.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The oa-system-data.db has been successfully created and relocated to: \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/oa-gw\/data\/oa-system-data.db
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Successfully created oa-system-data.db and integrated in OA\/data folder
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Starting creation of oa-client-data.db...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Created empty oa-client-data.db out of dll oa-client-data_create.sql DB version 1.0.0
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The file oa-client-data.db was relocated.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Successfully created oa-client-data.db and integrated in OA\/data folder
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Successfully deleted the \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/ddl folder containing the base db scripts.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Starting creation of info.txt file...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The info.txt file has been relocated to: \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/oa-gw\/data\/info.txt
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Created subfolder logic and added LUA business logic into folder.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Relocation of \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/\/logic\/ completed successfully;
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Successfully deleted the old logic folder from dom zip.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Starting creation of README.md file...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Relocate the file README.md to: \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The README.md file has been successfully relocated to: \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Starting creation of DOM.zip...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "New empty DOM folder created.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The final ZIP has been created at: \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/DOM.zip
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Created DOM.zip.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Successfully created the flashable OA and DOM ZIP files.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Uploading artifacts DOM.zip to Cos...
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Successfully uploaded DOM.zip to Cos folder dom-flashware\/300030_d{10}.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Updated package resource with id \d{1}. Set status to COMPLETED.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The DOM_PACKAGE nr:\d{1} creation was finalised and uploaded successfully to Cos.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Notified all subscribers of dom-content-v1-package_exchange-tsy-integration of status package creation of package with id \d{1}.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Cleanup successfully executed for package \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "The specific DOM_PACKAGE \d{1} has been retrieved.

@@ -1,0 +1,1 @@
+delete from dom_sw_service.validity_n_tuple;

@@ -1,0 +1,30 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "data_id_from_source",
+      "columnValue": "ID_017ba1f06e27e274354ae365170fe78e-035fa62e491859b5354aeb2c56b1aecf-de-DE"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "version_from_source",
+      "columnValue": "1"
+    },
+    {
+      "columnName": "language",
+      "columnValue": "de"
+    },
+    {
+      "columnName": "locale",
+      "columnValue": "DE"
+    },
+    {
+      "columnName": "ext_media_url",
+      "columnValue": "http://10.194.127.4:80/cmsweb/media/e707a96fe570c18cac190d2b4beb76c7/1/--_--/JPEG_DIBA55hi"
+    },
+    {
+      "columnName": "ext_media_filename",
+      "columnValue": "7b63d8345449af52354ae37e5ce4ad52_1_de-DE.JPEG_DIBA55hi"
+    }
+  ]
+}

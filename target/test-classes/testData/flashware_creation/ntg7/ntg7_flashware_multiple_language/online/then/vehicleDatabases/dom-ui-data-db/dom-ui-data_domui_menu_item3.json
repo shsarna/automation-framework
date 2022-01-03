@@ -1,0 +1,26 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "title_key",
+      "columnValue": "STRUCT_HELP_TOPICS_TITLE_6_7"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "icon",
+      "columnValue": null
+    },
+	{
+      "columnName": "action",
+      "columnValue": "showContent"
+    },
+	{
+      "columnName": "object_id_from_source",
+      "columnValue": "2ff2f38f468ede38354ae3656bda5e25-d7c2456230c505deb0b3b9287bbb2306"
+    },
+	{
+      "columnName": "parent_id",
+      "columnValue": "5018"
+    }
+  ]
+}

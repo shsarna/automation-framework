@@ -1,0 +1,55 @@
+{
+"message" : {
+"data" : {
+"data" : {
+"language" : "de",
+"locale" : "de",
+"validities" : {
+"businessLine" : "p",
+"deviceModel" : "7.0",
+"deviceModelMarket" : [ "hu-ece/row" ],
+"deviceModelVariant" : "premium",
+"deviceName" : "ntg",
+"market" : [ "ece/row" ],
+"paId" : "pa180553",
+"stateOfConstruction" : "0e1",
+"vehicleLine" : [ "007.1" ],
+"vehicleMarket" : [ "ma-ece/row" ]
+}
+},
+"id" : 1,
+"location" : "http://xxxml-import-service:8080/xxxml-import-service/v1/imports/1",
+"references" : [ {
+"id" : 1,
+"location" : "http://oa-content-service-tsy-integration:8080/oa-content-service/v1/bulk/1",
+"type" : "urn:com:mercedes-benz:oa:bulk"
+}, {
+"id" : 1,
+"location" : "http://dom-ui-data-service-tsy-integration:8080/dom-ui-data-service/v1/contentsync/1",
+"type" : "urn:com:mercedes-benz:oa:dom-ui-data-service:contentsync"
+}, {
+"id" : 1,
+"location" : "http://dom-content-service:8080/dom-content-service/v1/contentsync/1",
+"type" : "urn:com:mercedes-benz:oa:dom-content-service:contentsync"
+} ],
+"status" : 1,
+"type" : "urn:com:mercedes-benz:oa:xxxml-import-service:import"
+},
+"info" : [ {
+"code" : 110,
+"message" : "OA Core import successfully completed (bulk id: 1).",
+"timestamp" : "2021-06-18T05:52:01.970Z",
+"type" : 1
+}, {
+"code" : 120,
+"message" : "NTG7 Tooling and OA Core synchronization of product unspecific data (editorial data) successfully completed (contentSync id: 1). Detected unsupported information product ip_diba_test_test. Synchronization will not be performed. Supported information product is IP_DIBA.",
+"timestamp" : "2021-06-18T05:52:02.154Z",
+"type" : 2
+}, {
+"code" : 130,
+"message" : "NTG7 Tooling and OA Core synchronization of product specific data (DOM UI data) successfully completed (contentSync id: 1). Detected unsupported information product ip_diba_test_test. Synchronization will not be performed. Supported information product is IP_DIBA",
+"timestamp" : "2021-06-18T05:52:02.016Z",
+"type" : 2
+} ]
+}
+}

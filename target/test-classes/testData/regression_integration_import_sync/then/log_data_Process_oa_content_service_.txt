@@ -1,0 +1,27 @@
+{
+    "version" :"1\.1", "host" : "\/oa-content-service\/v1", "short_message": "\[Request Id: 77\] Received GET \/queries request, from client '172\.30\.77\.180:45574'\.", "full_message": "", "timestamp":"2021-04-22 04:56:13,251", "level": "INFO ", "span_id":"41a72da3f7e2cee2", "trace_id":"bd2e7378f5b543b1"
+            }
+            {
+    "version" :"1\.1", "host" : "\/oa-content-service\/v1", "short_message": "\[Request Id: 77\] Received GET \/queries request, from client '172\.30\.77\.180:45562'\.", "full_message": "", "timestamp":"2021-04-22 04:56:13,250", "level": "INFO ", "span_id":"414f5bcb3c8c1a2d", "trace_id":"6aad25626bc37aae"
+            }
+            {
+    "version" :"1\.1", "host" : "\/oa-content-service\/v1", "short_message": "\[Request Id: 77\] Responding to GET \/queries request, from client '172\.30\.77\.180:45574'\.", "full_message": "", "timestamp":"2021-04-22 04:56:15,110", "level": "INFO ", "span_id":"41a72da3f7e2cee2", "trace_id":"bd2e7378f5b543b1"
+            }
+            {
+    "version" :"1\.1", "host" : "\/oa-content-service\/v1", "short_message": "\[Request Id: 77\] Responding to GET \/queries request, from client '172\.30\.77\.180:45562'\.", "full_message": "", "timestamp":"2021-04-22 04:56:15,895", "level": "INFO ", "span_id":"414f5bcb3c8c1a2d", "trace_id":"6aad25626bc37aae"
+            }
+            {
+    "version" :"1\.1", "host" : "\/oa-content-service\/v1", "short_message": "\[Request Id: 77\] Received GET \/queries request, from client '172\.30\.77\.180:58102'\.", "full_message": "", "timestamp":"2021-04-22 04:56:42,305", "level": "INFO ", "span_id":"d8ab215e830197b3", "trace_id":"4f3b630353ed1e4e"
+            }
+            {
+    "version" :"1\.1", "host" : "\/oa-content-service\/v1", "short_message": "\[Request Id: 77\] Received GET \/queries request, from client '172\.30\.77\.180:58104'\.", "full_message": "", "timestamp":"2021-04-22 04:56:42,334", "level": "INFO ", "span_id":"515045d2f9c7cebd", "trace_id":"f471308eb7e9dc0c"
+            }
+            {
+    "version" :"1\.1", "host" : "\/oa-content-service\/v1", "short_message": "\[Request Id: 77\] Responding to GET \/queries request, from client '172\.30\.77\.180:58102'\.", "full_message": "", "timestamp":"2021-04-22 04:56:42,355", "level": "INFO ", "span_id":"d8ab215e830197b3", "trace_id":"4f3b630353ed1e4e"
+            }
+            {
+    "version" :"1\.1", "host" : "\/oa-content-service\/v1", "short_message": "\[Request Id: 77\] Responding to GET \/queries request, from client '172\.30\.77\.180:58104'\.", "full_message": "", "timestamp":"2021-04-22 04:56:42,895", "level": "INFO ", "span_id":"515045d2f9c7cebd", "trace_id":"f471308eb7e9dc0c"
+            }
+            {
+    "version" :"1\.1", "host" : "\/oa-content-service\/v1", "short_message": "\[Request Id: 77\] Received GET \/queries request, from client '172\.30\.77\.180:49540'\.", "full_message": "", "timestamp":"2021-04-22 04:57:12,337", "level": "INFO ", "span_id":"efe160eb694f3fc5", "trace_id":"e7abad4ded43e8b8"
+            }

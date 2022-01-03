@@ -1,0 +1,30 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "request_log_id",
+      "columnValue": "1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "message_content",
+      "columnValue": "Upload failed."
+    },
+    {
+      "columnName": "request_content",
+      "columnValue": "Upload failed."
+    },
+    {
+      "columnName": "request_type",
+      "columnValue": "POST"
+    },
+    {
+      "columnName": "response_content",
+      "columnValue": "http://oa-content-service-tsy-integration:8080/oa-content-service/v1/queries/3"
+    },
+    {
+      "columnName": "status",
+      "columnValue": "2"
+    }
+  ]
+}

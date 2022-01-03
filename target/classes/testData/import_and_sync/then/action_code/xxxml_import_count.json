@@ -1,0 +1,4 @@
+{
+  "selectStatement": "SELECT COUNT(*) FROM xxxml_v10_import.xxxml_import",
+  "expectedCount": 0
+}

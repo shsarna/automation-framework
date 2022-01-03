@@ -1,0 +1,34 @@
+{
+  "message" : {
+    "data" : {
+      "cdnMd5" : "9CC7207C7AD62847E1E231F23190DD0D",
+      "cdnUrl" : "dom-online-packages/1/instr.db",
+      "contentRevision" : 1,
+      "dataCard" : [ "ZN20", "ZN19", "ZN21" ],
+      "hashValue" : "00000u",
+      "language" : "en",
+      "locale" : "gb",
+      "log" : "NO LOG IMPLEMENTED YET.",
+      "onlinePackageCreationTime" : "2021-05-23T18:48:25.143Z",
+      "onlinePackageId" : 1,
+      "onlinePackageStatus" : "completed",
+      "validities" : {
+        "businessLine" : "p",
+        "deviceLayout" : [ "highresolution" ],
+        "deviceModel" : "ntg7.0",
+        "deviceModelMarket" : [ "hu-kr" ],
+        "deviceModelVariant" : "premium",
+        "deviceName" : "hu",
+        "market" : [ "kr" ],
+        "stateOfConstruction" : "808+059",
+        "vehicleLine" : [ "223.1" ],
+        "vehicleMarket" : [ "ma-kr" ]
+      }
+    },
+    "info" : [ {
+      "message" : "OK. Requested data is provided within the response payload.",
+      "timestamp" : "2021-05-23T18:49:55.557Z",
+      "type" : 1
+    } ]
+  }
+}

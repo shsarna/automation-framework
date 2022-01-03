@@ -1,0 +1,22 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "dom_online_package_id",
+      "columnValue": "3"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "online_package_status",
+      "columnValue": "completed"
+    },
+    {
+      "columnName": "hash_value",
+      "columnValue": "00000u"
+    },
+    {
+    "columnName": "revision",
+    "columnValue": "2"
+    }
+  ]
+}

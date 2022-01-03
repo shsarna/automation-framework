@@ -1,0 +1,18 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "xxxml_import_id",
+      "columnValue": "1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "xxxml_import_service_status",
+      "columnValue": "3"
+    },
+    {
+      "columnName": "status_message",
+      "columnValue": "An error occurred  while normalizing masterdata: '808+059ghghg' could not be matched, as STATE_OF_CONSTRUCTION, in master system."
+    }
+  ]
+}

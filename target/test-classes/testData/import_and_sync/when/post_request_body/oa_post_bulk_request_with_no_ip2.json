@@ -1,0 +1,71 @@
+{
+  "message": {
+    "data": [
+      {
+        "object": {
+          "market": {
+            "name": "ece/row"
+          },
+          "objectIdFromSrc": "ece/row",
+          "objectTypeFromSrc": "mapping_market",
+          "objectTypeName": "market",
+          "srcSystemName": "ba-platform"
+        }
+      },
+      {
+        "object": {
+          "objectIdFromSrc": "ntg:7.0:premium:hu-ece/row",
+          "objectTypeFromSrc": "hu_generation:hu_generation:hu_variant:hu_market",
+          "objectTypeName": "tdev",
+          "srcSystemName": "ba-platform",
+          "targetDevice": {
+            "device": "ntg",
+            "deviceMarket": "hu-ece/row",
+            "model": "7.0",
+            "modelVariant": "premium"
+          }
+        }
+      },
+      {
+        "object": {
+          "objectIdFromSrc": "007:1:ma-ece/row:p",
+          "objectTypeFromSrc": "mapping_bm_numeric:mapping_bm_numeric:vehicle_market:arki-transl-division",
+          "objectTypeName": "vehline",
+          "srcSystemName": "ba-platform",
+          "vehicleLine": {
+            "businessLine": "p",
+            "vehicleLineLead": "007",
+            "vehicleLineMarket": "ma-ece/row",
+            "vehicleLineVariant": "1"
+          }
+        }
+      },
+      {
+        "object": {
+          "objectIdFromSrc": "0e1",
+          "objectTypeFromSrc": "state_of_construction",
+          "objectTypeName": "soc",
+          "srcSystemName": "ba-platform",
+          "stateOfConstruction": "0e1"
+        }
+      },
+      {
+        "object": {
+          "objectIdFromSrc": "pa180553",
+          "objectTypeFromSrc": "pa-pub-id",
+          "objectTypeName": "paid",
+          "paId": "pa180553",
+          "srcSystemName": "arki4"
+        }
+      }
+    ],
+    "references": [
+      {
+        "id": 1,
+        "location": "http://xxxml-import-service:8080/xxxml-import-service/v1/imports/1",
+        "type": "urn:com:mercedes-benz:oa:xxxml-import-service:import"
+      }
+    ]
+  }
+}
+

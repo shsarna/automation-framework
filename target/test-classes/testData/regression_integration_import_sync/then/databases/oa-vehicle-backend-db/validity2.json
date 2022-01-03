@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from dom_content.validity where validity_value = 'ntg7.0';",
+ "expectedCount": 1
+}

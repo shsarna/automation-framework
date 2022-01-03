@@ -1,0 +1,38 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "data_id_from_source",
+      "columnValue": "ID_5e3479f90b794ee0354ae36545aade11-271d4e850b794ee0354ae3652dd4c753-en-GB"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "xml_data_id",
+      "columnValue": "44"
+    },
+    {
+      "columnName": "object_payload_id",
+      "columnValue": "44"
+    },
+	{
+      "columnName": "language",
+      "columnValue": "en"
+    },
+    {
+      "columnName": "locale",
+      "columnValue": "GB"
+    },
+    {
+      "columnName": "title",
+      "columnValue": " Driving safety systems "
+    },
+    {
+      "columnName": "revision",
+      "columnValue": "1"
+    },
+    {
+      "columnName": "version_from_source",
+      "columnValue": "10"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "data_id_from_source",
+      "columnValue": "ID_90cfb2497437f644354ae36707c50e08-937ccc9aeed9bdbb354ae37e6f827b58-de-DE"
+    },
+    {
+      "columnName": "element_type",
+      "columnValue": "3"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "title",
+      "columnValue": "Zieltopic für Indexterm 0357"
+    },
+    {
+      "columnName": "data",
+      "columnValue": "{\"name\":\"topic\",\"children\":[{\"name\":\"title\",\"children\":[\"Zieltopic für Indexterm 0357 \"]},{\"name\":\"sections\",\"children\":[{\"name\":\"section\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"\\n                                        Dies ist ein Zieltopic, um die \\n                                        (indexterm)\\n                                         Fragmente mit Keywords zu verlinken. Das Modul ist inhaltirrelevant und verlinkt die folgenden Keywords: \\n                                    \"]},{\"name\":\"unordered-list\",\"attributes\":{\"level\":\"top\"},\"children\":[{\"name\":\"list-item\",\"children\":[{\"name\":\"paragraph\",\"children\":[\" Smartphone laden \"]}]},{\"name\":\"list-item\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"Handy laden \"]}]},{\"name\":\"list-item\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"Mobiltelefon laden \"]}]},{\"name\":\"list-item\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"kabellos laden \"]}]},{\"name\":\"list-item\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"Auflage kabelloses Laden \"]}]},{\"name\":\"list-item\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"Mobiltelefon \"]}]}]}]}]}]}"
+    }
+  ]
+}

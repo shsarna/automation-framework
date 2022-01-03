@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from oa_content.search_meta",
+ "expectedCount": 814
+}

@@ -1,0 +1,1 @@
+update dom_sw_service.dom_release set url='dom-sw-releases/OA_1.4.7.zip' , minor_version='4' where dom_release_id='-201';

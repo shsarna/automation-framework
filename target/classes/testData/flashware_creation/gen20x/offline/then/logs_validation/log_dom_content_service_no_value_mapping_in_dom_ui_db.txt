@@ -1,0 +1,68 @@
+Received package creation trigger with metadata partNumber:A\d{10}; swVersion: 300030; DOM type: DOM\d{1}; package type: offline; E-Stand: 12.0 and n-tuple \(vehicle line: \[007.1\]; vehicle market: \[ma-cn]; hu model: gen20x; huLayout: \[hu]; hu variant: premium; hu market: \[hu-cn]; market: \[cn\]; state of construction: 808\+059; pa-id: pa200033\) and languages:de_de.
+For flashware creation request with request id \d{2}, the new traceId is: \w{16} and the old traceId was: \w{16}
+Validating request
+Created package resource with id \d{1}. Set status in database to STARTED.
+ZIP creation response composed successfully.
+Request Accepted. DOM package creation started.
+Building package for gen20x hu model
+Base folder structure for the ZIP has been prepared successfully.
+Getting DOM release information from DOM SW Service.
+Received DOM release from DOM SW Service.
+Creating offline flashware.
+Starting to check if the valid nodes found match the locale and languages provided: de_de
+Reading DOM profile: DOM\d{1}
+Started downloading dependencies from Cos \(DOM-Data, OA-Data and Media Files\).
+Downloading from cos folder dom-sw-releases\/OA\S*
+Release OA_GW.zip downloaded.
+Starting creation of OA_GW.zip
+Unzipped OA_GW.zip retrieved from cos.
+Downloading from cos folder dom-symb\/mbsymb_GEN20X.zip.
+Release MBSYMBOLS.zip downloaded.
+Starting creation of MBSYMBOLS.zip
+Unzipped MBSYMBOLS.zip retrieved from cos.
+Starting downloading media files from COS.
+Successfully deleted zip file:\/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/mediaTemp\/MEDIA_PA200033_007.1_CN_MA-CN_HU-CN_GEN20X_PREMIUM__de_de.zip
+Relocation of \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/mediaTemp\/ completed successfully;
+Successfully deleted the mediaTemp folder.
+Finished integrating media files in DOM folder.
+The media file downloadMedia process ended successfully.
+Successfully deleted COS source \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/OA_GW.zip
+Successfully deleted COS source \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/MBSYMBOLS.zip
+Successfully cleanup the ZIP content for all unnecessary files.
+Starting creation of dom-content-data.db...
+Created empty dom-content-data.db out of dll dom-content-data_create.sql DB version 1.2.0
+dom-content-service.db DDL structure completed successfully.
+The Vehicle Database has been cleared of data.
+Complex query has been prepared.
+The service found \d{4} nodes that match the selected validities.
+Putting data into dom-content-data.db.
+Starting to check if the valid nodes found match the locale and languages provided: de_de
+Creating offline flashware with topics and warning messages. All available topics \(type 3, 4 and 5\) will be included.
+Collecting topics from database...
+Topics found. Persisting into vehicle database...
+Topics found \(\d{4} nodes and \d{3} elements\). Persisting data into dom-content-data.db.
+Added \d{4} nodeElements.
+For the selected languages exist: \d{4} elements. Transferring topics into the Vehicle Db...
+NodeElements have been persisted into the VeDb.
+Collecting keywords from database...
+Keywords found. Persisting into vehicle database...
+Keywords persisted.
+Topics persisted.
+Warning messages persisted.
+\d{4} nodes and \d{3} elements persisted into nodes\/elements table of dom-content-data.db.
+\d{3} long and \d{3} short messages persisted into nodes\/elements table of dom-content-data.db.
+Nodes, Elements and Keywords have been persisted into the VeDb.
+Vehicle Database completed successfully.
+The file dom-content-data.db was relocated.
+The Ve-Db has been successfully created and relocated to: \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/
+Successfully dom-content-data.db and integrated in OA\/data folder
+Starting creation of dom-ui-data.db...
+Created empty dom-ui-data.db out of dll dom-ui-data_create.sql DB version 1.5.0
+Collecting DOM UI Data...
+Getting texts from DOM UI Data Service...
+Received \d{3} texts from DOM UI Data Service.
+Getting menu from DOM UI Data Service...
+Received \d{3} menu items from DOM UI Data Service.
+Getting value mappings from DOM UI Data Service...
+No data received from DOM UI Data Service: No value mappings available in backend database for given n-tuple \(vehicle line: 007.1; vehicle market: MA-CN; hu model: GEN20X; hu variant: premium; hu market: HU-CN; market: CN;\). Please check DOM UI Data DB.
+Notified all subscribers of dom-content-v1-package_exchange-tsy-integration of status package creation of package with id \d*.

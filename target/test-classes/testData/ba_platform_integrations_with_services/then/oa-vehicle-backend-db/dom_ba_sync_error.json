@@ -1,0 +1,22 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "dom_ba_sync_id",
+      "columnValue": "1"
+    },
+    {
+      "columnName": "sync_resource_status",
+      "columnValue": "ERROR"
+    },
+    {
+      "columnName": "sync_resource_location",
+      "columnValue": "http://dom-content-service:8080/dom-content-service/v1/basync/1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "sync_resource_type",
+      "columnValue": "urn:com:mercedess-benz:oa:dom-content-service:basync"
+    }
+    ]
+}

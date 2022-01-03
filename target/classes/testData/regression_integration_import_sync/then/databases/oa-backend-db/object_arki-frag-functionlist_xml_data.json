@@ -1,0 +1,30 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "data_id_from_source",
+      "columnValue": "ID_014556d23a0f1f43354ae36504914979-35affe22a1ee5bd70ac2a8c425747e6e-en-GB"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "xml_data_id",
+      "columnValue": "1014"
+    },
+    {
+      "columnName": "object_payload_id",
+      "columnValue": "1528"
+    },
+	{
+      "columnName": "language",
+      "columnValue": "en"
+    },
+    {
+      "columnName": "locale",
+      "columnValue": "GB"
+    },
+    {
+      "columnName": "title",
+      "columnValue": "Quick start"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "message" : {
+    "data" : {
+      "id" : 7,
+      "location" : "http://dom-content-service-tooling-sync.ba-ntg7:10110/dom-content-service/v1/packages/7",
+      "status" : -1,
+      "type" : "urn:com:mercedes-benz:oa:dom-content-service:package"
+    },
+    "info" : [ {
+      "code" : 1,
+      "message" : "No data received from DOM UI Data Service: No language metadata available in backend database for given n-tuple (vehicle line: 223.1; vehicle market: MA-KR; hu model: gen20x; hu variant: premium; hu market: HU-KR; market: KR;). Please check DOM UI Data DB.",
+      "timestamp" : "2021-02-04T04:38:31.187Z",
+      "type" : 3
+    } ]
+  }
+}

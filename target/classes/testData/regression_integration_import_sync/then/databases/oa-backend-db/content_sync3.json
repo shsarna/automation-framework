@@ -1,0 +1,22 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "content_request_id",
+      "columnValue": "3"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "request_type",
+      "columnValue": "Q"
+    },
+    {
+      "columnName": "status",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "logfile_path",
+      "columnValue": "cos://eu-de/ba-oacore-test-logfiles/protocol_3.json"
+    }
+  ]
+}

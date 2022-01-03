@@ -1,0 +1,22 @@
+{
+  "selectColumnModels": [
+	{
+      "columnName": "object_id_from_source",
+      "columnValue": "0e1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "object_type_id",
+      "columnValue": "-7"
+    },
+    {
+      "columnName": "source_system_id",
+      "columnValue": "-3"
+    },
+    {
+      "columnName": "object_type_from_source",
+      "columnValue": "state_of_construction"
+    }
+  ]
+}

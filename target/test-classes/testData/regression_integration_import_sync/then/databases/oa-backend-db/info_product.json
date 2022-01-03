@@ -1,0 +1,14 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "object_id",
+      "columnValue": "1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "ip_name",
+      "columnValue": "ip_diba"
+    }
+  ]
+}

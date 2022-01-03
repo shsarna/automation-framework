@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from oa_content.object where object_type_from_source like '%arki-frag-title%'",
+ "expectedCount": 17
+}

@@ -1,0 +1,14 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "object_id",
+      "columnValue": "2"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "market",
+      "columnValue": "cn"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<406,{
+  "message" : {
+    "info" : [ {
+      "message" : "The request is not accepted due to retrigger time limits. Retry in milliseconds: \d* (\d* minutes, \d* seconds).",
+      "timestamp" : "2021-06-07T07:06:14.646Z",
+      "type" : 3
+    } ]
+  }
+}

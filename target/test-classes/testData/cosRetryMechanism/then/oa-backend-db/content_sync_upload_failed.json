@@ -1,0 +1,22 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "content_request_id",
+      "columnValue": "1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "result",
+      "columnValue": "null"
+    },
+    {
+      "columnName": "status",
+      "columnValue": "1"
+    },
+    {
+      "columnName": "logfile_path",
+      "columnValue": "null"
+    }
+  ]
+}

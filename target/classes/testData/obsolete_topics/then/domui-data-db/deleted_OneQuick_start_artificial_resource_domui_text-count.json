@@ -1,0 +1,5 @@
+{
+  "selectStatement": "SELECT count(*) FROM domui_data_service.resource_domui_text where resource_id in (1)",
+
+  "expectedCount": 448
+}

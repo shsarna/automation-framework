@@ -1,0 +1,10 @@
+<200,{
+  "message" : {
+    "info" : [ {
+      "code" : 1,
+      "message" : "Synchronization executed successfully (contentSync id: 1).",
+      "timestamp" : "2021-07-08T13:48:08.595Z",
+      "type" : 1
+    } ]
+  }
+}

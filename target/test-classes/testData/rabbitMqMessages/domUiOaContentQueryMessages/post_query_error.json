@@ -1,0 +1,54 @@
+class OaContentServiceMessagingSchema {
+  message: class
+  OacontentservicemessagingSchemaMessage {
+  info: [
+    class
+    OaServiceInformationObjectSchema
+    {
+      type: 4
+      timestamp: 2021-08-31T06
+      :
+      40: 35.023Z
+      message: Post
+      query
+      with
+      RequestId
+      '12336'
+      has
+      failed.
+      code: null
+    }
+  ]
+  data: class
+  OacontentservicemessagingSchemaMessageData {
+  id: 4
+  type: urn
+  :
+  com: mercedes-benz
+  :
+  oa: query
+  location: http
+  :
+  //oa-content-service-tsy-integration:8080/oa-content-service/v1/queries/4
+  status: -1
+  data: null
+  references: [
+    class
+    OaServiceAndMessageReferenceSchema
+    {
+      type: urn
+      :
+      com: mercedes-benz
+      :
+      oa: oa-content-service
+      :
+      query
+      id: 4
+      location: http
+      :
+      //oa-content-service-tsy-integration:8080/oa-content-service/v1/queries/4
+    }
+  ]
+}
+}
+}

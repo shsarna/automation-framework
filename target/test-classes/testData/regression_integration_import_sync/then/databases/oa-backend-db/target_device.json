@@ -1,0 +1,26 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "object_id",
+      "columnValue": "3"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "device",
+      "columnValue": "ntg"
+    },
+	{
+      "columnName": "model",
+      "columnValue": "7.0"
+    },
+	{
+      "columnName": "model_variant",
+      "columnValue": "premium"
+    },
+	{
+      "columnName": "device_market",
+      "columnValue": "hu-cn"
+    }
+  ]
+}

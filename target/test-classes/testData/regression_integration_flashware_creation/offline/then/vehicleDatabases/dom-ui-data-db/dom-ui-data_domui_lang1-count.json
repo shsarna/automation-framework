@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from domui_lang where reading_direction = 1",
+ "expectedCount": 40
+}

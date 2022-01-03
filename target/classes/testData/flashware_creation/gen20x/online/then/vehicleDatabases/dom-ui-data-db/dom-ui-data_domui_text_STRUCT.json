@@ -1,0 +1,22 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "text_key",
+      "columnValue": "STRUCT_HELP_TOPICS_TITLE_5_5"
+    },
+	{
+      "columnName": "language",
+      "columnValue": "en"
+    },
+	{
+      "columnName": "locale",
+      "columnValue": "gb"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "text_value",
+      "columnValue": "Topping up the windscreen washer system "
+    }
+  ]
+}

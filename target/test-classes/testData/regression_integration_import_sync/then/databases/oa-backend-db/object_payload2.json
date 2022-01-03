@@ -1,0 +1,14 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "object_payload_id",
+      "columnValue": "539"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "mime_type",
+      "columnValue": "image"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "text_key",
+      "columnValue": "MSG_2097702"
+    },
+	{
+      "columnName": "language",
+      "columnValue": "en"
+    },
+	{
+      "columnName": "locale",
+      "columnValue": "gb"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "text_value",
+      "columnValue": "Connection to Service Centre active"
+    }
+  ]
+}

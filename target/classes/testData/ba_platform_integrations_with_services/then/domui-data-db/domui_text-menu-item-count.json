@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from domui_data_service.domui_text where domui_text_type_id = '-2';",
+ "expectedCount": 84
+}

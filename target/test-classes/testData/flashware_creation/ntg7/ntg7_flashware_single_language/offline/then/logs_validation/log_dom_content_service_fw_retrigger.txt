@@ -1,0 +1,4 @@
+Received package creation trigger with metadata partNumber:A\d{10}; swVersion: 300030; DOM type: DOM1; package type: offline; E-Stand: 12.0 and n-tuple \(vehicle line: \[007.1\]; vehicle market: \[ma-cn]; hu model: ntg7.0; huLayout: \[hu]; hu variant: premium; hu market: \[hu-cn]; market: \[cn\]; state of construction: 808\+059; pa-id: pa200033\) and languages:de_de.
+For flashware creation request with request id 10, the new traceId is: \w{16} and the old traceId was: \w{16}
+Validating against package retrigger
+The request is not accepted due to retrigger time limits. Retry in milliseconds: \d* \(\d* minutes, \d* seconds\).

@@ -1,0 +1,18 @@
+{
+ "selectColumnModels": [
+  {
+   "columnName": "media_id",
+   "columnValue": "1"
+  }
+ ],
+ "assertColumnModels": [
+  {
+   "columnName": "ext_media_filename",
+   "columnValue": "7fba4e352c893d35354ae3651195c447_1_de-DE.JPEG_DIBA55hi"
+  },
+  {
+   "columnName": "ext_media_url",
+   "columnValue": "null"
+  }
+ ]
+}

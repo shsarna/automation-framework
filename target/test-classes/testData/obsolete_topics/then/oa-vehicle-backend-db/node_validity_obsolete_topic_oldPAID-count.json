@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from dom_content.node_validity where node_id = '9' and validity_id = (select validity_id from dom_content.validity where validity_value='pa123459');",
+ "expectedCount": 0
+}

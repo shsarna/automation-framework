@@ -1,0 +1,14 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "xxxml_import_id",
+      "columnValue": "1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "xxxml_import_service_status",
+      "columnValue": "2"
+    }
+  ]
+}

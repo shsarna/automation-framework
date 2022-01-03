@@ -1,0 +1,30 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "id_from_source",
+      "columnValue": "808+059 hu premium hu-cn p ip_diba ma-cn pa200033 ntg7.0 007.1 cn"
+    },
+    {
+      "columnName": "resource_type_id",
+      "columnValue": "-2"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "resource_id",
+      "columnValue": "86"
+    },
+    {
+      "columnName": "n_tuple_id",
+      "columnValue": "1"
+    },
+    {
+      "columnName": "revision",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "content_sync_id",
+      "columnValue": "2"
+    }
+  ]
+}

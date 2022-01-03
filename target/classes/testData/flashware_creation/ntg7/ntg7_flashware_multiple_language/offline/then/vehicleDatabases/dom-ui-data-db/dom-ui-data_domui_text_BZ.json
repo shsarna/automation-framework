@@ -1,0 +1,22 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "text_key",
+      "columnValue": "BZ-1091"
+    },
+	{
+      "columnName": "language",
+      "columnValue": "en"
+    },
+	{
+      "columnName": "locale",
+      "columnValue": "gb"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "text_value",
+      "columnValue": "The language currently selected is not available in the Owner's Manual. As an alternative, the Owner's Manual is displayed in another language."
+    }
+  ]
+}

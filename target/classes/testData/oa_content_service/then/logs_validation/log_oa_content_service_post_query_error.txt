@@ -1,0 +1,2 @@
+Database error: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+Post query with RequestId '12336' has failed.

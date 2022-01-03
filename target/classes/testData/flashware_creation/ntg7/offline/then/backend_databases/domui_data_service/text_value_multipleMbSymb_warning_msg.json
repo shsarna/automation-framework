@@ -1,0 +1,14 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "text_value",
+      "columnValue": "§§assets/mbsymb/mbsymb10_00e7.png§§ §§assets/mbsymb/mbsymb11_00f0.png§§ §§assets/mbsymb/mbsymb1a_inv_00c4.png§§ §§assets/mbsymb/mbsymb11_00b8.png§§Currently unavailable Radar dirty"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "domui_text_type_id",
+      "columnValue":"-3"
+    }
+  ]
+}

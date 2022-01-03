@@ -1,0 +1,1 @@
+ALTER TABLE dom_content.element DROP COLUMN data_id_from_source cascade;

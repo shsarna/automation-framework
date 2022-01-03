@@ -1,0 +1,26 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "object_id",
+      "columnValue": "680"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "object_type_id",
+      "columnValue": "-103"
+    },
+    {
+      "columnName": "source_system_id",
+      "columnValue": "-2"
+    },
+    {
+      "columnName": "object_id_from_source",
+      "columnValue": "4fe22bb631dcf15dac190d2b2a814d07-b58025011544ff51b41a4ebb6c803cbb"
+    },
+    {
+      "columnName": "object_type_from_source",
+      "columnValue": "arkikigif"
+    }
+  ]
+}

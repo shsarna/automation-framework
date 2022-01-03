@@ -1,0 +1,2 @@
+delete from oa_gw_data_service.resource_oagw_schedule;
+delete from oa_gw_data_service.oagw_schedule;

@@ -1,0 +1,1 @@
+ALTER TABLE oa_content.xml_data DROP COLUMN data_id_from_source cascade;

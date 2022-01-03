@@ -1,0 +1,4 @@
+{
+  "selectStatement": "SELECT count(*) FROM domui_data_service.resource where id_from_source like '%pa000000%' and n_tuple_id= (SELECT n_tuple_id FROM domui_data_service.n_tuple where n_tuple_name like '%pa000000%')and resource_id=(SELECT resource_id FROM domui_data_service.resource_domui_menu_item where domui_menu_item_id=(select domui_menu_item_id from domui_data_service.domui_menu_item where object_id_from_source like '1a5732af54a28d41c0a8c001043c7b4a-dc755d348c26f91fbb7d49d306d7ba19'))",
+  "expectedCount": 1
+}

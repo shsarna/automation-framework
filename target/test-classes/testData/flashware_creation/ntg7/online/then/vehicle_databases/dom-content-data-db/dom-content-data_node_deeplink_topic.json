@@ -1,0 +1,14 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "object_id_from_source",
+      "columnValue": "be01907d6a7ad21f0ac2a8c418f97d42-7f1c9f3ff9390e0359c9a59c8d4a4e29"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "node_id",
+      "columnValue": "-388"
+    }
+  ]
+}

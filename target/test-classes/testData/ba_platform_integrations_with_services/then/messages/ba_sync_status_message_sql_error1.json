@@ -1,0 +1,11 @@
+{
+  "message":{
+    "info":[
+      {
+        "type":4,
+        "message":"An error was encountered while performing the synchronisation.could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet",
+        "code":1
+      }
+    ]
+  }
+}

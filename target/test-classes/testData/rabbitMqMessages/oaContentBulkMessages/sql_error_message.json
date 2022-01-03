@@ -1,0 +1,29 @@
+{
+  "message": {
+    "data": {
+      "id": 1,
+      "location": "http://oa-content-service-regression-support:8080/oa-content-service/v1/bulk/1",
+      "references": [
+        {
+          "id": 1,
+          "location": "http://xxxml-import-service:8080/xxxml-import-service/v1/imports/1",
+          "type": "urn:com:mercedes-benz:oa:xxxml-import-service:import"
+        },
+        {
+          "id": 1,
+          "location": "http://oa-content-service-regression-support:8080/oa-content-service/v1/bulk/1",
+          "type": "urn:com:mercedes-benz:oa:oa-content-service:bulk"
+        }
+      ],
+      "status": -1,
+      "type": "urn:com:mercedes-benz:oa:bulk"
+    },
+    "info": [
+      {
+        "message": "Processing of the posted bulk has failed. org.hibernate.exception.SQLGrammarException: could not extract ResultSet",
+        "timestamp": "2021-05-10T06:58:05.926Z",
+        "type": 4
+      }
+    ]
+  }
+}

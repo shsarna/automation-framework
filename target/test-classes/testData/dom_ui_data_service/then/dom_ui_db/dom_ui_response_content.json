@@ -1,0 +1,30 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "request_log_id",
+      "columnValue": "2"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "message_content",
+      "columnValue": "https://s3.eu-de.cloud-object-storage.appdomain.cloud/ba-ntg7-test-protocolling/dom-ui-data-service/request_log/2/2_message_content.json"
+    },
+    {
+      "columnName": "request_content",
+      "columnValue": "GET http://oa-content-service-tsy-integration.ba-oacore:8080/oa-content-service/v1queries/3"
+    },
+    {
+      "columnName": "request_type",
+      "columnValue": "GET"
+    },
+    {
+      "columnName": "response_content",
+      "columnValue": "https://s3.eu-de.cloud-object-storage.appdomain.cloud/ba-ntg7-test-protocolling/dom-ui-data-service/request_log/2/2_response_content.json"
+    },
+    {
+      "columnName": "status",
+      "columnValue": "1"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+"message": {
+"data": {
+"id": 1,
+"languages": [
+        {
+          "language": "de",
+          "locale": "de"
+        },
+        {
+          "language": "en",
+          "locale": "gb"
+        }
+      ],
+      "location": "http://dom-content-service-tsy-integration.ba-ntg7:10110/dom-content-service/v1/packages/1",
+      "partNumber": "A3333003011",
+      "status": -1,
+      "swVersionsNumber": "300030",
+      "type": "urn:com:mercedes-benz:oa:dom-content-service:package",
+      "validities": {
+        "businessLine": "p",
+        "deviceModel": "ntg7.0",
+        "deviceModelMarket": [
+          "hu-cn"
+        ],
+        "deviceModelVariant": "premium",
+        "market": [
+          "cn"
+        ],
+        "paId": "pa180554",
+        "stateOfConstruction": "0e1",
+        "vehicleLine": [
+          "223.1"
+        ],
+        "vehicleMarket": [
+          "ma-cn"
+        ]
+      }
+    },
+    "info": [
+      {
+        "code": 1,
+        "message": "No data received from DOM SW Service: No data (OA.zip, DOM.zip) available in backend database for given n-tuple vehicle line: 223.1; vehicle market: MA-CN; hu model: NTG7.0; hu variant: premium; hu market: HU-CN; market: CN. Please check DOM SW DB.",
+        "timestamp": "2021-02-19T09:50:32.953Z",
+        "type": 3
+      }
+    ]
+  }
+}

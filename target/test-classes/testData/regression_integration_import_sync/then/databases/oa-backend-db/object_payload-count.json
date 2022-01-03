@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from oa_content.object_payload",
+ "expectedCount": 1423
+}

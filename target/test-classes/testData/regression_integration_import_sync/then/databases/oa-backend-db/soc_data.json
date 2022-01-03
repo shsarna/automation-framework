@@ -1,0 +1,15 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "object_id",
+      "columnValue": "5"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "state_of_construction",
+      "columnValue": "0e1"
+    }
+  ]
+}
+

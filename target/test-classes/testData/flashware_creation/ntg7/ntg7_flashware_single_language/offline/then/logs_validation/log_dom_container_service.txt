@@ -1,0 +1,9 @@
+Creating odx-f file...
+Downloading ODX-F template from COS folder: dom-resources\/template_1.0.3.odx-f.
+The ODX-F template downloaded.
+odx-f file created PREFULL_NTG7_007_HU7_E012_0_DOM1_P_\d{10}_300030.odx-f
+The bin container has been created at: \d*\/zip2bin\/\d{10}_300030.bin
+The bin file \d*\/zip2bin\/\d{10}_300030.bin was successfully uploaded to the COS at the address: dom-flashware\/300030_\d{10}
+Bin creation was finalised and uploaded to COS.
+BIN creation completed.
+All the consumers subscribed to the exchange named: dom-container-v1-container_exchange-tsy-integration have been notified of the status of the BIN.

@@ -1,0 +1,14 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "dom_online_package_id",
+      "columnValue": "2"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "online_package_status",
+      "columnValue": "completed"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "message" : {
+    "data" : {
+      "data" : {
+        "language" : "de",
+        "locale" : "de",
+        "validities" : {
+          "businessLine" : "p",
+          "deviceModel" : "7.0",
+          "deviceModelMarket" : [ "hu-ece/row" ],
+          "deviceModelVariant" : "premium",
+          "deviceName" : "ntg",
+          "market" : [ "ece/row" ],
+          "paId" : "pa180553",
+          "stateOfConstruction" : "0e1",
+          "vehicleLine" : [ "007.1" ],
+          "vehicleMarket" : [ "ma-ece/row" ]
+        }
+      },
+      "id" : 2,
+      "location" : "http://xxxml-import-service:8080/xxxml-import-service/v1/imports/2",
+      "status" : -1,
+      "type" : "urn:com:mercedes-benz:oa:xxxml-import-service:import"
+    },
+    "info" : [ {
+      "message" : "The import failed in oa-core.",
+      "timestamp" : "2020-12-03T10:59:57.685Z",
+      "type" : 3
+    } ]
+  }
+}

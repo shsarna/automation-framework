@@ -1,0 +1,22 @@
+"level": "INFO ", "span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Received package creation trigger with metadata partNumber:A3333003011; swVersion: 300030; DOM type: DOM1; package type: offline; E-Stand: 12.0 and n-tuple \(vehicle line: \[223.1]; vehicle market: \[ma-cn]; hu model: ntg7.0; huLayout: \[hu]; hu variant: premium; hu market: \[hu-cn]; market: \[cn]; state of construction: 0e1; pa-id: pa180554\) and languages:de_de, en_gb.
+For flashware creation request with request id \d{2}, the new traceId is: \w{16} and the old traceId was: \w{16}
+"level": "INFO ", "span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Validating request"
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Created package resource with id \d{1}. Set status in database to STARTED.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "ZIP creation response composed successfully.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Request Accepted. DOM package creation started.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Building package for ntg7.0 hu model
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Base folder structure for the ZIP has been prepared successfully.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Getting DOM release information from DOM SW Service.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": Received DOM release from DOM SW Service.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": Creating offline flashware.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": Starting to check if the valid nodes found match the locale and languages provided: en_gb,de_de
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": Reading DOM profile: DOM1
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": Started downloading dependencies from Cos \(DOM-Data, OA-Data and Media Files\).
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": Downloading from cos folder dom-sw-releases\/OA_\d.\d.\d.zip.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": Release OA_GW.zip downloaded.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": Starting creation of OA_GW.zip
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": Unzipped OA_GW.zip retrieved from cos.
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": Downloading from cos folder dom-sw-releases\/DOM_1.999.0.zip.
+"level": "WARN ", "span_id":"\w{16}", "trace_id":"\w{16}", "short_message": Failed to download artefact from COS due to connection issues. Trying again...
+"level": "ERROR", "span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "No release artefact dom-sw-releases\/DOM_1.999.0.zip available in Cos. Please upload the artefact in Cos and make sure that it is connected to the n-tuple in DOM SW DB
+"span_id":"\w{16}", "trace_id":"\w{16}", "short_message": "Notified all subscribers of dom-content-v1-package_exchange-tsy-integration of status package creation of package with id \d{1}.

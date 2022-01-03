@@ -1,0 +1,18 @@
+Received package creation trigger with metadata partNumber:A\d{10}; swVersion: 300030; DOM type: DOM\d{1}; package type: offline; E-Stand: 12.0 and n-tuple \(vehicle line: \[223.1]; vehicle market: \[ma-cn]; hu model: ntg7.0; huLayout: \[hu]; hu variant: premium; hu market: \[hu-cn]; market: \[cn]; state of construction: 0e1; pa-id: pa180554\) and languages:de_de, en_gb.
+For flashware creation request with request id \d{2}, the new traceId is: \w{16} and the old traceId was: \w{16}
+Validating request
+Created package resource with id \d{1}. Set status in database to STARTED.
+ZIP creation response composed successfully.
+Request Accepted. DOM package creation started.
+Building package for ntg7.0 hu model
+Base folder structure for the ZIP has been prepared successfully.
+Getting DOM release information from DOM SW Service.
+Received DOM release from DOM SW Service.
+Creating offline flashware.
+Starting to check if the valid nodes found match the locale and languages provided: en_gb,de_de
+Reading DOM profile: DOM\d{1}
+Started downloading dependencies from Cos \(DOM-Data, OA-Data and Media Files\).
+Downloading from cos folder dom-sw-releases\/OA_1.999.7.zip.
+Failed to download artefact from COS due to connection issues. Trying again...
+No release artefact dom-sw-releases\/OA_1.999.7.zip available in Cos. Please upload the artefact in Cos and make sure that it is connected to the n-tuple in DOM SW DB
+Notified all subscribers of dom-content-v1-package_exchange-tsy-integration of status package creation of package with id \d*.

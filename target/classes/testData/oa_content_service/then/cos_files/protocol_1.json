@@ -1,0 +1,236 @@
+{
+  "message": {
+    "info": [
+      {
+        "message": "Object imported (object_id_from_source:ip_diba, object_type_from_source:arki-medium-ip).",
+        "timestamp": "2021-10-15T06:05:42.601Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:ece/row, object_type_from_source:mapping_market).",
+        "timestamp": "2021-10-15T06:05:42.601Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:ntg:7.0:premium:hu-ece/row, object_type_from_source:hu_generation:hu_generation:hu_variant:hu_market).",
+        "timestamp": "2021-10-15T06:05:42.601Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:007:1:ma-ece/row:p, object_type_from_source:mapping_bm_numeric:mapping_bm_numeric:vehicle_market:arki-transl-division).",
+        "timestamp": "2021-10-15T06:05:42.601Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:0e1, object_type_from_source:state_of_construction).",
+        "timestamp": "2021-10-15T06:05:42.601Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:pa180553, object_type_from_source:pa-pub-id).",
+        "timestamp": "2021-10-15T06:05:42.601Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:b27308abeadb0212354ae3652f723b10-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_5a8f22c08b0ceabc354ae365114c79cb-b27308abeadb0212354ae3652f723b10-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.601Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:1b675121bb355d93354ae3650b93b170-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-warn-controls, data_id_from_source:ID_e44ab621bb355d93354ae3656bdf67c8-1b675121bb355d93354ae3650b93b170-de-DE, version_from_source:2, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.602Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:94b8dac3a5197a7b354ae3657eb57dc5-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-94b8dac3a5197a7b354ae3657eb57dc5-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.602Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:bfe3a932eada477c354ae3652f723b10-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-bfe3a932eada477c354ae3652f723b10-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.602Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:218f39e5c54ca78ac0a8c0012ffdd00c-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-topic-description, data_id_from_source:ID_98bc4968bb10976bc0a8c001017caacf-218f39e5c54ca78ac0a8c0012ffdd00c-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:references, object_id_from_source2:0000391f6a5b6249354ae3651a4dbfb5-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:references, object_id_from_source2:3e97c15db647129cc0a8c0016ea5ab17-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:references, object_id_from_source2:5b7b2c77b64941d9c0a8c0016ea5ab17-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:references, object_id_from_source2:7fba4e352c893d35354ae3651195c447-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:references, object_id_from_source2:c23b3f7ab64d9a0ec0a8c0016ea5ab17-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:references, object_id_from_source2:cf453f06b64b69f9c0a8c0016ea5ab17-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:references, object_id_from_source2:f5e4d080b644e9afc0a8c0016ea5ab17-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.602Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:48bbb56fbb3c66a4354ae36559461aba-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-warn-controls, data_id_from_source:ID_11a2691abb3c6695354ae365648b540f-48bbb56fbb3c66a4354ae36559461aba-de-DE, version_from_source:2, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.602Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:2e119106434a89f6354ae36570e2ef1c-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disclaimer, data_id_from_source:ID_8a4df2ad434a89a8354ae3656e90fd41-2e119106434a89f6354ae36570e2ef1c-de-DE, version_from_source:4, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.602Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:90131af0a5197e05354ae3657f2d489c-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_de52d09a788911e5afeeee2cc1ac5ddf-90131af0a5197e05354ae3657f2d489c-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.602Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:2f488c26f0854792354ae36501514299-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-2f488c26f0854792354ae36501514299-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.602Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:337d0e8eeadb5c48354ae3652f723b10-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_5a8f22c08b0ceabc354ae365114c79cb-337d0e8eeadb5c48354ae3652f723b10-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:260f683cf0c0ee81354ae3653c5b024f-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-topic-description, data_id_from_source:ID_8e2abd7c1068aeeb354ae365079f0306-260f683cf0c0ee81354ae3653c5b024f-de-DE, version_from_source:2, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:a1a5991eedc11d05354ae3656bb3e683-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_de52d09a788911e5afeeee2cc1ac5ddf-a1a5991eedc11d05354ae3656bb3e683-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:b812a91050970bea354ae36528a7aede-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-topic-instruction, data_id_from_source:ID_5cf34a2e50970bea354ae3652aac9b20-b812a91050970bea354ae36528a7aede-de-DE, version_from_source:3, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-child-of, object_id_from_source2:9d9c0254505aa62c354ae3651bf0cde3-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:b49b3934a51976a3354ae3653cd0272e-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-b49b3934a51976a3354ae3653cd0272e-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:2460d8f1a51981bf354ae36572dfe322-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_5a8f22c08b0ceabc354ae365114c79cb-2460d8f1a51981bf354ae36572dfe322-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:aad48a68ead44617354ae3652f723b10-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-aad48a68ead44617354ae3652f723b10-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:07f54811ed5296b9354ae3650225e74e-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-07f54811ed5296b9354ae3650225e74e-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:9009918aa5198558354ae36515a6e391-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_5a8f22c08b0ceabc354ae365114c79cb-9009918aa5198558354ae36515a6e391-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:921b9411c4895002354ae36526d9d490-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-topic-description, data_id_from_source:ID_906277292b1ff736354ae365030b2019-921b9411c4895002354ae36526d9d490-de-DE, version_from_source:2, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:39333f15edc28501354ae3651a1391c0-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_5a8f22c08b0ceabc354ae365114c79cb-39333f15edc28501354ae3651a1391c0-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:209cd0c548ab5f5a354ae36548de85f3-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-topic-quickstart, data_id_from_source:ID_9b21322e48ab5f0c354ae36529b9ec3e-209cd0c548ab5f5a354ae36548de85f3-de-DE, version_from_source:3, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:references, object_id_from_source2:54151d6a2c891c11354ae3651195c447-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-child-of, object_id_from_source2:cddcf7d04727a13e354ae365131b2d79-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:a175b0f4eadaac31354ae3652f723b10-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-disp-diagnoses, data_id_from_source:ID_de52d09a788911e5afeeee2cc1ac5ddf-a175b0f4eadaac31354ae3652f723b10-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:54151d6a2c891c11354ae3651195c447-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arkikipicng, data_id_from_source:ID_721b235819798bae354ae36550058b52-209cd0c548ab5f5a354ae36548de85f3-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:54151d6a2c891c11354ae3651195c447-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arkikipicng, data_id_from_source:ID_384c2bb219798bae354ae36517bfa85f-209cd0c548ab5f5a354ae36548de85f3-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.603Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:7fba4e352c893d35354ae3651195c447-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arkikipicng, data_id_from_source:ID_ae4129850519139a354ae3657f9bc4a5-218f39e5c54ca78ac0a8c0012ffdd00c-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:0000391f6a5b6249354ae3651a4dbfb5-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arkikipicng, data_id_from_source:ID_22a2f161bb1b8713c0a8c00152807dae-218f39e5c54ca78ac0a8c0012ffdd00c-de-DE, version_from_source:1, language:--, locale:--, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:c23b3f7ab64d9a0ec0a8c0016ea5ab17-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:mediahub-arkikipicng, data_id_from_source:ID_5d781bb5baf8866bc0a8c001369c9258-218f39e5c54ca78ac0a8c0012ffdd00c-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:cf453f06b64b69f9c0a8c0016ea5ab17-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:mediahub-arkikipicng, data_id_from_source:ID_cc940abbbaf8866bc0a8c001675c7a6e-218f39e5c54ca78ac0a8c0012ffdd00c-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:5b7b2c77b64941d9c0a8c0016ea5ab17-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:mediahub-arkikipicng, data_id_from_source:ID_c8cd52d0baf8866bc0a8c0011d7c1e34-218f39e5c54ca78ac0a8c0012ffdd00c-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:3e97c15db647129cc0a8c0016ea5ab17-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:mediahub-arkikipicng, data_id_from_source:ID_28f12670baf8866bc0a8c00148f003a8-218f39e5c54ca78ac0a8c0012ffdd00c-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:f5e4d080b644e9afc0a8c0016ea5ab17-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:mediahub-arkikipicng, data_id_from_source:ID_4f46e9dfbaf8866bc0a8c001017befe0-218f39e5c54ca78ac0a8c0012ffdd00c-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:9315b16c33855da0354ae3656f224f34-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-functionlist, data_id_from_source:ID_ca3218cd68740a36354ae36519808f9d-9315b16c33855da0354ae3656f224f34-de-DE, version_from_source:3, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:has-next-sibling, object_id_from_source2:7c5bb94f8b8a9497ac190d2b2d152109-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:5cefeb153380aa0a354ae3655fa3813a-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-functionlist, data_id_from_source:ID_fb4a2dcf68756f91354ae3657a333849-5cefeb153380aa0a354ae3655fa3813a-de-DE, version_from_source:3, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:has-next-sibling, object_id_from_source2:19e8d0fb337d108d354ae3650146e43a-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:9d9c0254505aa62c354ae3651bf0cde3-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-title, data_id_from_source:ID_73fdea1d505aa62c354ae3650a8ea8df-9d9c0254505aa62c354ae3651bf0cde3-de-DE, version_from_source:3, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-child-of, object_id_from_source2:ba3f787e03c5a67f354ae3656f53bc7c-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:476c0414338033e1354ae365608f3e01-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-functionlist, data_id_from_source:ID_2546b51f68783b50354ae36504b543ed-476c0414338033e1354ae365608f3e01-de-DE, version_from_source:3, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:9639f5d38b893cc4ac190d2b0a91a663-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-functionlist, data_id_from_source:ID_ca3218cd68740a36354ae36519808f9d-9639f5d38b893cc4ac190d2b0a91a663-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:has-next-sibling, object_id_from_source2:9315b16c33855da0354ae3656f224f34-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:7c5bb94f8b8a9497ac190d2b2d152109-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-functionlist, data_id_from_source:ID_ca3218cd68740a36354ae36519808f9d-7c5bb94f8b8a9497ac190d2b2d152109-de-DE, version_from_source:1, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:has-next-sibling, object_id_from_source2:5cefeb153380aa0a354ae3655fa3813a-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:cddcf7d04727a13e354ae365131b2d79-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-title, data_id_from_source:ID_9ea2aed44727a100354ae3654999d79f-cddcf7d04727a13e354ae365131b2d79-de-DE, version_from_source:3, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-child-of, object_id_from_source2:9315b16c33855da0354ae3656f224f34-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:19e8d0fb337d108d354ae3650146e43a-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-functionlist, data_id_from_source:ID_86a693ca68776851354ae36552ffc309-19e8d0fb337d108d354ae3650146e43a-de-DE, version_from_source:3, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:has-next-sibling, object_id_from_source2:476c0414338033e1354ae365608f3e01-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      },
+      {
+        "message": "Object imported (object_id_from_source:ba3f787e03c5a67f354ae3656f53bc7c-616bd0458f6d6de6db47dc6f49cfbb7d, object_type_from_source:arki-frag-title, data_id_from_source:ID_c0a5701a03ac1fcd354ae36531b5071d-ba3f787e03c5a67f354ae3656f53bc7c-de-DE, version_from_source:3, language:de, locale:DE, relation_type:is-valid-for, object_id_from_source2:ip_diba, relation_type:is-child-of, object_id_from_source2:5cefeb153380aa0a354ae3655fa3813a-616bd0458f6d6de6db47dc6f49cfbb7d, relation_type:is-valid-for, object_id_from_source2:ece/row, relation_type:is-valid-for, object_id_from_source2:pa180553, relation_type:is-valid-for, object_id_from_source2:0e1, relation_type:is-valid-for, object_id_from_source2:ntg:7.0:premium:hu-ece/row, relation_type:is-valid-for, object_id_from_source2:007:1:ma-ece/row:p).",
+        "timestamp": "2021-10-15T06:05:42.604Z",
+        "type": 1
+      }
+    ]
+  }
+}

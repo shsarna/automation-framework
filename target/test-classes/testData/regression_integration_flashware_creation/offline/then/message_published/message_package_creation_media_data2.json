@@ -1,0 +1,33 @@
+{
+"message" : {
+"data" : {
+"id" : 6,
+"languages" : [ {
+"language" : "de",
+"locale" : "de"
+} ],
+"location" : "http://dom-content-service-tsy-integration.ba-ntg7:10110/dom-content-service/v1/packages/2",
+"partNumber" : "A3333003012",
+"status" : 1,
+"swVersionsNumber" : "300030",
+"type" : "urn:com:mercedes-benz:oa:dom-content-service:package",
+"validities" : {
+"businessLine" : "p",
+"deviceModel" : "gen20x",
+"deviceModelMarket" : [ "hu-cn" ],
+"deviceModelVariant" : "premium",
+"market" : [ "cn" ],
+"paId" : "pa200033",
+"stateOfConstruction" : "808+059",
+"vehicleLine" : [ "007.1" ],
+"vehicleMarket" : [ "ma-cn" ]
+}
+},
+"info" : [ {
+"code" : 1,
+"message" : "Dom Package creation completed (packageID=2).",
+"timestamp" : "2021-05-13T10:07:16.192Z",
+"type" : 1
+} ]
+}
+}

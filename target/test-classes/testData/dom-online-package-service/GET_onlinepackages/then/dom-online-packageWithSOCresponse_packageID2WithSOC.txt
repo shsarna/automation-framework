@@ -1,0 +1,10 @@
+"businessLine" : "p",
+        "deviceLayout" : [ "highresolution" ],
+        "deviceModel" : "ntg7.0",
+        "deviceModelMarket" : [ "hu-kr" ],
+        "deviceModelVariant" : "premium",
+        "deviceName" : "hu",
+        "market" : [ "kr" ],
+        "stateOfConstruction" : "808+059",
+        "vehicleLine" : [ "223.1" ],
+        "vehicleMarket" : [ "ma-kr" ]

@@ -1,0 +1,1 @@
+CREATE DATABASE dom_ui_data_db-tsy-integration;

@@ -1,0 +1,46 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "data_id_from_source",
+      "columnValue": "ID_675b2635d46bf333354ae36556c4cab7-9541279b6ffcbaf2ac190d2b12ec5936-de-DE"
+    },
+	{
+      "columnName": "element_type",
+      "columnValue": "3"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "element_type_from_source",
+      "columnValue": "arki-frag-disclaimer"
+    },
+	{
+      "columnName": "language",
+      "columnValue": "de"
+    },
+	{
+      "columnName": "locale",
+      "columnValue": "de"
+    },
+	{
+      "columnName": "version_from_source",
+      "columnValue": "1"
+    },
+	{
+      "columnName": "revision",
+      "columnValue": "1"
+    },
+	{
+      "columnName": "data",
+      "columnValue": "{\"name\":\"disclaimer\",\"children\":[{\"name\":\"title\",\"children\":[\"Betriebsanleitung\"]},{\"name\":\"content\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"Test Lesen Sie unbedingt folgende Hinweise in dieser Betriebsanleitung. Sie können sonst Gefahren nicht erkennen und vermeiden:\"]},{\"name\":\"text-block-container\",\"children\":[{\"name\":\"text-block\",\"attributes\":{\"icon\":\"danger\"},\"children\":[\"Gefahrenhinweise\"]},{\"name\":\"text-block\",\"attributes\":{\"icon\":\"warning\"},\"children\":[\"Warnhinweise\"]},{\"name\":\"text-block\",\"attributes\":{\"icon\":\"damage\"},\"children\":[\"Mögliche Fahrzeugschäden\"]},{\"name\":\"text-block\",\"attributes\":{\"icon\":\"environment\"},\"children\":[\"Umwelthinweise\"]}]},{\"name\":\"paragraph\",\"children\":[\"Lesen Sie auch die gedruckte Betriebsanleitung.\"]},{\"name\":\"paragraph\",\"children\":[\"Bitte beachten Sie, dass Ihr Fahrzeug nicht mit allen beschriebenen Systemen ausgestattet sein könnte. Dies betrifft auch sicherheitsrelevante Systeme und Funktionen.\"]}]},{\"name\":\"confirm-button\",\"children\":[\"Weiter\"]}]}"
+    },
+	{
+      "columnName": "title",
+      "columnValue": "Betriebsanleitung"
+    },
+	{
+	  "columnName": "title_norm",
+	  "columnValue": "betriebsanleitung"
+	}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+"message" : {
+"data" : {
+"id" : 1,
+"location" : "http://dom-ui-data-service-tsy-integration:8080/dom-ui-data-service/v1/contentsync/1",
+"references" : [ {
+"id" : 1,
+"location" : "http://xxxml-import-service:8080/xxxml-import-service/v1/imports/1",
+"type" : "urn:com:mercedes-benz:oa:xxxml-import-service:import"
+}, {
+"id" : 1,
+"location" : "http://oa-content-service-tsy-integration:8080/oa-content-service/v1/bulk/1",
+"type" : "urn:com:mercedes-benz:oa:oa-content-service:bulk"
+}, {
+"id" : 1,
+"location" : "http://dom-ui-data-service-tsy-integration:8080/dom-ui-data-service/v1/contentsync/1",
+"type" : "urn:com:mercedes-benz:oa:dom-ui-data-service:contentsync"
+}, {
+"id" : 3,
+"location" : "http://oa-content-service-tsy-integration:8080/oa-content-service/v1/queries/3",
+"type" : "urn:com:mercedes-benz:oa:oa-content-service:query"
+} ],
+"status" : 1,
+"type" : "urn:com:mercedes-benz:oa:dom-ui-data-service:contentsync"
+},
+"info" : [ {
+"code" : 1,
+"message" : "Sync was successful in dom-ui-data-service",
+"timestamp" : "2021-06-24T05:25:14.311Z",
+"type" : 1
+} ]
+}
+}

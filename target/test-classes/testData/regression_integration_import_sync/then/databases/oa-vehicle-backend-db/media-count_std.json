@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(ext_media_url) from dom_content.media;",
+ "expectedCount": 0
+}

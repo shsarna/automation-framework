@@ -1,0 +1,10 @@
+<500,{
+  "message" : {
+    "info" : [ {
+      "code" : 1,
+      "message" : "An error was encountered while performing the synchronisation.",
+      "timestamp" : "2021-07-08T13:48:08.595Z",
+      "type" : 3
+    } ]
+  }
+}

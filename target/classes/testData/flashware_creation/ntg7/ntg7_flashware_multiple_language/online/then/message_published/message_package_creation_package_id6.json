@@ -1,0 +1,36 @@
+{
+"message" : {
+"data" : {
+"id" : 6,
+"languages" : [ {
+"language" : "en",
+"locale" : "gb"
+}, {
+"language" : "de",
+"locale" : "de"
+} ],
+"location" : "http://dom-content-service-tsy-integration.ba-ntg7:10110/dom-content-service/v1/packages/6",
+"partNumber" : "A3333003016",
+"status" : 1,
+"swVersionsNumber" : "300030",
+"type" : "urn:com:mercedes-benz:oa:dom-content-service:package",
+"validities" : {
+"businessLine" : "p",
+"deviceModel" : "ntg7.0",
+"deviceModelMarket" : [ "hu-cn" ],
+"deviceModelVariant" : "premium",
+"market" : [ "cn" ],
+"paId" : "pa180554",
+"stateOfConstruction" : "0e1",
+"vehicleLine" : [ "223.1" ],
+"vehicleMarket" : [ "ma-cn" ]
+}
+},
+"info" : [ {
+"code" : 1,
+"message" : "Dom Package creation completed (packageID=6).",
+"timestamp" : "2021-06-22T12:14:41.533Z",
+"type" : 1
+} ]
+}
+}

@@ -1,0 +1,16 @@
+{
+  "message":{
+    "info":[
+      {
+        "type":4,
+        "message":"An error was encountered while performing the synchronisation.org.hibernate.exception.SQLGrammarException: could not extract ResultSet",
+        "code":1
+      }
+    ],
+    "data":{
+      "type":"urn:com:mercedess-benz:oa:dom-ui-data-service:basync",
+      "location":"http://dom-ui-data-service-tsy-integration:8080/dom-ui-data-service/v1/basync",
+      "status":-1
+    }
+  }
+}

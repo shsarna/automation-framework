@@ -1,0 +1,14 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "object_id_from_source",
+      "columnValue": "e1d0ff7c10eb92f7354ae3653c88108e%"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "object_type_from_source",
+      "columnValue": "arki-topic-instruction"
+    }
+  ]
+}

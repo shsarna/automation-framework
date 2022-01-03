@@ -1,0 +1,10 @@
+Start downloading media files
+Number of media files found for download: 3
+Downloading media files from ARKI.
+Media files downloaded from ARKI: 2
+Downloading media files from MediaHub.
+Could not download media with url https://mh.om-systems-test.
+cloud.corpintra.net/mm/arki/download/61854-61855-61953.png at attempt number: 1. Download source returned: 403 Forbidden.
+Could not download media with url https://mh.om-systems-test.cloud.corpintra.net/mm/arki/download/61854-61855-61953.png at attempt number: 2. Download source returned: 403 Forbidden.
+Could not download media with url https://mh.om-systems-test.cloud.corpintra.net/mm/arki/download/61854-61855-61953.png at attempt number: 3. Download source returned: 403 Forbidden.
+Could not download media with url https://mh.om-systems-test.cloud.corpintra.net/mm/arki/download/61854-61855-61953.png at attempt number: 4. Download source returned: 403 Forbidden.

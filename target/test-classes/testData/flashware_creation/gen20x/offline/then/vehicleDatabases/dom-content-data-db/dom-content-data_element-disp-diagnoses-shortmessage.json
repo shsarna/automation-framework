@@ -1,0 +1,46 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "data_id_from_source",
+      "columnValue": "ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-efbcc021f676417d354ae37e014b460d-de-DE-short"
+    },
+	{
+      "columnName": "element_type",
+      "columnValue": "5"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "element_type_from_source",
+      "columnValue": "arki-frag-disp-diagnoses"
+    },
+	{
+      "columnName": "language",
+      "columnValue": "de"
+    },
+	{
+      "columnName": "locale",
+      "columnValue": "de"
+    },
+	{
+      "columnName": "version_from_source",
+      "columnValue": "3"
+    },
+	{
+      "columnName": "revision",
+      "columnValue": "1"
+    },	
+	{
+      "columnName": "data",
+      "columnValue": "{\"name\":\"short-message\",\"children\":[{\"name\":\"icons\"},{\"name\":\"messages\",\"attributes\":{\"color\":\"white\"},\"children\":[{\"name\":\"message\",\"children\":[\"\\n                                            Info zur Displaymeldung \\\"Verdeckbedienung, Bremse betätigen\\\" mit der \\n                                            HIL-ID 0x200595 (2098581)\\n                                            . Die Farbe der Meldung ist weiss. \\n                                            \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                    \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                    Im Stand vor Verdeckbedienung Bremse betätigen\\n                                                    \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                            \\n                                            \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                        \"]}]},{\"name\":\"content\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"\\\"Verdeckbedienung, Bremse betätigen\\\" \"]},{\"name\":\"paragraph\",\"children\":[\"\\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                                HIL-ID 0x200595 (2098581) \\n                                                \\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n                                            \"]},{\"name\":\"paragraph\",\"children\":[\"Die Farbe der Meldung ist weiss. \"]},{\"name\":\"paragraph\",\"children\":[\"Zusammengefasste Lösung. \"]}]}]}"
+    },
+	{
+      "columnName": "title",
+      "columnValue": "Info zur Displaymeldung \"Verdeckbedienung, Bremse betätigen\" mit der HIL-ID 0x200595 (2098581) . Die Farbe der Meldung ist weiss. Im Stand vor Verdeckbedienung Bremse betätigen"
+    },
+	{
+      "columnName": "title_norm",
+      "columnValue": "info zur displaymeldung \"verdeckbedienung, bremse betätigen\" mit der hil-id 0x200595 (2098581) . die farbe der meldung ist weiss. im stand vor verdeckbedienung bremse betätigen|info zur displaymeldung verdeckbedienung bremse betätigen mit der hilid 0x200595 2098581  die farbe der meldung ist weiss im stand vor verdeckbedienung bremse betätigen|infozurdisplaymeldung\"verdeckbedienung,bremsebetätigen\"mitderhil-id0x200595(2098581).diefarbedermeldungistweiss.imstandvorverdeckbedienungbremsebetätigen|infozurdisplaymeldungverdeckbedienungbremsebetätigenmitderhilid0x2005952098581diefarbedermeldungistweissimstandvorverdeckbedienungbremsebetätigen"
+    }
+  ]
+}

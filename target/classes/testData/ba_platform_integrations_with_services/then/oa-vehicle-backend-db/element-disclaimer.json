@@ -1,0 +1,41 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "data_id_from_source",
+      "columnValue": "ID_675b2635d46bf333354ae36556c4cab7-9541279b6ffcbaf2ac190d2b12ec5936-en-GB"
+    },
+	{
+      "columnName": "element_type",
+      "columnValue": "3"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "data_id_from_oa_db",
+      "columnValue": "null"
+    },
+	{
+      "columnName": "element_type_from_source",
+      "columnValue": "arki-frag-disclaimer"
+    },
+	{
+      "columnName": "language",
+      "columnValue": "en"
+    },
+	{
+      "columnName": "locale",
+      "columnValue": "gb"
+    },
+	{
+      "columnName": "version_from_source",
+      "columnValue": "1"
+    },
+	{
+      "columnName": "data",
+      "columnValue": "{\"name\":\"disclaimer\",\"children\":[{\"name\":\"title\",\"children\":[\"Owner's Manual\"]},{\"name\":\"content\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"Please make sure to read the following notes in this Owner's Manual. Otherwise you may not detect and avoid dangers:\"]},{\"name\":\"text-block-container\",\"children\":[{\"name\":\"text-block\",\"attributes\":{\"icon\":\"danger\"},\"children\":[\"Safety notes\"]},{\"name\":\"text-block\",\"attributes\":{\"icon\":\"warning\"},\"children\":[\"Warnings\"]},{\"name\":\"text-block\",\"attributes\":{\"icon\":\"damage\"},\"children\":[\"Possible damage to the vehicle\"]},{\"name\":\"text-block\",\"attributes\":{\"icon\":\"environment\"},\"children\":[\"Environmental notes\"]}]},{\"name\":\"paragraph\",\"children\":[\"Please also read your printed Owner's Manual\"]},{\"name\":\"paragraph\",\"children\":[\"Please note that your vehicle may not be equipped with all of the systems described. This is also the case for systems and functions relevant to safety.\"]}]},{\"name\":\"confirm-button\",\"children\":[\"Continue\"]}]}" },
+	{
+      "columnName": "title",
+      "columnValue": "Owner's Manual"
+    }
+  ]
+}

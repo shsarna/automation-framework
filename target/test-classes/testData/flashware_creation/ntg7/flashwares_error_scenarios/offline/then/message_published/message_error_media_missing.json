@@ -1,0 +1,45 @@
+{
+"message": {
+  "data": {
+    "id": 1,
+    "languages": [
+      {
+        "language": "hi",
+        "locale": "in"
+      }
+    ],
+    "location": "http://dom-content-service-tsy-integration.ba-ntg7:10110/dom-content-service/v1/packages/1",
+    "partNumber": "A3333003011",
+    "status": -1,
+    "swVersionsNumber": "300030",
+    "type": "urn:com:mercedes-benz:oa:dom-content-service:package",
+    "validities": {
+      "businessLine": "p",
+      "deviceModel": "ntg7.0",
+      "deviceModelMarket": [
+        "hu-cn"
+      ],
+      "deviceModelVariant": "premium",
+      "market": [
+        "cn"
+      ],
+      "paId": "pa180554",
+      "stateOfConstruction": "0e1",
+      "vehicleLine": [
+        "223.1"
+      ],
+      "vehicleMarket": [
+        "ma-cn"
+      ]
+    }
+  },
+  "info": [
+    {
+      "code": 1,
+      "message": "An error occurred while composing the Vehicle Database. No valid nodes found for the specified set of validities. ",
+      "timestamp": "date",
+      "type": 3
+    }
+  ]
+}
+}

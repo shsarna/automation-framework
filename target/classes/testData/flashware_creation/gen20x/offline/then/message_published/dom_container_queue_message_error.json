@@ -1,0 +1,19 @@
+{
+"message" : {
+"data" : {
+"id" : 1,
+"location" : "http://dom-container-service-tsy-integration:8080/dom-container-service/v1/containers/1",
+"references" : [ {
+"type" : "urn:com:mercedes-benz:oa:dom-content-service:package"
+} ],
+"status" : -1,
+"type" : "urn:com:mercedes-benz:oa:dom-container-service:container"
+},
+"info" : [ {
+"code" : 1,
+"message" : "Gen20x flashware and ODX-F file delivery to SWF Artifactory failed.com.exception.OAServerException: Artifact (dom-flashware/300030_3333003011/PREFULL_GEN20X_007_CIVIC206_E012_0_DOM1_P_3333003011_300030.odx-f) couldn't be uploaded to Artifactory.",
+"timestamp" : "2021-06-09T06:57:07.340Z",
+"type" : 4
+} ]
+}
+}

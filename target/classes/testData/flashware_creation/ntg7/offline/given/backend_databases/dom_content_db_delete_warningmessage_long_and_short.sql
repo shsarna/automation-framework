@@ -1,0 +1,3 @@
+delete FROM dom_content.node_validity where node_id in (SELECT node_id FROM dom_content.node where OBJECT_ID_FROM_SOURCE like '%41a5c422ecaafe65354ae3657f6ee3c0%');
+delete FROM dom_content.node_element where node_id in (SELECT node_id FROM dom_content.node where OBJECT_ID_FROM_SOURCE like '%41a5c422ecaafe65354ae3657f6ee3c0%');
+delete FROM dom_content.node where OBJECT_ID_FROM_SOURCE like '%41a5c422ecaafe65354ae3657f6ee3c0%';

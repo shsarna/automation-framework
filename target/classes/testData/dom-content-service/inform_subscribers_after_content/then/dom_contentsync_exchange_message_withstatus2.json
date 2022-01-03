@@ -1,0 +1,867 @@
+{
+  "message" : {
+    "data" : {
+      "data" : {
+        "resourceChanges" : [ {
+          "data" : {
+            "objectIdFromSrc" : "337d0e8eeadb5c48354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 1,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/1",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_5a8f22c08b0ceabc354ae365114c79cb-337d0e8eeadb5c48354ae3652f723b10-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "337d0e8eeadb5c48354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 1,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/1",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "2f488c26f0854792354ae36501514299-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 2,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/2",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-2f488c26f0854792354ae36501514299-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "2f488c26f0854792354ae36501514299-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 2,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/2",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "a1a5991eedc11d05354ae3656bb3e683-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 3,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/3",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_de52d09a788911e5afeeee2cc1ac5ddf-a1a5991eedc11d05354ae3656bb3e683-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "a1a5991eedc11d05354ae3656bb3e683-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 3,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/3",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "b27308abeadb0212354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 4,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/4",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_5a8f22c08b0ceabc354ae365114c79cb-b27308abeadb0212354ae3652f723b10-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "b27308abeadb0212354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 4,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/4",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "a175b0f4eadaac31354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 5,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/5",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_de52d09a788911e5afeeee2cc1ac5ddf-a175b0f4eadaac31354ae3652f723b10-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "a175b0f4eadaac31354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 5,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/5",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "aad48a68ead44617354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 6,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/6",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-aad48a68ead44617354ae3652f723b10-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "aad48a68ead44617354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 6,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/6",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "b49b3934a51976a3354ae3653cd0272e-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 7,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/7",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-b49b3934a51976a3354ae3653cd0272e-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "b49b3934a51976a3354ae3653cd0272e-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 7,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/7",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "2f488c26f0854792354ae36501514299-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 8,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/8",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-2f488c26f0854792354ae36501514299-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "2f488c26f0854792354ae36501514299-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 8,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/8",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "1a5732af54a28d41c0a8c001043c7b4a-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 9,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/9",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_595f808454a28d3fc0a8c0014157683a-1a5732af54a28d41c0a8c001043c7b4a-de-DE",
+            "elementType" : 3,
+            "elementTypeFromSrc" : "arki-topic-instruction",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "1a5732af54a28d41c0a8c001043c7b4a-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 9,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/9",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "94b8dac3a5197a7b354ae3657eb57dc5-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 10,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/10",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-94b8dac3a5197a7b354ae3657eb57dc5-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "94b8dac3a5197a7b354ae3657eb57dc5-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 10,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/10",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "39333f15edc28501354ae3651a1391c0-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 11,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/11",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_5a8f22c08b0ceabc354ae365114c79cb-39333f15edc28501354ae3651a1391c0-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "39333f15edc28501354ae3651a1391c0-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 11,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/11",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "bfe3a932eada477c354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 12,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/12",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-bfe3a932eada477c354ae3652f723b10-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "bfe3a932eada477c354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 12,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/12",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "9009918aa5198558354ae36515a6e391-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 13,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/13",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_5a8f22c08b0ceabc354ae365114c79cb-9009918aa5198558354ae36515a6e391-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "9009918aa5198558354ae36515a6e391-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 13,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/13",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "9009918aa5198558354ae36515a6e391-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 14,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/14",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_5a8f22c08b0ceabc354ae365114c79cb-9009918aa5198558354ae36515a6e391-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "9009918aa5198558354ae36515a6e391-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 14,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/14",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "39333f15edc28501354ae3651a1391c0-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 15,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/15",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_5a8f22c08b0ceabc354ae365114c79cb-39333f15edc28501354ae3651a1391c0-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "39333f15edc28501354ae3651a1391c0-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 15,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/15",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "b812a91050970bea354ae36528a7aede-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 16,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/16",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_5cf34a2e50970bea354ae3652aac9b20-b812a91050970bea354ae36528a7aede-de-DE",
+            "elementType" : 3,
+            "elementTypeFromSrc" : "arki-topic-instruction",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "b812a91050970bea354ae36528a7aede-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "3"
+          },
+          "id" : 16,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/16",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "1b675121bb355d93354ae3650b93b170-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 17,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/17",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_e44ab621bb355d93354ae3656bdf67c8-1b675121bb355d93354ae3650b93b170-de-DE",
+            "elementType" : 3,
+            "elementTypeFromSrc" : "arki-frag-warn-controls",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "1b675121bb355d93354ae3650b93b170-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "2"
+          },
+          "id" : 17,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/17",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "337d0e8eeadb5c48354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 18,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/18",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_5a8f22c08b0ceabc354ae365114c79cb-337d0e8eeadb5c48354ae3652f723b10-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "337d0e8eeadb5c48354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 18,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/18",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "07f54811ed5296b9354ae3650225e74e-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 19,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/19",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-07f54811ed5296b9354ae3650225e74e-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "07f54811ed5296b9354ae3650225e74e-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 19,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/19",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "b49b3934a51976a3354ae3653cd0272e-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 20,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/20",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-b49b3934a51976a3354ae3653cd0272e-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "b49b3934a51976a3354ae3653cd0272e-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 20,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/20",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "aad48a68ead44617354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 21,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/21",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-aad48a68ead44617354ae3652f723b10-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "aad48a68ead44617354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 21,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/21",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "a175b0f4eadaac31354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 22,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/22",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_de52d09a788911e5afeeee2cc1ac5ddf-a175b0f4eadaac31354ae3652f723b10-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "a175b0f4eadaac31354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 22,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/22",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "2460d8f1a51981bf354ae36572dfe322-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 23,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/23",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_5a8f22c08b0ceabc354ae365114c79cb-2460d8f1a51981bf354ae36572dfe322-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "2460d8f1a51981bf354ae36572dfe322-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 23,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/23",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "b27308abeadb0212354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 25,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/25",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_5a8f22c08b0ceabc354ae365114c79cb-b27308abeadb0212354ae3652f723b10-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "b27308abeadb0212354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 25,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/25",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "921b9411c4895002354ae36526d9d490-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 24,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/24",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_906277292b1ff736354ae365030b2019-921b9411c4895002354ae36526d9d490-de-DE",
+            "elementType" : 3,
+            "elementTypeFromSrc" : "arki-topic-description",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "921b9411c4895002354ae36526d9d490-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "2"
+          },
+          "id" : 24,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/24",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "94b8dac3a5197a7b354ae3657eb57dc5-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 26,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/26",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-94b8dac3a5197a7b354ae3657eb57dc5-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "94b8dac3a5197a7b354ae3657eb57dc5-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 26,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/26",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "07f54811ed5296b9354ae3650225e74e-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 27,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/27",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-07f54811ed5296b9354ae3650225e74e-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "07f54811ed5296b9354ae3650225e74e-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 27,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/27",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "bfe3a932eada477c354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 28,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/28",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_bf8e6c02788a11e5afeeee2cc1ac5ddf-bfe3a932eada477c354ae3652f723b10-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "bfe3a932eada477c354ae3652f723b10-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 28,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/28",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "209cd0c548ab5f5a354ae36548de85f3-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 29,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/29",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_9b21322e48ab5f0c354ae36529b9ec3e-209cd0c548ab5f5a354ae36548de85f3-de-DE",
+            "elementType" : 3,
+            "elementTypeFromSrc" : "arki-topic-quickstart",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "209cd0c548ab5f5a354ae36548de85f3-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "3"
+          },
+          "id" : 29,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/29",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_721b235819798bae354ae36550058b52-209cd0c548ab5f5a354ae36548de85f3-de-DE",
+            "language" : "de",
+            "locale" : "DE",
+            "mediaFilename" : "54151d6a2c891c11354ae3651195c447_1_de-DE.JPEG_DIBA55hi",
+            "mediaUrl" : "http://10.194.127.58:80/cmsweb/media/54151d6a2c891c11354ae3651195c447/1/de_DE/JPEG_DIBA55hi",
+            "objectIdFromSrc" : "54151d6a2c891c11354ae3651195c447-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 1,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/media/1",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:media"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_384c2bb219798bae354ae36517bfa85f-209cd0c548ab5f5a354ae36548de85f3-de-DE",
+            "language" : "de",
+            "locale" : "DE",
+            "mediaFilename" : "54151d6a2c891c11354ae3651195c447_1_de-DE.JPEG_DIBA55hi",
+            "mediaUrl" : "http://10.194.127.58:80/cmsweb/media/54151d6a2c891c11354ae3651195c447/1/de_DE/JPEG_DIBA55hi",
+            "objectIdFromSrc" : "54151d6a2c891c11354ae3651195c447-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 2,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/media/2",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:media"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "260f683cf0c0ee81354ae3653c5b024f-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 30,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/30",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_8e2abd7c1068aeeb354ae365079f0306-260f683cf0c0ee81354ae3653c5b024f-de-DE",
+            "elementType" : 3,
+            "elementTypeFromSrc" : "arki-topic-description",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "260f683cf0c0ee81354ae3653c5b024f-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 2,
+            "versionFromSrc" : "2"
+          },
+          "id" : 211,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/211",
+          "status" : 1,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "90131af0a5197e05354ae3657f2d489c-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 31,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/31",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_de52d09a788911e5afeeee2cc1ac5ddf-90131af0a5197e05354ae3657f2d489c-de-DE",
+            "elementType" : 4,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "90131af0a5197e05354ae3657f2d489c-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 31,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/31",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "90131af0a5197e05354ae3657f2d489c-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 32,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/32",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_de52d09a788911e5afeeee2cc1ac5ddf-90131af0a5197e05354ae3657f2d489c-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "90131af0a5197e05354ae3657f2d489c-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 32,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/32",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "a1a5991eedc11d05354ae3656bb3e683-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 34,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/34",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_de52d09a788911e5afeeee2cc1ac5ddf-a1a5991eedc11d05354ae3656bb3e683-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "a1a5991eedc11d05354ae3656bb3e683-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 34,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/34",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "2460d8f1a51981bf354ae36572dfe322-dc755d348c26f91fbb7d49d306d7ba19-short"
+          },
+          "id" : 33,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/33",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_5a8f22c08b0ceabc354ae365114c79cb-2460d8f1a51981bf354ae36572dfe322-de-DE-short",
+            "elementType" : 5,
+            "elementTypeFromSrc" : "arki-frag-disp-diagnoses",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "2460d8f1a51981bf354ae36572dfe322-dc755d348c26f91fbb7d49d306d7ba19-short",
+            "revision" : 1,
+            "versionFromSrc" : "1"
+          },
+          "id" : 33,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/33",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        }, {
+          "data" : {
+            "objectIdFromSrc" : "48bbb56fbb3c66a4354ae36559461aba-dc755d348c26f91fbb7d49d306d7ba19"
+          },
+          "id" : 35,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/nodes/35",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:node"
+        }, {
+          "data" : {
+            "dataIdFromSrc" : "ID_11a2691abb3c6695354ae365648b540f-48bbb56fbb3c66a4354ae36559461aba-de-DE",
+            "elementType" : 3,
+            "elementTypeFromSrc" : "arki-frag-warn-controls",
+            "language" : "de",
+            "locale" : "de",
+            "objectIdFromSrc" : "48bbb56fbb3c66a4354ae36559461aba-dc755d348c26f91fbb7d49d306d7ba19",
+            "revision" : 1,
+            "versionFromSrc" : "2"
+          },
+          "id" : 35,
+          "location" : "http://dom-content-service:8080/dom-content-service/v1/elements/35",
+          "status" : 0,
+          "type" : "urn:com:mercedes-benz:oa:resource-type:element"
+        } ]
+      },
+      "id" : 5,
+      "location" : "http://dom-content-service:8080/dom-content-service/v1/contentsync/5",
+      "references" : [ {
+        "id" : 11,
+        "location" : "http://xxxml-import-service:8080/xxxml-import-service/v1/imports/11",
+        "type" : "urn:com:mercedes-benz:oa:xxxml-import-service:import"
+      }, {
+        "id" : 13,
+        "location" : "http://oa-content-service-tsy-integration:8080/oa-content-service/v1/bulk/13",
+        "type" : "urn:com:mercedes-benz:oa:oa-content-service:bulk"
+      }, {
+        "id" : 14,
+        "location" : "http://oa-content-service-tsy-integration:8080/oa-content-service/v1/queries/14",
+        "type" : "urn:com:mercedes-benz:oa:oa-content-service:query"
+      } ],
+      "status" : 1,
+      "type" : "urn:com:mercedes-benz:oa:dom-content-service:contentsync"
+    },
+    "info" : [ {
+      "code" : 1,
+      "message" : "Synchronization executed successfully (contentSync id: 5).",
+      "timestamp" : "date",
+      "type" : 1
+    } ]
+  }
+}

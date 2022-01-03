@@ -1,0 +1,4 @@
+Failed to upload artefact to COS due to connection issues at attempt number: 1.
+Failed to upload artefact to COS due to connection issues at attempt number: 2.
+Failed to upload artefact to COS due to connection issues at attempt number: 3.
+Failed to upload artefact to COS due to connection issues at attempt number: 4.

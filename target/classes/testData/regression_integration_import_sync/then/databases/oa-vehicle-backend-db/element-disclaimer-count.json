@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from dom_content.element where element_type_from_source = 'arki-frag-disclaimer';",
+ "expectedCount": 41
+}

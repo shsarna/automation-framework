@@ -1,0 +1,42 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "data_id_from_source",
+      "columnValue": "ID_b1b8514e395da347354ae365523cf41f-5c08583d395da347354ae36509fc7b91-en-GB"
+    },
+	{
+      "columnName": "element_type",
+      "columnValue": "3"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "element_type_from_source",
+      "columnValue": "arki-frag-warn-controls"
+    },
+	{
+      "columnName": "language",
+      "columnValue": "en"
+    },
+	{
+      "columnName": "locale",
+      "columnValue": "gb"
+    },
+	{
+      "columnName": "version_from_source",
+      "columnValue": "10"
+    },
+	{
+      "columnName": "revision",
+      "columnValue": "1"
+    },
+	{
+      "columnName": "data",
+      "columnValue": "{\"name\":\"long-message\",\"children\":[{\"name\":\"topic-title\",\"children\":[\" Driving safety systems \"]},{\"name\":\"icons\",\"children\":[{\"name\":\"icon\",\"attributes\":{\"type\":\"asset\",\"href\":\"mbsymb2_inv_00e5.png\"}}]},{\"name\":\"title\",\"attributes\":{\"color\":\"white\"},\"children\":[\"\\n                                        \\n                                        \\n                                        \\n                                        \\n                                        \\n                                        \\n                                        \\n                                        \\n                                        ESP® OFF warning lamp\\n                                    \"]},{\"name\":\"content\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"The yellow ESP® OFF warning lamp is lit while the engine is running. \"]},{\"name\":\"paragraph\",\"children\":[\"ESP® is deactivated. \"]},{\"name\":\"paragraph\",\"children\":[\"Other driving systems and driving safety systems may also be inoperative. \"]},{\"name\":\"togglebox\",\"attributes\":{\"id\":\"ID_ac99111a0a51f5eb354ae3655ea9aa9b-eff89f46b778a202354ae36558ba97f8-en-GB\",\"type\":\"warning\"},\"children\":[{\"name\":\"togglebox-title\",\"children\":[\"WARNING \"]},{\"name\":\"togglebox-header-content\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"Risk of skidding when driving with ESP® deactivated \"]}]},{\"name\":\"togglebox-content\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"ESP® does not act to stabilise the vehicle. The availability of further driving safety systems is also limited. \"]},{\"name\":\"step\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"Drive on carefully. \"]}]},{\"name\":\"step\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"Deactivate ESP® only for as long as the situation requires. \"]}]},{\"name\":\"paragraph\",\"children\":[\"If ESP® cannot be activated, ESP® is malfunctioning. \"]},{\"name\":\"step\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"Have ESP® checked immediately at a qualified specialist workshop. \"]}]}]}]},{\"name\":\"step\",\"children\":[{\"name\":\"paragraph\",\"children\":[\"Observe the notes on deactivating ESP®. \"]}]}]}]}"
+    },
+	{
+      "columnName": "title",
+      "columnValue": " Driving safety systems "
+    }
+  ]
+}

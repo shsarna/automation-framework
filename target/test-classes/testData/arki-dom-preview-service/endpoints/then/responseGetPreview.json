@@ -1,0 +1,21 @@
+{
+  "message": {
+    "info": [
+      {
+        "type": 0,
+        "timestamp": "string",
+        "message": "string",
+        "code": 0
+      }
+    ],
+    "data": {
+      "objects": [
+        {
+          "previewId": 0,
+          "conversionId": "string",
+          "basePath": "string"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "container_status",
+      "columnValue": "COMPLETED"
+    },
+    {
+      "columnName": "part_number",
+      "columnValue": "A3333003011"
+    },
+    {
+      "columnName": "sw_version",
+      "columnValue": "30.00.30"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "container_type",
+      "columnValue": "BIN"
+    }
+  ]
+}

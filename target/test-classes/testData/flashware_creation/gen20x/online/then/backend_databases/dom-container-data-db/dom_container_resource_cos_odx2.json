@@ -1,0 +1,18 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "resource_url",
+      "columnValue": "https://s3.eu-de.cloud-object-storage.appdomain.cloud/ba-ntg7-test-resource-storage/dom-flashware/300030_3333003015/PREFULL_GEN20X_007_CIVIC206_E012_0_DOM2_P_3333003015_300030.odx-f"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "id_tag",
+      "columnValue": "ODX"
+    },
+    {
+      "columnName": "estand",
+      "columnValue": "12.0"
+    }
+  ]
+}

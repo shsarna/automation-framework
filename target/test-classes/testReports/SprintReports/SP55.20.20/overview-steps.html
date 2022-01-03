@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no @SP55.20.20) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Sprint Tests Execution</td>
+        <td>@SP55.20.20</td>
+      <td>14 May 2020, 16:03</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">com.DomContainerStepDefs.domContainerIsInitialised()</td>
+              <td>4</td>
+              <td class="duration" data-value="4251375">0.004</td>
+              <td class="duration" data-value="4251375">0.016</td>
+              <td class="duration" data-value="17005500">0.017</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.cleanupFiles()</td>
+              <td>9</td>
+              <td class="duration" data-value="308220744">0.308</td>
+              <td class="duration" data-value="308220744">0.669</td>
+              <td class="duration" data-value="2773986700">2.773</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.domOnlinePackageServiceRespondsToGETOnlinepackagesIdWithTest(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="91500300">0.091</td>
+              <td class="duration" data-value="91500300">0.091</td>
+              <td class="duration" data-value="91500300">0.091</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.oaZipDatabasesContainTheDataTestFolderThenDOMZip(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="5833816">0.005</td>
+              <td class="duration" data-value="5833816">0.013</td>
+              <td class="duration" data-value="35002900">0.035</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.oaZipDatabasesContainTheDataTestFolderThenOaZip(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="66249516">0.066</td>
+              <td class="duration" data-value="66249516">0.081</td>
+              <td class="duration" data-value="397497100">0.397</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.setUp()</td>
+              <td>9</td>
+              <td class="duration" data-value="11278455">0.011</td>
+              <td class="duration" data-value="11278455">0.087</td>
+              <td class="duration" data-value="101506100">0.101</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theArtifactoryRespondsWithTestFolderGivenOAZip(java.lang.String,java.lang.String)</td>
+              <td>18</td>
+              <td class="duration" data-value="541197561">0.541</td>
+              <td class="duration" data-value="541197561">1.791</td>
+              <td class="duration" data-value="9741556100">9.741</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theBTSShouldBeAvailableInDOMZipBTS_available(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="1307173516">1.307</td>
+              <td class="duration" data-value="1307173516">1.499</td>
+              <td class="duration" data-value="7843041100">7.843</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theCOSRespondsWithTestFolderGivenMEDIA__ECEROW_MAECEROW_HUECEROW_NTG_MID__en_gbZip(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="1559761216">1.559</td>
+              <td class="duration" data-value="1559761216">1.842</td>
+              <td class="duration" data-value="9358567300">9.358</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theDomContentDataDatabaseContainsTheDataTest_folderThenDomContentData(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="6491800">0.006</td>
+              <td class="duration" data-value="6491800">0.006</td>
+              <td class="duration" data-value="6491800">0.006</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theDomSoftwareServiceRespondsToGETReleasesWithTestFolderGivenGet_dom_sw_service_releasesJson(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="114667083">0.114</td>
+              <td class="duration" data-value="114667083">0.274</td>
+              <td class="duration" data-value="688002500">0.688</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theDomUiDataServiceRespondsToGETLanguagesWithTestFolderGivenDom_ui_data_service_languagesJson(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="70583833">0.070</td>
+              <td class="duration" data-value="70583833">0.102</td>
+              <td class="duration" data-value="423503000">0.423</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theDomUiDataServiceRespondsToGETMenuitemsWithTestFolderGivenDom_ui_data_service_menuitemsJson(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="91335250">0.091</td>
+              <td class="duration" data-value="91335250">0.131</td>
+              <td class="duration" data-value="548011500">0.548</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theDomUiDataServiceRespondsToGETTextsWithTestFolderGivenDom_ui_data_service_textsJson(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="155999733">0.155</td>
+              <td class="duration" data-value="155999733">0.293</td>
+              <td class="duration" data-value="935998400">0.935</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theDomUiDataServiceRespondsToGETValuemappingsWithTestFolderGivenDom_ui_data_service_valuemappingsJson(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="78331683">0.078</td>
+              <td class="duration" data-value="78331683">0.145</td>
+              <td class="duration" data-value="469990100">0.469</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theDomUiDataServiceRespondsToGETWarningmessagesWithTestFolderGivenDom_ui_data_service_warningmessagesJson(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="98750566">0.098</td>
+              <td class="duration" data-value="98750566">0.182</td>
+              <td class="duration" data-value="592503400">0.592</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theFlashwareIsDone()</td>
+              <td>6</td>
+              <td class="duration" data-value="14019530350">14.019</td>
+              <td class="duration" data-value="14019530350">15.607</td>
+              <td class="duration" data-value="84117182100">1:24.117</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theOaGatewayServiceRespondsToGETParametersWithTestFolderGivenOa_gw_service_parametersJson(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="75668683">0.075</td>
+              <td class="duration" data-value="75668683">0.151</td>
+              <td class="duration" data-value="454012100">0.454</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theOaGatewayServiceRespondsToGETSchedulesWithTestFolderGivenOa_gw_service_schedulesJson(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="68248466">0.068</td>
+              <td class="duration" data-value="68248466">0.085</td>
+              <td class="duration" data-value="409490800">0.409</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.theOnlinePackageCreationIsFinished()</td>
+              <td>1</td>
+              <td class="duration" data-value="2002538500">2.002</td>
+              <td class="duration" data-value="2002538500">2.002</td>
+              <td class="duration" data-value="2002538500">2.002</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.DomContentStepDefs.thePOSTPackagesRequestIsMadeWithRequestBodyTestFolderWhenPost_packages_request_bodyJson(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="350501466">0.350</td>
+              <td class="duration" data-value="350501466">1.111</td>
+              <td class="duration" data-value="2103008800">2.103</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.OaGwStepDefs.setUp()</td>
+              <td>2</td>
+              <td class="duration" data-value="6000000">0.006</td>
+              <td class="duration" data-value="6000000">0.006</td>
+              <td class="duration" data-value="12000000">0.012</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.OaGwStepDefs.theSyncIsFinished()</td>
+              <td>2</td>
+              <td class="duration" data-value="250000">0.000</td>
+              <td class="duration" data-value="250000">0.000</td>
+              <td class="duration" data-value="500000">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.test.CommonStepDefs.assertEndpointResponse(java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="314829983">0.314</td>
+              <td class="duration" data-value="314829983">0.834</td>
+              <td class="duration" data-value="1888979900">1.888</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.test.CommonStepDefs.assertNonAsyncEndpointResponse(java.lang.String,java.lang.String,java.lang.String,io.cucumber.datatable.DataTable)</td>
+              <td>2</td>
+              <td class="duration" data-value="780250700">0.780</td>
+              <td class="duration" data-value="780250700">1.105</td>
+              <td class="duration" data-value="1560501400">1.560</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.test.CommonStepDefs.assertToolingMessagePush(java.lang.String,java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="10417500">0.010</td>
+              <td class="duration" data-value="10417500">0.052</td>
+              <td class="duration" data-value="62505000">0.062</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.test.CommonStepDefs.executeSqlOnDb(java.lang.String)</td>
+              <td>15</td>
+              <td class="duration" data-value="208735926">0.208</td>
+              <td class="duration" data-value="208735926">0.418</td>
+              <td class="duration" data-value="3131038900">3.131</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.test.CommonStepDefs.rowExistsWithValues(java.lang.String,java.lang.String)</td>
+              <td>48</td>
+              <td class="duration" data-value="103938308">0.103</td>
+              <td class="duration" data-value="103938308">0.198</td>
+              <td class="duration" data-value="4989038800">4.989</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.test.CommonStepDefs.sendMessageToExchange(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="30000100">0.030</td>
+              <td class="duration" data-value="30000100">0.030</td>
+              <td class="duration" data-value="30000100">0.030</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.test.CommonStepDefs.setup()</td>
+              <td>15</td>
+              <td class="duration" data-value="740968186">0.740</td>
+              <td class="duration" data-value="740968186">1.502</td>
+              <td class="duration" data-value="11114522800">11.114</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>30</td>
+            <td>224</td>
+            <td class="duration">0.651</td>
+            <td class="duration">1:24.117</td>
+            <td class="duration">2:25.899</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

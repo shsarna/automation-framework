@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(ext_media_url) from oa_content.media_ref_data",
+ "expectedCount": 0
+}

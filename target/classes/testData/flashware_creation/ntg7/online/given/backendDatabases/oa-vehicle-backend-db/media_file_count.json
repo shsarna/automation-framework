@@ -1,0 +1,4 @@
+{
+  "selectStatement": "select count(*) from dom_content.media where ext_media_filename='18d58f5bd4f07a1a354ae3654d1077f9_1_-----.JPEG_DIBA55hi' ",
+  "expectedCount": 2
+}

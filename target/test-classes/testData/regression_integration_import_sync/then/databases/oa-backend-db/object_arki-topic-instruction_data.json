@@ -1,0 +1,26 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "object_id_from_source",
+      "columnValue": "8f5ebb724c0996f4ac190d2b2828405d-d7c2456230c505deb0b3b9287bbb2306"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "object_id",
+      "columnValue": "7"
+    },
+    {
+      "columnName": "object_type_id",
+      "columnValue": "-102"
+    },
+	{
+      "columnName": "source_system_id",
+      "columnValue": "-2"
+    },
+    {
+      "columnName": "object_type_from_source",
+      "columnValue": "arki-topic-instruction"
+    }
+  ]
+}

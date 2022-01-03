@@ -1,0 +1,18 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "resource_domui_valuemapping_id",
+      "columnValue": "1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "resource_id",
+      "columnValue": "4"
+    },
+    {
+      "columnName": "domui_valuemapping_id",
+      "columnValue": "1"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+drop DATABASE "oa_vehicle_backend_db-tsy-integration";

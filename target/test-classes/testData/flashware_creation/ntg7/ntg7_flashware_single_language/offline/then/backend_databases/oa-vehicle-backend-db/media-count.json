@@ -1,0 +1,4 @@
+{
+  "selectStatement": "select count(*) from dom_content.media where ext_media_url ='http://10.194.127.4:80/cmsweb/media/00e553b52c1de2fbac190d2b10199b1d/1/--_--/JPEG_DIBA55hi' ;",
+  "expectedCount": 1
+}

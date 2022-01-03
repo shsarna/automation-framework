@@ -1,0 +1,16 @@
+{
+"message" : {
+"data" : {
+"id" : 1,
+"location" : "http://dom-ui-data-service-tsy-integration:8080/dom-ui-data-service/v1/basync/1",
+"status" : -1,
+"type" : "urn:com:mercedess-benz:oa:dom-ui-data-service:basync"
+},
+"info" : [ {
+"code" : 1,
+"message" : "An error was encountered while performing the synchronisation.",
+"timestamp" : "2021-03-13T18:48:54.610Z",
+"type" : 3
+} ]
+}
+}

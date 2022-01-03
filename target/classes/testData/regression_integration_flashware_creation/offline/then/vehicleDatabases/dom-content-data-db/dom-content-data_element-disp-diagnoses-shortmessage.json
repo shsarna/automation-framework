@@ -1,0 +1,46 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "data_id_from_source",
+      "columnValue": "ID_ac185e01e7c4806c354ae3652ee82dd1-f5e75ad3abc831940ac2a8c4322e63dc-en-GB-short"
+    },
+	{
+      "columnName": "element_type",
+      "columnValue": "5"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "element_type_from_source",
+      "columnValue": "arki-frag-disp-diagnoses"
+    },
+	{
+      "columnName": "language",
+      "columnValue": "en"
+    },
+	{
+      "columnName": "locale",
+      "columnValue": "gb"
+    },
+	{
+      "columnName": "version_from_source",
+      "columnValue": "3"
+    },
+	{
+      "columnName": "revision",
+      "columnValue": "1"
+    },	
+	{
+      "columnName": "data",
+      "columnValue": "{\"name\":\"short-message\",\"children\":[{\"name\":\"icons\",\"children\":[{\"name\":\"icon\",\"attributes\":{\"type\":\"media\",\"href\":\"bc59d6b7d0f0f0cdac190d2b240ce3db_1_-----.JPEG_DIBA55hi\"}}]},{\"name\":\"messages\",\"attributes\":{\"color\":\"white\"},\"children\":[{\"name\":\"message\"}]},{\"name\":\"content\"}]}"
+    },
+	{
+      "columnName": "title",
+      "columnValue": ""
+    },
+	{
+      "columnName": "title_norm",
+      "columnValue": ""
+    }
+  ]
+}

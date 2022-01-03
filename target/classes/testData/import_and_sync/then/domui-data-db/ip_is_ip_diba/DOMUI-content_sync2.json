@@ -1,0 +1,22 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "content_sync_id",
+      "columnValue": "2"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "sync_resource_type",
+      "columnValue": "urn:com:mercedes-benz:oa:dom-ui-data-service:contentsync"
+    },
+    {
+      "columnName": "sync_resource_location",
+      "columnValue": "http://dom-ui-data-service-tsy-integration:8080/dom-ui-data-service/v1/contentsync/2"
+    },
+    {
+      "columnName": "sync_resource_status",
+      "columnValue": "1"
+    }
+  ]
+}

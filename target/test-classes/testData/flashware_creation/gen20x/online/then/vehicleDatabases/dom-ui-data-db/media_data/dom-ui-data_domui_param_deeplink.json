@@ -1,0 +1,18 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "PAR_NAME",
+      "columnValue": "DEEPLINK_UID_MAP"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "PAR_VALUE",
+      "columnValue": "{\"ca_consumption\":\"dt.MA.00.001\",\"ca_vehicle\":\"dt.MA.00.001\",\"cc_climatecontrol\":\"dt.MA.00.001\",\"cf_ambientlight\":\"dt.MA.00.001\",\"cf_massage\":\"dt.MA.00.001\",\"me_bluetooth\":\"dt.MA.00.001\",\"me_sound\":\"dt.MA.00.001\",\"me_usb\":\"dt.MA.00.001\",\"ml_applecarplay\":\"dt.MA.00.001\",\"oc_calendar\":\"dt.MA.00.001\",\"ra_engine\":\"dt.MA.00.001\",\"tu_tunein\":\"dt.MA.00.001\"}"
+    },
+    {
+      "columnName": "VALIDITY_ID",
+      "columnValue": "-1"
+    }
+  ]
+}

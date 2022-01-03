@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from domui_data_service.validity where validity_code = '0e1';",
+ "expectedCount": 1
+}

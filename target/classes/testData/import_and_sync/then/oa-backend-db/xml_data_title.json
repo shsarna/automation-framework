@@ -1,0 +1,30 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "data_id_from_source",
+      "columnValue": "ID_5c4412faf0ecf100ac190d2b530f172b-b36f80946021c427ac190d2b0ba92919-de-DE"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "language",
+      "columnValue": "de"
+    },
+    {
+      "columnName": "locale",
+      "columnValue": "DE"
+    },
+    {
+      "columnName": "version_from_source",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "title",
+      "columnValue": "Informationen zum Mercedes-Benz Notrufsystem"
+    },
+    {
+      "columnName": "revision",
+      "columnValue": "2"
+    }
+  ]
+}

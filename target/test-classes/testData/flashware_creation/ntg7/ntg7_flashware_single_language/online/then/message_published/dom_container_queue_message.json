@@ -1,0 +1,20 @@
+{
+"message" : {
+"data" : {
+"id" : 45,
+"location" : "http://dom-container-service-tsy-integration:8080/dom-container-service/v1/containers/45",
+"references" : [ {
+"id" : 2,
+"type" : "urn:com:mercedes-benz:oa:dom-content-service:package"
+} ],
+"status" : 1,
+"type" : "urn:com:mercedes-benz:oa:dom-container-service:container"
+},
+"info" : [ {
+"code" : 1,
+"message" : "DOM Container creation completed successfully.",
+"timestamp" : "2021-05-15T19:07:23.171Z",
+"type" : 1
+} ]
+}
+}

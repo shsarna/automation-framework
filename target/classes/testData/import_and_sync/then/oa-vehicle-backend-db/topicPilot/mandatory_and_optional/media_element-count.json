@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from dom_content.media_element;",
+ "expectedCount": 4
+}

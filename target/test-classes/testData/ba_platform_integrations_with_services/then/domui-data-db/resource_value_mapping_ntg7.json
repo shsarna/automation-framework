@@ -1,0 +1,34 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "resource_type_id",
+      "columnValue": "-6"
+    },
+	{
+      "columnName": "id_from_source",
+      "columnValue": "disc_9541279b6ffcbaf2ac190d2b12ec5936"
+    },
+	{
+      "columnName": "language",
+      "columnValue": "--"
+    },
+    {
+      "columnName": "locale",
+      "columnValue": "--"
+    },
+    {
+      "columnName": "revision",
+      "columnValue": "1"
+    },
+    {
+      "columnName": "n_tuple_id",
+      "columnValue": "2"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "content_sync_id",
+      "columnValue": "null"
+    }
+  ]
+}

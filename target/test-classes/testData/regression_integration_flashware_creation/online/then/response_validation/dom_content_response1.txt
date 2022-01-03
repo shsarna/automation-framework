@@ -1,0 +1,10 @@
+<202,{
+  "message" : {
+    "info" : [ {
+      "code" : 202,
+      "message" : "Accepted. DOM package creation started.",
+      "timestamp" : "2021-06-09T12:43:24.171Z",
+      "type" : 1
+    } ]
+  }
+},[Request-ID:"10", Location:"http://dom-content-service-tsy-integration.ba-ntg7:10110/dom-content-service/v1/packages/1", Link:"http://json-schema.org/draft-04/schema#", Content-MD5:"8fbdd579f261bc500702f1237f5fa322", Content-Type:"application/json;charset=UTF-8", Transfer-Encoding:"chunked", Date:"Wed, 09 Jun 2021 12:43:23 GMT"]>

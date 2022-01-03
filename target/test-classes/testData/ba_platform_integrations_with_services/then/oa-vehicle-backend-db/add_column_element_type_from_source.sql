@@ -1,0 +1,1 @@
+alter table dom_content.element add column element_type_from_source character varying (300);

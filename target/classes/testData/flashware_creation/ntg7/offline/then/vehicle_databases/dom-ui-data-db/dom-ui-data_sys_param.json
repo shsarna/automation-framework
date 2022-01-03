@@ -1,0 +1,14 @@
+{
+  "selectColumnModels": [
+	{
+      "columnName": "PAR_NAME",
+      "columnValue": "DB_VERSION"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "PAR_VALUE",
+      "columnValue": "1.6.0"
+    }
+  ]
+}

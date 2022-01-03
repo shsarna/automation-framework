@@ -1,0 +1,4 @@
+{
+  "selectStatement": "SELECT count(*) FROM domui_data_service.resource_domui_menu_item where resource_id = (SELECT resource_id FROM domui_data_service.resource where resource_type_id=-3 AND id_from_source like '%pa200033%')",
+  "expectedCount": 136
+}

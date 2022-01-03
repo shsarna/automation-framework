@@ -1,0 +1,14 @@
+{
+  "selectColumnModels":
+  [],
+  "assertColumnModels": [
+    {
+      "columnName": "object_id_from_source",
+      "columnValue": "arki-frag-disp-diagnoses"
+    },
+    {
+      "columnName": "count(object_type_from_source)",
+      "columnValue": "14"
+    }
+  ]
+}

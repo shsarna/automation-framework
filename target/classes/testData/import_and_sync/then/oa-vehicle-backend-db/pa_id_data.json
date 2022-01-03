@@ -1,0 +1,18 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "validity_id",
+      "columnValue": 10
+    },
+    {
+      "columnName": "validity_type",
+      "columnValue": "pa-id"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "validity_value",
+      "columnValue": "pa200033"
+    }
+  ]
+}

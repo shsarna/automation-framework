@@ -1,0 +1,62 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "object_id_from_source_1",
+      "columnValue": "067f8fbf87e3679bac190d2b5e99e515-d7c2456230c505deb0b3b9287bbb2306"
+    },
+    {
+      "columnName": "relation_type_name",
+      "columnValue": "is-valid-for"
+    },
+    {
+      "columnName": "object_type_name_2",
+      "columnValue": "vehline"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "relation_id",
+      "columnValue": "47"
+    },
+    {
+      "columnName": "object_id_1",
+      "columnValue": "12"
+    },
+    {
+      "columnName": "object_type_name_1",
+      "columnValue": "topic"
+    },
+    {
+      "columnName": "object_type_from_source_1",
+      "columnValue": "arki-topic-description"
+    },
+    {
+      "columnName": "source_system_name_1",
+      "columnValue": "arki4"
+    },
+        {
+      "columnName": "relation_type_name",
+      "columnValue": "is-valid-for"
+    },
+    {
+      "columnName": "object_id_2",
+      "columnValue": "4"
+    },
+        {
+      "columnName": "object_type_from_source_2",
+      "columnValue": "mapping_bm_numeric:mapping_bm_numeric:vehicle_market:arki-transl-division"
+    },
+    {
+      "columnName": "source_system_name_2",
+      "columnValue": "ba-platform"
+    },
+    {
+      "columnName": "object_id_from_source_2",
+      "columnValue": "223:1:ma-cn:p"
+    },
+    {
+      "columnName": "source_system_name_context",
+      "columnValue": "oa"
+    }
+  ]
+}

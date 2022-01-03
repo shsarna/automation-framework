@@ -1,0 +1,22 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "title_key",
+      "columnValue": "STRUCT_HELP_TOPICS_TITLE_4"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "icon",
+      "columnValue": null
+    },
+	{
+      "columnName": "action",
+      "columnValue": "showSublist"
+    },
+	{
+      "columnName": "object_id_from_source",
+      "columnValue": null
+    }
+  ]
+}

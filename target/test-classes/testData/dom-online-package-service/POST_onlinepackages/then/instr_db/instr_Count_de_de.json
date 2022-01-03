@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from INSTR",
+ "expectedCount": 5842
+}

@@ -1,0 +1,5528 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no @SP56.20.23) - Tag: @DDIBA-8814</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Sprint Tests Execution</td>
+        <td>@SP56.20.23</td>
+      <td>03 Jun 2020, 18:03</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Tag Report</h2>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+
+<thead>
+  <tr class="header dont-sort">
+      <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Tag</th>
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">@DDIBA-8814</td>
+          <td      class="passed"    >90</td>
+          <td      class="failed"    >6</td>
+          <td     class="skipped"   >66</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">162</td>
+
+          <td >0</td>
+          <td  class="failed"    >6</td>
+          <td class="total">6</td>
+
+          <td class="duration" data-value="116648138900">1:56.648</td>
+          <td class="failed">Failed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="elements">
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_2_1868519122.html">DOM-Content-Service: POST packages - in order to create a flashware</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_150840508.html">@SP55.20.20</a>
+       <a href="report-tag_3001858631.html">@DDIBA-8814</a>
+</div>
+
+
+  <span class="lead-duration duration">13.878</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">An online / offline flashware is build successfully</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention">  Dom Content Service receive a POST request on /packages endpoint and starts creating and online/offline flashware</div>
+
+  <div id="element-1" class="collapse collapsable-details  in ">
+
+
+  <div class="inner-level hooks-element-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="before-2" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.DomContentStepDefs.setUp()</span>
+
+  <span class="lead-duration duration">0.130</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.test.CommonStepDefs.setup()</span>
+
+  <span class="lead-duration duration">1.303</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">the Dom Software Service responds to GET releases with <span class="argument">'/features/flashware_creation/online/DOM1/given/dom_sw_service_releases.json'</span></span>
+
+  <span class="lead-duration duration">0.362</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'DOM.zip'</span> <span class="argument">'/features/flashware_creation/data/DOM'</span></span>
+
+  <span class="lead-duration duration">2.697</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'OA.zip'</span> <span class="argument">'/features/flashware_creation/data/OA'</span></span>
+
+  <span class="lead-duration duration">0.089</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'BTS.zip'</span> <span class="argument">'/features/flashware_creation/data/BTS'</span></span>
+
+  <span class="lead-duration duration">0.013</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the COS responds with <span class="argument">'/features/flashware_creation/data/MEDIA_007.1_ECE-ROW_MA-ECE-ROW_HU-ECE-ROW_NTG7.0_MID__en_gb'</span></span>
+
+  <span class="lead-duration duration">2.683</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET texts with <span class="argument">'/features/flashware_creation/online/DOM1/given/dom_ui_data_service_texts.json'</span></span>
+
+  <span class="lead-duration duration">0.230</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET menuitems with <span class="argument">'/features/flashware_creation/online/DOM1/given/dom_ui_data_service_menuitems.json'</span></span>
+
+  <span class="lead-duration duration">0.259</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET valuemappings with <span class="argument">'/features/flashware_creation/online/DOM1/given/dom_ui_data_service_valuemappings.json'</span></span>
+
+  <span class="lead-duration duration">0.151</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET warningmessages with <span class="argument">'/features/flashware_creation/online/DOM1/given/dom_ui_data_service_warningmessages.json'</span></span>
+
+  <span class="lead-duration duration">0.136</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET languages with <span class="argument">'/features/flashware_creation/online/DOM1/given/dom_ui_data_service_languages.json'</span></span>
+
+  <span class="lead-duration duration">0.109</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Oa Gateway Service responds to GET parameters with <span class="argument">'/features/flashware_creation/online/DOM1/given/oa_gw_service_parameters.json'</span></span>
+
+  <span class="lead-duration duration">0.131</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Oa Gateway Service responds to GET schedules with <span class="argument">'/features/flashware_creation/online/DOM1/given/oa_gw_service_schedules.json'</span></span>
+
+  <span class="lead-duration duration">0.132</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the database contains test data <span class="argument">'/features/flashware_creation/online/DOM1/given/insert_data.sql'</span></span>
+
+  <span class="lead-duration duration">0.141</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">the POST packages request is made with request body <span class="argument">'/features/flashware_creation/online/DOM1/when/post_packages_request_body.json'</span></span>
+
+  <span class="lead-duration duration">1.396</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the flashware is done</span>
+
+  <span class="lead-duration duration">4.818</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM1/then/dom_package_values.json'</span></span>
+
+  <span class="lead-duration duration">0.524</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: expected:&lt;[COMPLETED]&gt; but was:&lt;[ERROR]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.test.CommonTestMethods.rowExistsWithValues(CommonTestMethods.java:128)
+	at com.test.CommonStepDefs.rowExistsWithValues(CommonStepDefs.java:167)
+	at &#10045;.the database table 'dom_content.dom_package' should contain row with values '/features/flashware_creation/online/DOM1/then/dom_package_values.json'(classpath:features//flashware_creation.feature:32)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM1/then/dom_package_validity_businessLine.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM1/then/dom_package_validity_vehicleLine.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM1/then/dom_package_validity_vehicleMarket.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM1/then/dom_package_validity_market.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM1/then/dom_package_validity_deviceMarket.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM1/then/dom_package_validity_deviceModel.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM1/then/dom_package_validity_deviceVariant.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the OA.zip databases should contain the data <span class="argument">'/features/flashware_creation/online/DOM1/then/oa-zip'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the BTS should be available in DOM.zip <span class="argument">'false'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the DOM.zip index.html file should contain the data <span class="argument">'/features/flashware_creation/online/DOM1/then/dom-zip/index-expected.html'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the message <span class="argument">'/features/flashware_creation/online/DOM1/then/message_exchanged.json'</span> should be published to tooling exchange <span class="argument">'dom-package-exchange'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+  <div class="inner-level hooks-element-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-5" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+              <span class="location name">com.DomContentStepDefs.cleanupFiles()</span>
+
+  <span class="lead-duration duration">0.008</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_2_1868519122.html">DOM-Content-Service: POST packages - in order to create a flashware</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_150840508.html">@SP55.20.20</a>
+       <a href="report-tag_3001858631.html">@DDIBA-8814</a>
+</div>
+
+
+  <span class="lead-duration duration">22.515</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-6">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">An online / offline flashware is build successfully</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention">  Dom Content Service receive a POST request on /packages endpoint and starts creating and online/offline flashware</div>
+
+  <div id="element-6" class="collapse collapsable-details  in ">
+
+
+  <div class="inner-level hooks-element-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-7">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="before-7" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.DomContentStepDefs.setUp()</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.test.CommonStepDefs.setup()</span>
+
+  <span class="lead-duration duration">3.021</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-8">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-8" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">the Dom Software Service responds to GET releases with <span class="argument">'/features/flashware_creation/online/DOM2/given/dom_sw_service_releases.json'</span></span>
+
+  <span class="lead-duration duration">0.089</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'DOM.zip'</span> <span class="argument">'/features/flashware_creation/data/DOM'</span></span>
+
+  <span class="lead-duration duration">2.676</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'OA.zip'</span> <span class="argument">'/features/flashware_creation/data/OA'</span></span>
+
+  <span class="lead-duration duration">0.105</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'BTS.zip'</span> <span class="argument">'/features/flashware_creation/data/BTS'</span></span>
+
+  <span class="lead-duration duration">0.023</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the COS responds with <span class="argument">'/features/flashware_creation/data/MEDIA_007.1_ECE-ROW_MA-ECE-ROW_HU-ECE-ROW_NTG7.0_MID__en_gb'</span></span>
+
+  <span class="lead-duration duration">2.715</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET texts with <span class="argument">'/features/flashware_creation/online/DOM2/given/dom_ui_data_service_texts.json'</span></span>
+
+  <span class="lead-duration duration">0.224</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET menuitems with <span class="argument">'/features/flashware_creation/online/DOM2/given/dom_ui_data_service_menuitems.json'</span></span>
+
+  <span class="lead-duration duration">0.378</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET valuemappings with <span class="argument">'/features/flashware_creation/online/DOM2/given/dom_ui_data_service_valuemappings.json'</span></span>
+
+  <span class="lead-duration duration">0.130</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET warningmessages with <span class="argument">'/features/flashware_creation/online/DOM2/given/dom_ui_data_service_warningmessages.json'</span></span>
+
+  <span class="lead-duration duration">0.136</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET languages with <span class="argument">'/features/flashware_creation/online/DOM2/given/dom_ui_data_service_languages.json'</span></span>
+
+  <span class="lead-duration duration">0.105</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Oa Gateway Service responds to GET parameters with <span class="argument">'/features/flashware_creation/online/DOM2/given/oa_gw_service_parameters.json'</span></span>
+
+  <span class="lead-duration duration">0.261</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Oa Gateway Service responds to GET schedules with <span class="argument">'/features/flashware_creation/online/DOM2/given/oa_gw_service_schedules.json'</span></span>
+
+  <span class="lead-duration duration">0.224</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the database contains test data <span class="argument">'/features/flashware_creation/online/DOM2/given/insert_data.sql'</span></span>
+
+  <span class="lead-duration duration">0.650</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">the POST packages request is made with request body <span class="argument">'/features/flashware_creation/online/DOM2/when/post_packages_request_body.json'</span></span>
+
+  <span class="lead-duration duration">0.696</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the flashware is done</span>
+
+  <span class="lead-duration duration">13.565</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM2/then/dom_package_values.json'</span></span>
+
+  <span class="lead-duration duration">0.529</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-9">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-9" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: expected:&lt;[COMPLETED]&gt; but was:&lt;[ERROR]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.test.CommonTestMethods.rowExistsWithValues(CommonTestMethods.java:128)
+	at com.test.CommonStepDefs.rowExistsWithValues(CommonStepDefs.java:167)
+	at &#10045;.the database table 'dom_content.dom_package' should contain row with values '/features/flashware_creation/online/DOM2/then/dom_package_values.json'(classpath:features//flashware_creation.feature:32)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM2/then/dom_package_validity_businessLine.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM2/then/dom_package_validity_vehicleLine.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM2/then/dom_package_validity_vehicleMarket.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM2/then/dom_package_validity_market.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM2/then/dom_package_validity_deviceMarket.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM2/then/dom_package_validity_deviceModel.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM2/then/dom_package_validity_deviceVariant.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the OA.zip databases should contain the data <span class="argument">'/features/flashware_creation/online/DOM2/then/oa-zip'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the BTS should be available in DOM.zip <span class="argument">'true'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the DOM.zip index.html file should contain the data <span class="argument">'/features/flashware_creation/online/DOM2/then/dom-zip/index-expected.html'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the message <span class="argument">'/features/flashware_creation/online/DOM2/then/message_exchanged.json'</span> should be published to tooling exchange <span class="argument">'dom-package-exchange'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+  <div class="inner-level hooks-element-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-10">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-10" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+              <span class="location name">com.DomContentStepDefs.cleanupFiles()</span>
+
+  <span class="lead-duration duration">0.008</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_2_1868519122.html">DOM-Content-Service: POST packages - in order to create a flashware</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_150840508.html">@SP55.20.20</a>
+       <a href="report-tag_3001858631.html">@DDIBA-8814</a>
+</div>
+
+
+  <span class="lead-duration duration">25.122</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-11">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">An online / offline flashware is build successfully</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention">  Dom Content Service receive a POST request on /packages endpoint and starts creating and online/offline flashware</div>
+
+  <div id="element-11" class="collapse collapsable-details  in ">
+
+
+  <div class="inner-level hooks-element-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-12">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="before-12" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.DomContentStepDefs.setUp()</span>
+
+  <span class="lead-duration duration">0.003</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.test.CommonStepDefs.setup()</span>
+
+  <span class="lead-duration duration">5.020</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-13">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-13" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">the Dom Software Service responds to GET releases with <span class="argument">'/features/flashware_creation/online/DOM3/given/dom_sw_service_releases.json'</span></span>
+
+  <span class="lead-duration duration">0.068</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'DOM.zip'</span> <span class="argument">'/features/flashware_creation/data/DOM'</span></span>
+
+  <span class="lead-duration duration">4.596</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'OA.zip'</span> <span class="argument">'/features/flashware_creation/data/OA'</span></span>
+
+  <span class="lead-duration duration">0.252</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'BTS.zip'</span> <span class="argument">'/features/flashware_creation/data/BTS'</span></span>
+
+  <span class="lead-duration duration">0.076</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the COS responds with <span class="argument">'/features/flashware_creation/data/MEDIA_007.1_ECE-ROW_MA-ECE-ROW_HU-ECE-ROW_NTG7.0_MID__en_gb'</span></span>
+
+  <span class="lead-duration duration">5.941</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET texts with <span class="argument">'/features/flashware_creation/online/DOM3/given/dom_ui_data_service_texts.json'</span></span>
+
+  <span class="lead-duration duration">0.183</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET menuitems with <span class="argument">'/features/flashware_creation/online/DOM3/given/dom_ui_data_service_menuitems.json'</span></span>
+
+  <span class="lead-duration duration">0.267</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET valuemappings with <span class="argument">'/features/flashware_creation/online/DOM3/given/dom_ui_data_service_valuemappings.json'</span></span>
+
+  <span class="lead-duration duration">0.185</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET warningmessages with <span class="argument">'/features/flashware_creation/online/DOM3/given/dom_ui_data_service_warningmessages.json'</span></span>
+
+  <span class="lead-duration duration">0.166</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET languages with <span class="argument">'/features/flashware_creation/online/DOM3/given/dom_ui_data_service_languages.json'</span></span>
+
+  <span class="lead-duration duration">0.224</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Oa Gateway Service responds to GET parameters with <span class="argument">'/features/flashware_creation/online/DOM3/given/oa_gw_service_parameters.json'</span></span>
+
+  <span class="lead-duration duration">0.203</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Oa Gateway Service responds to GET schedules with <span class="argument">'/features/flashware_creation/online/DOM3/given/oa_gw_service_schedules.json'</span></span>
+
+  <span class="lead-duration duration">0.445</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the database contains test data <span class="argument">'/features/flashware_creation/online/DOM3/given/insert_data.sql'</span></span>
+
+  <span class="lead-duration duration">0.532</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">the POST packages request is made with request body <span class="argument">'/features/flashware_creation/online/DOM3/when/post_packages_request_body.json'</span></span>
+
+  <span class="lead-duration duration">0.579</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the flashware is done</span>
+
+  <span class="lead-duration duration">10.878</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM3/then/dom_package_values.json'</span></span>
+
+  <span class="lead-duration duration">0.520</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-14">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-14" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: expected:&lt;[COMPLETED]&gt; but was:&lt;[ERROR]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.test.CommonTestMethods.rowExistsWithValues(CommonTestMethods.java:128)
+	at com.test.CommonStepDefs.rowExistsWithValues(CommonStepDefs.java:167)
+	at &#10045;.the database table 'dom_content.dom_package' should contain row with values '/features/flashware_creation/online/DOM3/then/dom_package_values.json'(classpath:features//flashware_creation.feature:32)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM3/then/dom_package_validity_businessLine.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM3/then/dom_package_validity_vehicleLine.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM3/then/dom_package_validity_vehicleMarket.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM3/then/dom_package_validity_market.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM3/then/dom_package_validity_deviceMarket.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM3/then/dom_package_validity_deviceModel.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/online/DOM3/then/dom_package_validity_deviceVariant.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the OA.zip databases should contain the data <span class="argument">'/features/flashware_creation/online/DOM3/then/oa-zip'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the BTS should be available in DOM.zip <span class="argument">'false'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the DOM.zip index.html file should contain the data <span class="argument">'/features/flashware_creation/online/DOM3/then/dom-zip/index-expected.html'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the message <span class="argument">'/features/flashware_creation/online/DOM3/then/message_exchanged.json'</span> should be published to tooling exchange <span class="argument">'dom-package-exchange'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+  <div class="inner-level hooks-element-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-15">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-15" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+              <span class="location name">com.DomContentStepDefs.cleanupFiles()</span>
+
+  <span class="lead-duration duration">0.009</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_2_1868519122.html">DOM-Content-Service: POST packages - in order to create a flashware</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_150840508.html">@SP55.20.20</a>
+       <a href="report-tag_3001858631.html">@DDIBA-8814</a>
+</div>
+
+
+  <span class="lead-duration duration">10.991</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-16">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">An online / offline flashware is build successfully</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention">  Dom Content Service receive a POST request on /packages endpoint and starts creating and online/offline flashware</div>
+
+  <div id="element-16" class="collapse collapsable-details  in ">
+
+
+  <div class="inner-level hooks-element-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-17">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="before-17" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.DomContentStepDefs.setUp()</span>
+
+  <span class="lead-duration duration">0.004</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.test.CommonStepDefs.setup()</span>
+
+  <span class="lead-duration duration">3.066</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-18">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-18" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">the Dom Software Service responds to GET releases with <span class="argument">'/features/flashware_creation/offline/DOM1/given/dom_sw_service_releases.json'</span></span>
+
+  <span class="lead-duration duration">0.071</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'DOM.zip'</span> <span class="argument">'/features/flashware_creation/data/DOM'</span></span>
+
+  <span class="lead-duration duration">2.623</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'OA.zip'</span> <span class="argument">'/features/flashware_creation/data/OA'</span></span>
+
+  <span class="lead-duration duration">0.245</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'BTS.zip'</span> <span class="argument">'/features/flashware_creation/data/BTS'</span></span>
+
+  <span class="lead-duration duration">0.017</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the COS responds with <span class="argument">'/features/flashware_creation/data/MEDIA_007.1_ECE-ROW_MA-ECE-ROW_HU-ECE-ROW_NTG7.0_MID__en_gb'</span></span>
+
+  <span class="lead-duration duration">3.227</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET texts with <span class="argument">'/features/flashware_creation/offline/DOM1/given/dom_ui_data_service_texts.json'</span></span>
+
+  <span class="lead-duration duration">0.153</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET menuitems with <span class="argument">'/features/flashware_creation/offline/DOM1/given/dom_ui_data_service_menuitems.json'</span></span>
+
+  <span class="lead-duration duration">0.113</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET valuemappings with <span class="argument">'/features/flashware_creation/offline/DOM1/given/dom_ui_data_service_valuemappings.json'</span></span>
+
+  <span class="lead-duration duration">0.091</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET warningmessages with <span class="argument">'/features/flashware_creation/offline/DOM1/given/dom_ui_data_service_warningmessages.json'</span></span>
+
+  <span class="lead-duration duration">0.107</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET languages with <span class="argument">'/features/flashware_creation/offline/DOM1/given/dom_ui_data_service_languages.json'</span></span>
+
+  <span class="lead-duration duration">0.109</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Oa Gateway Service responds to GET parameters with <span class="argument">'/features/flashware_creation/offline/DOM1/given/oa_gw_service_parameters.json'</span></span>
+
+  <span class="lead-duration duration">0.079</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Oa Gateway Service responds to GET schedules with <span class="argument">'/features/flashware_creation/offline/DOM1/given/oa_gw_service_schedules.json'</span></span>
+
+  <span class="lead-duration duration">0.084</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the database contains test data <span class="argument">'/features/flashware_creation/offline/DOM1/given/insert_data.sql'</span></span>
+
+  <span class="lead-duration duration">0.253</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">the POST packages request is made with request body <span class="argument">'/features/flashware_creation/offline/DOM1/when/post_packages_request_body.json'</span></span>
+
+  <span class="lead-duration duration">0.130</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the flashware is done</span>
+
+  <span class="lead-duration duration">3.322</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM1/then/dom_package_values.json'</span></span>
+
+  <span class="lead-duration duration">0.357</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-19">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-19" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: expected:&lt;[COMPLETED]&gt; but was:&lt;[ERROR]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.test.CommonTestMethods.rowExistsWithValues(CommonTestMethods.java:128)
+	at com.test.CommonStepDefs.rowExistsWithValues(CommonStepDefs.java:167)
+	at &#10045;.the database table 'dom_content.dom_package' should contain row with values '/features/flashware_creation/offline/DOM1/then/dom_package_values.json'(classpath:features//flashware_creation.feature:32)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM1/then/dom_package_validity_businessLine.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM1/then/dom_package_validity_vehicleLine.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM1/then/dom_package_validity_vehicleMarket.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM1/then/dom_package_validity_market.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM1/then/dom_package_validity_deviceMarket.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM1/then/dom_package_validity_deviceModel.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM1/then/dom_package_validity_deviceVariant.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the OA.zip databases should contain the data <span class="argument">'/features/flashware_creation/offline/DOM1/then/oa-zip'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the BTS should be available in DOM.zip <span class="argument">'false'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the DOM.zip index.html file should contain the data <span class="argument">'/features/flashware_creation/offline/DOM1/then/dom-zip/index-expected.html'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the message <span class="argument">'/features/flashware_creation/offline/DOM1/then/message_exchanged.json'</span> should be published to tooling exchange <span class="argument">'dom-package-exchange'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+  <div class="inner-level hooks-element-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-20">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-20" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+              <span class="location name">com.DomContentStepDefs.cleanupFiles()</span>
+
+  <span class="lead-duration duration">0.007</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_2_1868519122.html">DOM-Content-Service: POST packages - in order to create a flashware</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_150840508.html">@SP55.20.20</a>
+       <a href="report-tag_3001858631.html">@DDIBA-8814</a>
+</div>
+
+
+  <span class="lead-duration duration">23.771</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-21">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">An online / offline flashware is build successfully</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention">  Dom Content Service receive a POST request on /packages endpoint and starts creating and online/offline flashware</div>
+
+  <div id="element-21" class="collapse collapsable-details  in ">
+
+
+  <div class="inner-level hooks-element-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-22">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="before-22" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.DomContentStepDefs.setUp()</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.test.CommonStepDefs.setup()</span>
+
+  <span class="lead-duration duration">3.797</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-23">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-23" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">the Dom Software Service responds to GET releases with <span class="argument">'/features/flashware_creation/offline/DOM2/given/dom_sw_service_releases.json'</span></span>
+
+  <span class="lead-duration duration">0.091</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'DOM.zip'</span> <span class="argument">'/features/flashware_creation/data/DOM'</span></span>
+
+  <span class="lead-duration duration">3.080</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'OA.zip'</span> <span class="argument">'/features/flashware_creation/data/OA'</span></span>
+
+  <span class="lead-duration duration">0.149</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'BTS.zip'</span> <span class="argument">'/features/flashware_creation/data/BTS'</span></span>
+
+  <span class="lead-duration duration">0.016</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the COS responds with <span class="argument">'/features/flashware_creation/data/MEDIA_007.1_ECE-ROW_MA-ECE-ROW_HU-ECE-ROW_NTG7.0_MID__en_gb'</span></span>
+
+  <span class="lead-duration duration">10.231</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET texts with <span class="argument">'/features/flashware_creation/offline/DOM2/given/dom_ui_data_service_texts.json'</span></span>
+
+  <span class="lead-duration duration">0.819</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET menuitems with <span class="argument">'/features/flashware_creation/offline/DOM2/given/dom_ui_data_service_menuitems.json'</span></span>
+
+  <span class="lead-duration duration">0.257</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET valuemappings with <span class="argument">'/features/flashware_creation/offline/DOM2/given/dom_ui_data_service_valuemappings.json'</span></span>
+
+  <span class="lead-duration duration">0.545</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET warningmessages with <span class="argument">'/features/flashware_creation/offline/DOM2/given/dom_ui_data_service_warningmessages.json'</span></span>
+
+  <span class="lead-duration duration">0.196</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET languages with <span class="argument">'/features/flashware_creation/offline/DOM2/given/dom_ui_data_service_languages.json'</span></span>
+
+  <span class="lead-duration duration">0.187</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Oa Gateway Service responds to GET parameters with <span class="argument">'/features/flashware_creation/offline/DOM2/given/oa_gw_service_parameters.json'</span></span>
+
+  <span class="lead-duration duration">0.149</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Oa Gateway Service responds to GET schedules with <span class="argument">'/features/flashware_creation/offline/DOM2/given/oa_gw_service_schedules.json'</span></span>
+
+  <span class="lead-duration duration">0.133</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the database contains test data <span class="argument">'/features/flashware_creation/offline/DOM2/given/insert_data.sql'</span></span>
+
+  <span class="lead-duration duration">0.169</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">the POST packages request is made with request body <span class="argument">'/features/flashware_creation/offline/DOM2/when/post_packages_request_body.json'</span></span>
+
+  <span class="lead-duration duration">0.293</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the flashware is done</span>
+
+  <span class="lead-duration duration">7.379</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM2/then/dom_package_values.json'</span></span>
+
+  <span class="lead-duration duration">0.069</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-24">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-24" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: expected:&lt;[COMPLETED]&gt; but was:&lt;[ERROR]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.test.CommonTestMethods.rowExistsWithValues(CommonTestMethods.java:128)
+	at com.test.CommonStepDefs.rowExistsWithValues(CommonStepDefs.java:167)
+	at &#10045;.the database table 'dom_content.dom_package' should contain row with values '/features/flashware_creation/offline/DOM2/then/dom_package_values.json'(classpath:features//flashware_creation.feature:32)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM2/then/dom_package_validity_businessLine.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM2/then/dom_package_validity_vehicleLine.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM2/then/dom_package_validity_vehicleMarket.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM2/then/dom_package_validity_market.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM2/then/dom_package_validity_deviceMarket.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM2/then/dom_package_validity_deviceModel.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM2/then/dom_package_validity_deviceVariant.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the OA.zip databases should contain the data <span class="argument">'/features/flashware_creation/offline/DOM2/then/oa-zip'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the BTS should be available in DOM.zip <span class="argument">'true'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the DOM.zip index.html file should contain the data <span class="argument">'/features/flashware_creation/offline/DOM2/then/dom-zip/index-expected.html'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the message <span class="argument">'/features/flashware_creation/offline/DOM2/then/message_exchanged.json'</span> should be published to tooling exchange <span class="argument">'dom-package-exchange'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+  <div class="inner-level hooks-element-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-25">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-25" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+              <span class="location name">com.DomContentStepDefs.cleanupFiles()</span>
+
+  <span class="lead-duration duration">0.007</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_2_1868519122.html">DOM-Content-Service: POST packages - in order to create a flashware</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_150840508.html">@SP55.20.20</a>
+       <a href="report-tag_3001858631.html">@DDIBA-8814</a>
+</div>
+
+
+  <span class="lead-duration duration">20.369</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-26">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">An online / offline flashware is build successfully</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention">  Dom Content Service receive a POST request on /packages endpoint and starts creating and online/offline flashware</div>
+
+  <div id="element-26" class="collapse collapsable-details  in ">
+
+
+  <div class="inner-level hooks-element-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-27">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="before-27" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.DomContentStepDefs.setUp()</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.test.CommonStepDefs.setup()</span>
+
+  <span class="lead-duration duration">1.625</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-28">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-28" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">the Dom Software Service responds to GET releases with <span class="argument">'/features/flashware_creation/offline/DOM3/given/dom_sw_service_releases.json'</span></span>
+
+  <span class="lead-duration duration">0.074</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'DOM.zip'</span> <span class="argument">'/features/flashware_creation/data/DOM'</span></span>
+
+  <span class="lead-duration duration">3.063</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'OA.zip'</span> <span class="argument">'/features/flashware_creation/data/OA'</span></span>
+
+  <span class="lead-duration duration">0.104</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Artifactory responds with <span class="argument">'BTS.zip'</span> <span class="argument">'/features/flashware_creation/data/BTS'</span></span>
+
+  <span class="lead-duration duration">0.020</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the COS responds with <span class="argument">'/features/flashware_creation/data/MEDIA_007.1_ECE-ROW_MA-ECE-ROW_HU-ECE-ROW_NTG7.0_MID__en_gb'</span></span>
+
+  <span class="lead-duration duration">3.136</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET texts with <span class="argument">'/features/flashware_creation/offline/DOM3/given/dom_ui_data_service_texts.json'</span></span>
+
+  <span class="lead-duration duration">0.308</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET menuitems with <span class="argument">'/features/flashware_creation/offline/DOM3/given/dom_ui_data_service_menuitems.json'</span></span>
+
+  <span class="lead-duration duration">0.337</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET valuemappings with <span class="argument">'/features/flashware_creation/offline/DOM3/given/dom_ui_data_service_valuemappings.json'</span></span>
+
+  <span class="lead-duration duration">0.202</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET warningmessages with <span class="argument">'/features/flashware_creation/offline/DOM3/given/dom_ui_data_service_warningmessages.json'</span></span>
+
+  <span class="lead-duration duration">0.323</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Dom Ui Data Service responds to GET languages with <span class="argument">'/features/flashware_creation/offline/DOM3/given/dom_ui_data_service_languages.json'</span></span>
+
+  <span class="lead-duration duration">0.128</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Oa Gateway Service responds to GET parameters with <span class="argument">'/features/flashware_creation/offline/DOM3/given/oa_gw_service_parameters.json'</span></span>
+
+  <span class="lead-duration duration">0.240</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the Oa Gateway Service responds to GET schedules with <span class="argument">'/features/flashware_creation/offline/DOM3/given/oa_gw_service_schedules.json'</span></span>
+
+  <span class="lead-duration duration">0.121</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the database contains test data <span class="argument">'/features/flashware_creation/offline/DOM3/given/insert_data.sql'</span></span>
+
+  <span class="lead-duration duration">0.307</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">the POST packages request is made with request body <span class="argument">'/features/flashware_creation/offline/DOM3/when/post_packages_request_body.json'</span></span>
+
+  <span class="lead-duration duration">0.383</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the flashware is done</span>
+
+  <span class="lead-duration duration">11.436</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM3/then/dom_package_values.json'</span></span>
+
+  <span class="lead-duration duration">0.181</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-29">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-29" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: expected:&lt;[COMPLETED]&gt; but was:&lt;[ERROR]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.test.CommonTestMethods.rowExistsWithValues(CommonTestMethods.java:128)
+	at com.test.CommonStepDefs.rowExistsWithValues(CommonStepDefs.java:167)
+	at &#10045;.the database table 'dom_content.dom_package' should contain row with values '/features/flashware_creation/offline/DOM3/then/dom_package_values.json'(classpath:features//flashware_creation.feature:32)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM3/then/dom_package_validity_businessLine.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM3/then/dom_package_validity_vehicleLine.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM3/then/dom_package_validity_vehicleMarket.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM3/then/dom_package_validity_market.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM3/then/dom_package_validity_deviceMarket.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM3/then/dom_package_validity_deviceModel.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the database table <span class="argument">'dom_content.dom_package_validity'</span> should contain row with values <span class="argument">'/features/flashware_creation/offline/DOM3/then/dom_package_validity_deviceVariant.json'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the OA.zip databases should contain the data <span class="argument">'/features/flashware_creation/offline/DOM3/then/oa-zip'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the BTS should be available in DOM.zip <span class="argument">'false'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the DOM.zip index.html file should contain the data <span class="argument">'/features/flashware_creation/offline/DOM3/then/dom-zip/index-expected.html'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the message <span class="argument">'/features/flashware_creation/offline/DOM3/then/message_exchanged.json'</span> should be published to tooling exchange <span class="argument">'dom-package-exchange'</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+  <div class="inner-level hooks-element-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-30">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-30" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+              <span class="location name">com.DomContentStepDefs.cleanupFiles()</span>
+
+  <span class="lead-duration duration">0.061</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

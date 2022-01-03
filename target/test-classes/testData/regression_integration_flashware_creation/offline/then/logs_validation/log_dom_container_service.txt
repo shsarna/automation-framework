@@ -1,0 +1,26 @@
+Successfully connected to DOM Content Service version:\d{1}.\d{2}.\d{1}-\d
+The database version:\d.\d.\d is compatible with the database version expected by the application
+A new message was received in the container creation queue.
+A new BIN creation message was received from dom-content-service for the ZIP with package_ID : \d
+Package with id :\d retrieved successfully from Dom Content Service
+Calling bin creation using the package information
+Request parameters saved to DB with DOM_CONTAINER_ID: \d
+Logistic.txt successfully updated
+Starting download of OA and DOM zips
+Downloading OA zip from address: ba-ntg7-test-resource-storage\/dom-flashware\/300030_\d{10}\/OA.zip
+Downloading DOM zip from address: ba-ntg7-test-resource-storage\/dom-flashware\/300030_\d{10}\/DOM.zip
+Executing [unzip, \d\/zip2bin\/in\/OA.zip, -d, \d\/zip2bin\/in\/OA\/]
+Executing [unzip, \d\/zip2bin\/in\/DOM.zip, -d, \d\/zip2bin\/in\/DOM\/]
+Executing command: zip2bin\/generateImg -v --output=\d{1}\/zip2bin\/in\/dom.img --input=\d{1}\/zip2bin\/in\/DOM
+DOM.img file created
+etc.img file created
+Creating odx-f file.
+Signature done.
+Downloading ODX-F template from COS folder: dom-resources\/template_1.0.2.odx-f.
+odx-f file created PREFULL_NTG7_223_HU7_E012_0_DOM\d_P_\d{10}_300030.odx-f"
+The bin container has been created at: \d{1}\/zip2bin\/\d{10}_300030.bin
+The bin file \d{1}\/zip2bin\/\d{10}_300030.bin was successfully uploaded to the COS at the address: dom-flashware\/300030_\d{10}
+Uploading img files to COS
+Bin creation was finalised and uploaded to COS.
+BIN creation completed.
+All the consumers subscribed to the exchange named: dom-container-v1-container_exchange-tsy-integration have been notified of the status of the BIN.

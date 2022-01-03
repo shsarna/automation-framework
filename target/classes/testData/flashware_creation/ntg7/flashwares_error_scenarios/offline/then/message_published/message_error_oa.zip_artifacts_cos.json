@@ -1,0 +1,36 @@
+{
+"message" : {
+"data" : {
+"id" : 4,
+"languages" : [ {
+"language" : "de",
+"locale" : "de"
+}, {
+"language" : "en",
+"locale" : "gb"
+} ],
+"location" : "http://dom-content-service-tsy-integration.ba-ntg7:10110/dom-content-service/v1/packages/4",
+"partNumber" : "A3333003011",
+"status" : -1,
+"swVersionsNumber" : "300030",
+"type" : "urn:com:mercedes-benz:oa:dom-content-service:package",
+"validities" : {
+"businessLine" : "p",
+"deviceModel" : "ntg7.0",
+"deviceModelMarket" : [ "hu-cn" ],
+"deviceModelVariant" : "premium",
+"market" : [ "cn" ],
+"paId" : "pa180554",
+"stateOfConstruction" : "0e1",
+"vehicleLine" : [ "223.1" ],
+"vehicleMarket" : [ "ma-cn" ]
+}
+},
+"info" : [ {
+"code" : 1,
+"message" : "No release artefact dom-sw-releases/OA_1.999.7.zip available in Cos. Please upload the artefact in Cos and make sure that it is connected to the n-tuple in DOM SW DB",
+"timestamp" : "2021-06-29T18:59:10.846Z",
+"type" : 3
+} ]
+}
+}

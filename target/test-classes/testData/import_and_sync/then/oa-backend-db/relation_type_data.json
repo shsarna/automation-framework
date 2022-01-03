@@ -1,0 +1,18 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "relation_type_id",
+      "columnValue": "-1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "relation_type_name",
+      "columnValue": "is-valid-for"
+    },
+    {
+      "columnName": "description",
+      "columnValue": "Validity Relation between an object with payload and an object without payload. Ex.: A topic object is valid for a certain target device object."
+    }
+  ]
+}

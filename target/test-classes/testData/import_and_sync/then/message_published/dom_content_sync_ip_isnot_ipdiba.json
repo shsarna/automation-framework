@@ -1,0 +1,25 @@
+{
+"message" : {
+"data" : {
+"id" : 1,
+"location" : "http://dom-content-service:8080/dom-content-service/v1/contentsync/1",
+"references" : [ {
+"id" : 1,
+"location" : "http://xxxml-import-service:8080/xxxml-import-service/v1/imports/1",
+"type" : "urn:com:mercedes-benz:oa:xxxml-import-service:import"
+}, {
+"id" : 1,
+"location" : "http://oa-content-service-tsy-integration:8080/oa-content-service/v1/bulk/1",
+"type" : "urn:com:mercedes-benz:oa:oa-content-service:bulk"
+} ],
+"status" : 5,
+"type" : "urn:com:mercedes-benz:oa:dom-content-service:contentsync"
+},
+"info" : [ {
+"code" : 1,
+"message" : "Detected unsupported information product ip_diba_test_test. Synchronization will not be performed. Supported information product is IP_DIBA.",
+"timestamp" : "2021-06-18T05:52:02.074Z",
+"type" : 2
+} ]
+}
+}

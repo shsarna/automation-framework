@@ -1,0 +1,26 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "xxxml_import_id",
+      "columnValue": "1"
+    },
+    {
+      "columnName": "oa_resource_id",
+      "columnValue": "1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "resource_type",
+      "columnValue": "urn:com:mercedes-benz:oa:bulk"
+    },
+    {
+      "columnName": "resource_id",
+      "columnValue": "1"
+    },
+    {
+      "columnName": "resource_location",
+      "columnValue": "http://oa-content-service-tsy-integration:8080/oa-content-service/v1/bulk/1"
+    }
+  ]
+}

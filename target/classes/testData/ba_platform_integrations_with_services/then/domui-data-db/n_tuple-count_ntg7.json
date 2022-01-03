@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from domui_data_service.n_tuple where n_tuple_name='hu ntg7.0'",
+ "expectedCount": 1
+}

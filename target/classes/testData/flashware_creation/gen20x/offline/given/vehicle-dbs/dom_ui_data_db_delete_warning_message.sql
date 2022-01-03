@@ -1,0 +1,2 @@
+delete from domui_data_service.resource_domui_warningmessage;
+delete from domui_data_service.domui_warningmessage;

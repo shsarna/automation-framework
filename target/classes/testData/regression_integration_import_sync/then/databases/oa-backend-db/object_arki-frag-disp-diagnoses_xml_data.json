@@ -1,0 +1,30 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "data_id_from_source",
+      "columnValue": "ID_51ca2d713ee4752b354ae36515f40ba1-e4fd532ffb8a26c7354ae3654a98d612-en-GB"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "xml_data_id",
+      "columnValue": "15"
+    },
+    {
+      "columnName": "object_payload_id",
+      "columnValue": "15"
+    },
+	{
+      "columnName": "language",
+      "columnValue": "en"
+    },
+    {
+      "columnName": "locale",
+      "columnValue": "GB"
+    },
+    {
+      "columnName": "title",
+      "columnValue": "Front right malfunction Consult workshop"
+    }
+  ]
+}

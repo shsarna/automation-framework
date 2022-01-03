@@ -1,0 +1,24 @@
+{
+  "message": {
+    "validities": {
+      "businessLine": "p",
+      "vehicleLine": ["223.1"],
+      "vehicleMarket": ["ma-kr"],
+      "market": ["kr"],
+      "deviceName": "hu",
+      "deviceModel": "ntg7.0",
+      "deviceModelVariant": "premium",
+      "deviceLayout": ["highResolution"],
+      "deviceModelMarket": ["hu-kr"],
+      "stateOfConstruction": "808+059"
+    },
+    "dataCard": [
+      "ZN20",
+      "ZN19",
+      "ZN21"
+    ],
+    "hashValue": "00000u",
+    "language": "de",
+    "locale": "de"
+  }
+}

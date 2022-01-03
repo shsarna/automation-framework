@@ -1,0 +1,46 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "DOMUI_VALIDITY_ID",
+      "columnValue": "3"
+    },
+    {
+      "columnName": "BUSINESS_LINE",
+      "columnValue": null
+    },
+    {
+      "columnName": "DEVICE_NAME",
+      "columnValue": "hu"
+    },
+    {
+      "columnName": "DEVICE_MODEL",
+      "columnValue": "ntg7.0"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "VEHICLE_LINE",
+      "columnValue": null
+    },
+    {
+      "columnName": "VEHICLE_MARKET",
+      "columnValue": null
+    },
+    {
+      "columnName": "MARKET",
+      "columnValue": null
+    },
+    {
+      "columnName": "DEVICE_MODEL_VARIANT",
+      "columnValue": null
+    },
+    {
+      "columnName": "DEVICE_LAYOUT",
+      "columnValue": null
+    },
+    {
+      "columnName": "DEVICE_MARKET",
+      "columnValue": null
+    }
+  ]
+}

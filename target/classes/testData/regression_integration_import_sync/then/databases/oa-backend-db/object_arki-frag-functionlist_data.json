@@ -1,0 +1,26 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "object_id_from_source",
+      "columnValue": "35affe22a1ee5bd70ac2a8c425747e6e-d7c2456230c505deb0b3b9287bbb2306"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "object_id",
+      "columnValue": "1534"
+    },
+    {
+      "columnName": "object_type_id",
+      "columnValue": "-100"
+    },
+	{
+      "columnName": "source_system_id",
+      "columnValue": "-2"
+    },
+    {
+      "columnName": "object_type_from_source",
+      "columnValue": "arki-frag-functionlist"
+    }
+  ]
+}

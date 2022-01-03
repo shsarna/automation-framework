@@ -1,0 +1,30 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "data_id_from_source",
+      "columnValue": "ID_90cfb2497437f644354ae36707c50e08-70fd6a63eec2d473354ae37e17381a1d-de-DE"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "language",
+      "columnValue": "de"
+    },
+    {
+      "columnName": "locale",
+      "columnValue": "DE"
+    },
+    {
+      "columnName": "version_from_source",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "title",
+      "columnValue": "Zieltopic für Indexterm 0039"
+    },
+    {
+      "columnName": "revision",
+      "columnValue": "1"
+    }
+  ]
+}

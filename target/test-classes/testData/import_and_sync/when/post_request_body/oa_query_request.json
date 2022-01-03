@@ -1,0 +1,14 @@
+{
+"message": {
+"data": [
+{
+"return": {
+"objectData": true,
+"payloadData": true,
+"relations": true
+},
+"objectUri": "urn:com:mercedes-benz:oa:topic:arki4:d43e7597bb10976dc0a8c0010340a1b2-616bd0458f6d6de6db47dc6f49cfbb7d"
+}
+]
+}
+}

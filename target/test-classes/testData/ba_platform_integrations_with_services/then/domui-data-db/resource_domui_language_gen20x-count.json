@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from domui_data_service.resource_domui_language where resource_id in (select resource_id from domui_data_service.resource where id_from_source='languageList_hu_gen20x')",
+ "expectedCount": 42
+}

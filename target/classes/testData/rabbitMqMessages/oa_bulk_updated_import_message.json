@@ -1,0 +1,32 @@
+{
+  "message" : {
+    "data" : {
+      "id" : 2,
+      "location" : "http://oa-content-service-tooling-sync:8080/oa-content-service/v1/queries/2",
+      "references" : [ {
+        "id" : 1,
+        "location" : "http://xxxml-import-service:8080/xxxml-import-service/v1/imports/1",
+        "type" : "urn:com:mercedes-benz:oa:xxxml-import-service:import"
+      }, {
+        "id" : 1,
+        "location" : "http://oa-content-service-tooling-sync:8080/oa-content-service/v1/bulk/1",
+        "type" : "urn:com:mercedes-benz:oa:oa-content-service:bulk"
+      }, {
+        "id" : 1,
+        "location" : "http://dom-content-service:8080/dom-content-service/v1/contentsync/1",
+        "type" : "urn:com:mercedes-benz:oa:dom-content-service:contentsync"
+      }, {
+        "id" : 2,
+        "location" : "http://oa-content-service-tooling-sync:8080/oa-content-service/v1/queries/2",
+        "type" : "urn:com:mercedes-benz:oa:oa-content-service:query"
+      } ],
+      "status" : 1,
+      "type" : "urn:com:mercedes-benz:oa:query"
+    },
+    "info" : [ {
+      "message" : "Created query. Found 25 objects with 26 payloads. Result is available as content with contentRequestId '2'.",
+      "timestamp" : "2021-04-09T09:20:24.419Z",
+      "type" : 1
+    } ]
+  }
+}

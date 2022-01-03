@@ -1,0 +1,11 @@
+Received message contains as HU model gen20x. No binary creation possible.
+Calling dom-content-service for package with id \d{1}
+Package with id :\d{1} retrieved successfully from Dom Content Service
+Request parameters saved to DB with DOM_CONTAINER_ID: \d
+The artifacts were downloaded successfully
+Creating Gen20x odx-f file...
+Downloading ODX-F template from COS folder: dom-resources\/template_1.0.2.odx-f.
+The ODX-F template downloaded.
+odx-f file created PREFULL_GEN20X_007_CIVIC206_E012_0_DOM2_P_\d{10}_300030.odx-f
+File successfully uploaded: dom-flashware\/300030_\d{10}\/DOM.zip to Artifactory.
+The artifacts were uploaded successfully

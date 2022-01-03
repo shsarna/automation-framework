@@ -1,0 +1,84 @@
+{
+"rule": [
+{
+"name": "Warning message reference check - long messages",
+"action": {
+"references": [
+{
+"description": "Warning message reference check - long message",
+"databaseName": "dom-ui-data.db",
+"databaseTable": "DOMUI_MESSAGE_REF",
+"databaseColumn": "LONG_DESCRIPTION_ID",
+"references": [
+{
+"databaseName": "dom-content-data.db",
+"databaseTable": "NODE",
+"databaseColumn": "OBJECT_ID_FROM_SOURCE"
+}
+]
+}
+]
+}
+},
+{
+"name": "Warning message reference check - short messages",
+"action": {
+"references": [
+{
+"description": "Warning message reference check - short message",
+"databaseName": "dom-ui-data.db",
+"databaseTable": "DOMUI_MESSAGE_REF",
+"databaseColumn": "SHORT_DESCRIPTION_ID",
+"references": [
+{
+"databaseName": "dom-content-data.db",
+"databaseTable": "NODE",
+"databaseColumn": "OBJECT_ID_FROM_SOURCE"
+}
+]
+}
+]
+}
+},
+{
+"name": "Completeness Check",
+"action": {
+"matches": [
+{
+"description": "Validation of topics.",
+"xpathRoot": [
+"description",
+"instruction",
+"quickstart"
+],
+"databaseName": "dom-content-data.db",
+"validate": [
+{
+"xpathAttribute": "y.io.type",
+"databaseTable": "ELEMENT",
+"databaseColumn": "ELEMENT_TYPE_FROM_SOURCE"
+},
+{
+"xpathAttribute": "y.io.id",
+"databaseTable": "NODE",
+"databaseColumn": "OBJECT_ID_FROM_SOURCE"
+},
+{
+"xpathAttribute": "y.id",
+"databaseTable": "ELEMENT",
+"databaseColumn": "DATA_ID_FROM_SOURCE"
+},
+{
+"xpathAttribute": "y.io.version",
+"databaseTable": "ELEMENT",
+"databaseColumn": "VERSION_FROM_SOURCE"
+}
+]
+}
+]
+}
+}
+]
+}
+
+

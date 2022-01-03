@@ -1,0 +1,24 @@
+{
+  "message":{
+    "info":[
+      {
+        "type":1,
+        "message":"Successfully delivered Gen20x flashware and ODX-F file to SWF Artifactory.",
+        "code":1
+      }
+    ],
+    "data":{
+      "id":5,
+      "type":"urn:com:mercedes-benz:oa:dom-container-service:container",
+      "location":"http://dom-container-service-tsy-integration:8080/dom-container-service/v1/containers/5",
+      "status":1,
+      "references":[
+        {
+          "type":"urn:com:mercedes-benz:oa:dom-content-service:package",
+          "id":5,
+          "location":"http://dom-content-service-tsy-integration.ba-ntg7:10110/dom-content-service/v1/packages/5"
+        }
+      ]
+    }
+  }
+}

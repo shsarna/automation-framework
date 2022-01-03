@@ -1,0 +1,2 @@
+delete FROM dom_content.node_element where element_ID in ( SELECT element_ID FROM dom_content.element where title like '%Replace key%');
+delete from dom_content.element where title like '%Replace key%';

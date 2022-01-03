@@ -1,0 +1,26 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "part_number",
+      "columnValue": "A3333003012"
+    },
+    {
+      "columnName": "sw_version",
+      "columnValue": "30.00.30"
+    },
+    {
+      "columnName": "container_status",
+      "columnValue": "COMPLETED"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "container_type",
+      "columnValue": "BIN"
+    },
+	{
+      "columnName": "package_location_url",
+      "columnValue": "http://dom-content-service-tsy-integration:8080/dom-content-service/v1/packages/4"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "text_key",
+      "columnValue":"MSG_2097989"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "text_value",
+      "columnValue": "§§ui/mbsymb/mbsymb13_003a.png§§Lampu berkendara siang hari kiri"
+    }
+  ]
+}

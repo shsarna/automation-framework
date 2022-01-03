@@ -1,0 +1,14 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "PAR_NAME",
+      "columnValue": "DISCLAIMER"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "PAR_VALUE",
+      "columnValue": "9541279b6ffcbaf2ac190d2b12ec5936"
+    }
+  ]
+}

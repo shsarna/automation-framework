@@ -1,0 +1,78 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "xxxml_import_id",
+      "columnValue": "1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "xxxml_import_service_status",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "oa_content_post_bulk_status",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "dom_content_sync_status",
+      "columnValue": "3"
+    },
+    {
+      "columnName": "dom_ui_data_sync_status",
+      "columnValue": "3"
+    },
+    {
+      "columnName": "business_line",
+      "columnValue": "p"
+    },
+    {
+      "columnName": "masterdata_normalization_status",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "masterdata_post_bulk_status",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "core_status",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "sync_status",
+      "columnValue": "3"
+    },
+    {
+      "columnName": "callback_arki_after_import_status",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "callback_arki_after_sync_status",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "oa_content_post_bulk_message",
+      "columnValue": "The posted bulk was processed successfully."
+    },
+    {
+      "columnName": "oa_content_post_bulk_type",
+      "columnValue": "1"
+    },
+    {
+      "columnName": "dom_content_sync_message",
+      "columnValue": "An error was encountered while performing the synchronisation."
+    },
+    {
+      "columnName": "dom_content_sync_type",
+      "columnValue": "3"
+    },
+    {
+      "columnName": "dom_ui_data_sync_message",
+      "columnValue": "Sync failed in dom-ui-data-service. org.hibernate.exception.SQLGrammarException: could not extract ResultSet"
+    },
+    {
+      "columnName": "dom_ui_data_sync_type",
+      "columnValue": "3"
+    }
+  ]
+}

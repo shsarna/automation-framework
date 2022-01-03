@@ -1,0 +1,30 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "data_id_from_source",
+      "columnValue": "ID_fc8b6e97c555fb45354ae36525434f20-8f5ebb724c0996f4ac190d2b2828405d-en-GB"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "xml_data_id",
+      "columnValue": "1"
+    },
+    {
+      "columnName": "object_payload_id",
+      "columnValue": "1"
+    },
+	{
+      "columnName": "language",
+      "columnValue": "en"
+    },
+    {
+      "columnName": "locale",
+      "columnValue": "GB"
+    },
+    {
+      "columnName": "title",
+      "columnValue": "Deleting contacts"
+    }
+  ]
+}

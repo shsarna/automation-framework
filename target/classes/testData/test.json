@@ -1,0 +1,39 @@
+{
+  "name": "long-message",
+  "children": [
+    {
+      "name": "icons"
+    },
+    {
+      "name": "title",
+      "attributes": {
+        "color": "yellow"
+      },
+      "children": [
+        "\n                                            Info zur Displaymeldung \"Hands off Detection z. Z. nicht verfügbar s. Bedienungsanleitung\" mit der \n                                            HIL-ID 0x2004BC (2098364)\n                                            . Die Farbe der Meldung ist gelb. \n                                            \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                    \t\t\t\t\t\t\t\t\t\t\t\t\t\n                                                    Lenk-Pilot z.Zt. nicht verfügbar s. Betriebsanleitung\n                                                    \t\t\t\t\t\t\t\t\t\t\t\t\n                                                \n                                                \t\t\t\t\t\t\t\t\t\t\t\n                                            \n                                            \t\t\t\t\t\t\t\t\t\t\n                                        "
+      ]
+    },
+    {
+      "name": "content",
+      "children": [
+        {
+          "name": "paragraph",
+          "children": [
+            "Beschreibung der Ursache der Störung. "
+          ]
+        },
+        {
+          "name": "step",
+          "children": [
+            {
+              "name": "paragraph",
+              "children": [
+                "Maßnahmen zur Behebung der Störung. "
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

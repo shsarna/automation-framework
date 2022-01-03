@@ -1,0 +1,46 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "DOMUI_VALIDITY_ID",
+      "columnValue": "3"
+    },
+    {
+      "columnName": "BUSINESS_LINE",
+      "columnValue": "p"
+    },
+    {
+      "columnName": "DEVICE_NAME",
+      "columnValue": "hu"
+    },
+    {
+      "columnName": "DEVICE_MODEL",
+      "columnValue": "gen20x"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "VEHICLE_LINE",
+      "columnValue": "007.1"
+    },
+    {
+      "columnName": "VEHICLE_MARKET",
+      "columnValue": "ma-cn"
+    },
+    {
+      "columnName": "MARKET",
+      "columnValue": "cn"
+    },
+    {
+      "columnName": "DEVICE_MODEL_VARIANT",
+      "columnValue": "premium"
+    },
+    {
+      "columnName": "DEVICE_LAYOUT",
+      "columnValue": null
+    },
+    {
+      "columnName": "DEVICE_MARKET",
+      "columnValue": "hu-cn"
+    }
+  ]
+}

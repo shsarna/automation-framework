@@ -1,0 +1,27 @@
+{
+"message" : {
+"data" : {
+"id" : 0,
+"references" : [ {
+"id" : 4,
+"location" : "http://xxxml-import-service:8080/xxxml-import-service/v1/imports/4",
+"type" : "urn:com:mercedes-benz:oa:xxxml-import-service:import"
+}, {
+"id" : 9,
+"location" : "http://oa-content-service-tsy-integration:8080/oa-content-service/v1/bulk/9",
+"type" : "urn:com:mercedes-benz:oa:oa-content-service:bulk"
+}, {
+"id" : 10,
+"location" : "http://oa-content-service-tsy-integration:8080/oa-content-service/v1/queries/10",
+"type" : "urn:com:mercedes-benz:oa:oa-content-service:query"
+} ],
+"status" : -1
+},
+"info" : [ {
+"code" : 1,
+"message" : "Sync failed in dom-ui-data-service",
+"timestamp" : "2021-05-03T11:39:33.222Z",
+"type" : 3
+} ]
+}
+}

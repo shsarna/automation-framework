@@ -1,0 +1,26 @@
+{
+  "selectColumnModels": [
+	{
+      "columnName": "DATA_ID_FROM_SOURCE",
+      "columnValue": "ID_675b2635d46bf333354ae36556c4cab7-9541279b6ffcbaf2ac190d2b12ec5936-en-GB"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "ELEMENT_TYPE_FROM_SOURCE",
+      "columnValue": "arki-frag-disclaimer"
+    },
+    {
+      "columnName": "LANGUAGE",
+      "columnValue": "en"
+    },
+    {
+      "columnName": "LOCALE",
+      "columnValue": "gb"
+    },
+    {
+      "columnName": "TITLE",
+      "columnValue": "Owner's Manual"
+    }
+  ]
+}

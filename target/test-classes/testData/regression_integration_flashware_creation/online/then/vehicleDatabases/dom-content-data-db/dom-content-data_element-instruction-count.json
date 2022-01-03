@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from element where element_type_from_source = 'arki-topic-instruction';",
+ "expectedCount": 0
+}

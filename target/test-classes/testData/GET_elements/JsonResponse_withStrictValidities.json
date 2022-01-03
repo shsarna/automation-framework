@@ -1,0 +1,218 @@
+{
+  "message" : {
+    "data" : {
+      "elements" : [ {
+        "elementId" : 1219,
+        "elementType" : 3,
+        "language" : "ar",
+        "locale" : "eg"
+      }, {
+        "elementId" : 1220,
+        "elementType" : 3,
+        "language" : "bg",
+        "locale" : "bg"
+      }, {
+        "elementId" : 1221,
+        "elementType" : 3,
+        "language" : "cs",
+        "locale" : "cz"
+      }, {
+        "elementId" : 1222,
+        "elementType" : 3,
+        "language" : "da",
+        "locale" : "dk"
+      }, {
+        "elementId" : 1223,
+        "elementType" : 3,
+        "language" : "de",
+        "locale" : "de"
+      }, {
+        "elementId" : 1224,
+        "elementType" : 3,
+        "language" : "el",
+        "locale" : "gr"
+      }, {
+        "elementId" : 1225,
+        "elementType" : 3,
+        "language" : "en",
+        "locale" : "gb"
+      }, {
+        "elementId" : 1226,
+        "elementType" : 3,
+        "language" : "en",
+        "locale" : "jp"
+      }, {
+        "elementId" : 1227,
+        "elementType" : 3,
+        "language" : "en",
+        "locale" : "us"
+      }, {
+        "elementId" : 1228,
+        "elementType" : 3,
+        "language" : "es",
+        "locale" : "es"
+      }, {
+        "elementId" : 1229,
+        "elementType" : 3,
+        "language" : "es",
+        "locale" : "us"
+      }, {
+        "elementId" : 1230,
+        "elementType" : 3,
+        "language" : "et",
+        "locale" : "ee"
+      }, {
+        "elementId" : 1231,
+        "elementType" : 3,
+        "language" : "fi",
+        "locale" : "fi"
+      }, {
+        "elementId" : 1232,
+        "elementType" : 3,
+        "language" : "fr",
+        "locale" : "ca"
+      }, {
+        "elementId" : 1233,
+        "elementType" : 3,
+        "language" : "fr",
+        "locale" : "fr"
+      }, {
+        "elementId" : 1234,
+        "elementType" : 3,
+        "language" : "he",
+        "locale" : "il"
+      }, {
+        "elementId" : 1235,
+        "elementType" : 3,
+        "language" : "hr",
+        "locale" : "hr"
+      }, {
+        "elementId" : 1236,
+        "elementType" : 3,
+        "language" : "hu",
+        "locale" : "hu"
+      }, {
+        "elementId" : 1237,
+        "elementType" : 3,
+        "language" : "id",
+        "locale" : "id"
+      }, {
+        "elementId" : 1238,
+        "elementType" : 3,
+        "language" : "it",
+        "locale" : "it"
+      }, {
+        "elementId" : 1239,
+        "elementType" : 3,
+        "language" : "ja",
+        "locale" : "jp"
+      }, {
+        "elementId" : 1240,
+        "elementType" : 3,
+        "language" : "ko",
+        "locale" : "kr"
+      }, {
+        "elementId" : 1241,
+        "elementType" : 3,
+        "language" : "lt",
+        "locale" : "lt"
+      }, {
+        "elementId" : 1242,
+        "elementType" : 3,
+        "language" : "lv",
+        "locale" : "lv"
+      }, {
+        "elementId" : 1243,
+        "elementType" : 3,
+        "language" : "nl",
+        "locale" : "nl"
+      }, {
+        "elementId" : 1244,
+        "elementType" : 3,
+        "language" : "no",
+        "locale" : "no"
+      }, {
+        "elementId" : 1245,
+        "elementType" : 3,
+        "language" : "pl",
+        "locale" : "pl"
+      }, {
+        "elementId" : 1246,
+        "elementType" : 3,
+        "language" : "pt",
+        "locale" : "br"
+      }, {
+        "elementId" : 1247,
+        "elementType" : 3,
+        "language" : "pt",
+        "locale" : "pt"
+      }, {
+        "elementId" : 1248,
+        "elementType" : 3,
+        "language" : "ro",
+        "locale" : "ro"
+      }, {
+        "elementId" : 1249,
+        "elementType" : 3,
+        "language" : "ru",
+        "locale" : "ru"
+      }, {
+        "elementId" : 1250,
+        "elementType" : 3,
+        "language" : "sk",
+        "locale" : "sk"
+      }, {
+        "elementId" : 1251,
+        "elementType" : 3,
+        "language" : "sl",
+        "locale" : "si"
+      }, {
+        "elementId" : 1252,
+        "elementType" : 3,
+        "language" : "sr",
+        "locale" : "rs"
+      }, {
+        "elementId" : 1253,
+        "elementType" : 3,
+        "language" : "sv",
+        "locale" : "se"
+      }, {
+        "elementId" : 1254,
+        "elementType" : 3,
+        "language" : "th",
+        "locale" : "th"
+      }, {
+        "elementId" : 1255,
+        "elementType" : 3,
+        "language" : "tr",
+        "locale" : "tr"
+      }, {
+        "elementId" : 1256,
+        "elementType" : 3,
+        "language" : "uk",
+        "locale" : "ua"
+      }, {
+        "elementId" : 1257,
+        "elementType" : 3,
+        "language" : "vi",
+        "locale" : "vn"
+      }, {
+        "elementId" : 1258,
+        "elementType" : 3,
+        "language" : "zh",
+        "locale" : "cn"
+      }, {
+        "elementId" : 1259,
+        "elementType" : 3,
+        "language" : "zh",
+        "locale" : "tw"
+      } ]
+    },
+    "info" : [ {
+      "code" : 101,
+      "message" : "Content available.",
+      "timestamp" : "2021-05-11T13:07:17.778Z",
+      "type" : 1
+    } ]
+  }
+}

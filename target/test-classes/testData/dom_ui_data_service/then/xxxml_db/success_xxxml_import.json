@@ -1,0 +1,82 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "xxxml_import_id",
+      "columnValue": "1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "xxxml_import_service_status",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "oa_content_post_bulk_status",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "business_line",
+      "columnValue": "p"
+    },
+    {
+      "columnName": "vehicle_line",
+      "columnValue": "007.1"
+    },
+    {
+      "columnName": "pa_id",
+      "columnValue": "pa180553"
+    },
+    {
+      "columnName": "state_of_construction",
+      "columnValue": "0e1"
+    },
+    {
+      "columnName": "vehicle_market",
+      "columnValue": "ma-ece/row"
+    },
+    {
+      "columnName": "market",
+      "columnValue": "ece/row"
+    },
+    {
+      "columnName": "device_name",
+      "columnValue": "ntg"
+    },
+    {
+      "columnName": "device_model",
+      "columnValue": "7.0"
+    },
+    {
+      "columnName": "device_model_variant",
+      "columnValue": "premium"
+    },
+    {
+      "columnName": "device_market",
+      "columnValue": "hu-ece/row"
+    },
+    {
+      "columnName": "language",
+      "columnValue": "de"
+    },
+    {
+      "columnName": "locale",
+      "columnValue": "de"
+    },
+    {
+      "columnName": "masterdata_normalization_status",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "masterdata_post_bulk_status",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "core_status",
+      "columnValue": "2"
+    },
+    {
+      "columnName": "callback_arki_after_import_status",
+      "columnValue": "2"
+    }
+  ]
+}

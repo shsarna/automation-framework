@@ -1,0 +1,33 @@
+{
+"message" : {
+"data" : {
+"id" : 3,
+"languages" : [ {
+"language" : "de",
+"locale" : "de"
+} ],
+"location" : "http://dom-content-service-tsy-integration.ba-ntg7:10110/dom-content-service/v1/packages/3",
+"partNumber" : "A3333003011",
+"status" : -1,
+"swVersionsNumber" : "300030",
+"type" : "urn:com:mercedes-benz:oa:dom-content-service:package",
+"validities" : {
+"businessLine" : "p",
+"deviceModel" : "ntg7.0",
+"deviceModelMarket" : [ "hu-cn" ],
+"deviceModelVariant" : "premium",
+"market" : [ "cn" ],
+"paId" : "pa200033",
+"stateOfConstruction" : "808+059",
+"vehicleLine" : [ "007.1" ],
+"vehicleMarket" : [ "ma-cn" ]
+}
+},
+"info" : [ {
+"code" : 1,
+"message" : "No data received from DOM UI Data Service: No message references available in backend database for given n-tuple (vehicle line: 007.1; vehicle market: MA-CN; hu model: NTG7.0; hu variant: premium; hu market: HU-CN; market: CN;). Please check DOM UI Data DB.",
+"timestamp" : "2021-07-13T14:10:14.605Z",
+"type" : 3
+} ]
+}
+}

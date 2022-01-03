@@ -1,0 +1,19 @@
+{
+ "selectColumnModels": [
+  {
+   "columnName": "media_element_id",
+   "columnValue": "1"
+  }
+ ],
+ "assertColumnModels": [
+  {
+   "columnName": "media_id",
+   "columnValue": "1"
+  },
+  {
+   "columnName": "element_id",
+   "columnValue": "9"
+  }
+
+ ]
+}

@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from sys_validity",
+ "expectedCount": 0
+}

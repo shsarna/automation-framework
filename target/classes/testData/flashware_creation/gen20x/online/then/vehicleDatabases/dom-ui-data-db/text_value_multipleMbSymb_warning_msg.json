@@ -1,0 +1,14 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "text_key",
+      "columnValue":"MSG_2098758"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "text_value",
+      "columnValue": "§§ui/mbsymb/mbsymb10_00e7.png§§ §§ui/mbsymb/mbsymb11_00f0.png§§ §§ui/mbsymb/mbsymb1a_inv_00c4.png§§ §§ui/mbsymb/mbsymb11_00b8.png§§saat ini tidak tersedia Radar kotor"
+    }
+  ]
+}

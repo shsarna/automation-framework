@@ -1,0 +1,30 @@
+{
+  "message": {
+    "partNumber": "A3333003011",
+    "swVersionsNumber": "300030",
+    "packageType": "offline",
+    "packageMetadata": {
+      "maxPackageSize": 500,
+      "packageSizeUnit": "MB"
+    },
+    "businessLine": "p",
+    "vehicleLine": ["223.1"],
+    "stateOfConstruction": "0e1",
+    "paId": "pa180554",
+    "vehicleMarket": ["ma-cn"],
+    "huModel": "Gen20x",
+    "huVariant": "premium",
+    "huLayout": ["hu"],
+    "huMarket": ["hu-cn"],
+    "market": ["cn"],
+    "languages": [
+      {
+        "language": "en",
+        "locale": "gb"
+      }
+      ],
+    "domType": "DOM1",
+    "estand": "12.0",
+    "deeplink": "https://oa.daimler.com/butis?partnumber=A2230000000"
+  }
+}

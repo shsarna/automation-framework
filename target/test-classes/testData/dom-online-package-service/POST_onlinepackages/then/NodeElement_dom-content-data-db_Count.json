@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from NODE_ELEMENT",
+ "expectedCount": 829
+}

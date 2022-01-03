@@ -1,0 +1,26 @@
+{
+  "selectColumnModels": [
+  	{
+      "columnName": "title_key",
+      "columnValue": "STRUCT_QUICKSTART_TITLE"
+    },
+    {
+      "columnName": "text_key",
+      "columnValue": "STRUCT_QUICKSTART_TEXT"
+    }
+  ],
+  "assertColumnModels": [
+	{
+      "columnName": "icon",
+      "columnValue": "quickstart"
+    },
+	{
+      "columnName": "action",
+      "columnValue": "showSublist"
+    },
+	{
+      "columnName": "object_id_from_source",
+      "columnValue": null
+    }
+  ]
+}

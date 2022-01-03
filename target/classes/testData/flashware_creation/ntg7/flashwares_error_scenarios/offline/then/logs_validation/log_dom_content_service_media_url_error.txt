@@ -1,0 +1,104 @@
+Received package creation trigger with metadata partNumber:A\d{10}; swVersion: 300030; DOM type: DOM\d{1}; package type: offline; E-Stand: 12.0 and n-tuple \(vehicle line: \[223.1]; vehicle market: \[ma-cn]; hu model: ntg7.0; huLayout: \[hu]; hu variant: premium; hu market: \[hu-cn]; market: \[cn]; state of construction: 0e1; pa-id: pa180554\) and languages:de_de, en_gb.
+For flashware creation request with request id \d{2}, the new traceId is: \w{16} and the old traceId was: \w{16}
+Validating request
+Created package resource with id \d{1}. Set status in database to STARTED.
+ZIP creation response composed successfully.
+Request Accepted. DOM package creation started.
+Building package for ntg7.0 hu model
+Base folder structure for the ZIP has been prepared successfully.
+Getting DOM release information from DOM SW Service.
+Received DOM release from DOM SW Service.
+Creating offline flashware.
+Starting to check if the valid nodes found match the locale and languages provided: en_gb,de_de
+Reading DOM profile: DOM\d{1}
+Started downloading dependencies from Cos \(DOM-Data, OA-Data and Media Files\).
+Downloading from cos folder dom-sw-releases\/OA\S*
+Release OA_GW.zip downloaded.
+Starting creation of OA_GW.zip
+Unzipped OA_GW.zip retrieved from cos.
+Downloading from cos folder dom-symb\/mbsymb_NTG7.0.zip.
+Release MBSYMBOLS.zip downloaded.
+Starting creation of MBSYMBOLS.zip
+Unzipped MBSYMBOLS.zip retrieved from cos.
+Successfully deleted COS source \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/OA\/OA_GW.zip
+Successfully deleted COS source \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/DOM_UI.zip
+Successfully deleted COS source \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/DOM\/MBSYMBOLS.zip
+Successfully cleanup the ZIP content for all unnecessary files.
+Starting creation of dom-content-data.db...
+Created empty dom-content-data.db out of dll dom-content-data_create.sql DB version 1.2.0
+dom-content-service.db DDL structure completed successfully.
+The Vehicle Database has been cleared of data.
+Complex query has been prepared.
+The service found \d* nodes that match the selected validities.
+Putting data into dom-content-data.db.
+Starting to check if the valid nodes found match the locale and languages provided: en_gb,de_de
+Creating offline flashware with topics and warning messages. All available topics \(type 3, 4 and 5\) will be included.
+Collecting topics from database...
+Topics found. Persisting into vehicle database...
+Topics found \(\d* nodes and \d* elements\). Persisting data into dom-content-data.db.
+Added \d* nodeElements.
+For the selected languages exist: \d* elements. Transferring topics into the Vehicle Db...
+NodeElements have been persisted into the VeDb.
+Collecting keywords from database...
+Keywords found. Persisting into vehicle database...
+Keywords persisted.
+Topics persisted.
+Warning messages persisted.
+\d* nodes and \d* elements persisted into nodes\/elements table of dom-content-data.db.
+\d* long and \d* short messages persisted into nodes\/elements table of dom-content-data.db.
+Nodes, Elements and Keywords have been persisted into the VeDb.
+Vehicle Database completed successfully.
+The file dom-content-data.db was relocated.
+The Ve-Db has been successfully created and relocated to: \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/OA\/
+Successfully dom-content-data.db and integrated in OA\/data folder
+Starting creation of dom-ui-data.db...
+Created empty dom-ui-data.db out of dll dom-ui-data_create.sql DB version 1.5.0
+Collecting DOM UI Data...
+Getting texts from DOM UI Data Service...
+Received \d* texts from DOM UI Data Service.
+Getting menu from DOM UI Data Service...
+Received \d* menu items from DOM UI Data Service.
+Getting value mappings from DOM UI Data Service...
+Received \d* value mappings from DOM UI Data Service.
+Getting warning message references from DOM UI Data Service...
+Received \d* warning message reference\(s\) from DOM UI Data Service.
+Getting language information from DOM UI Data Service...
+Received \d* language information from DOM UI Data Service.
+Populating dom-ui-data.db...
+DOM_UI Char Maps tables were succesfully populated.
+Putting texts into dom-ui-data.db
+Putting menu items into dom-ui-data.db
+Putting language information into dom-ui-data.db
+Putting value mappings into dom-ui-data.db
+Putting warning message reference\(s\) into dom-ui-data.db
+Successfully populated dom-ui-data.db with texts, menu items, languages, value mappings and warning messages.
+The file dom-ui-data.db was relocated.
+The dom-ui-data.db has been succesfully created and relocated to: \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/OA\/data\/dom-ui-data.db
+Successfully dom-ui-data.db and integrated in OA\/data folder
+Starting creation of oa-system-data.db...
+Created empty oa-system-data.db out of dll oa-system-data_create.sql DB version 1.2.0
+Collecting OA GW data...
+Getting parameters from OA GW Data Service...
+Received \d* parameters from OA GW Data Service.
+Getting schedules from OA GW Data Service...
+Received \d* schedules from OA GW Data Service.
+Putting parameters into oa-system-data.db
+Putting schedules into oa-system-data.db
+Successfully populated oa-system-data.db with validities, schedules and parameters from OA-GW-Service.
+The file oa-system-data.db was relocated.
+The oa-system-data.db has been successfully created and relocated to: \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/OA\/data\/oa-system-data.db
+Successfully created oa-system-data.db and integrated in OA\/data folder
+Starting creation of oa-client-data.db...
+Created empty oa-client-data.db out of dll oa-client-data_create.sql DB version 1.0.0
+The file oa-client-data.db was relocated.
+Successfully created oa-client-data.db and integrated in OA\/data folder
+Successfully deleted the \/tmp\/dom-packaging-temp\/flashware\/\d{1}\/300030_\d{10}\/OA\/ddl folder containing the base db scripts.
+Start downloading media files.
+Number of media files found for download: \d*
+Downloading media files from ARKI.
+Media files downloaded from ARKI: \d*
+Downloading media files from MediaHub.
+Could not download media with url https:\/\/mh.om-systems-test123.cloud.corpintra.net\/mm\/arki\/download\/61854-61855-61953.png at attempt number: 1. With exception message: I\/O error on GET request for "https:\/\/mh.om-sys
+Could not download media with url https:\/\/mh.om-systems-test123.cloud.corpintra.net\/mm\/arki\/download\/61854-61855-61953.png at attempt number: 2. With exception message: I\/O error on GET request for "https:\/\/mh.om-sys
+Could not download media with url https:\/\/mh.om-systems-test123.cloud.corpintra.net\/mm\/arki\/download\/61854-61855-61953.png at attempt number: 3. With exception message: I\/O error on GET request for "https:\/\/mh.om-sys
+Could not download media with url https:\/\/mh.om-systems-test123.cloud.corpintra.net\/mm\/arki\/download\/61854-61855-61953.png at attempt number: 4. With exception message: I\/O error on GET request for "https:\/\/mh.om-sys

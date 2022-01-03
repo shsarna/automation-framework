@@ -1,0 +1,6 @@
+"message" : {
+    "data" : {
+      "onlinePackageId" : 1
+    },
+    "info" : [ {
+      "message" : "Accepted. DOM online package creation started.",

@@ -1,0 +1,4 @@
+{
+  "selectStatement": "select count(*) from dom_container.dom_container_resource where resource_url like '%https://s3.eu-de.cloud-object-storage.appdomain.cloud/ba-ntg7-test-resource-storage/dom-flashware/300030_3333003012%';",
+  "expectedCount": 2
+}

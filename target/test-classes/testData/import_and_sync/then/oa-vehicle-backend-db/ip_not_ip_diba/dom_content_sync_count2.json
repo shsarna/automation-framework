@@ -1,0 +1,4 @@
+{
+  "selectStatement": "select count(*) from dom_content.dom_content_sync;",
+  "expectedCount": 1
+}

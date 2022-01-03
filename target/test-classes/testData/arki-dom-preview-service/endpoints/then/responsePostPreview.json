@@ -1,0 +1,12 @@
+{
+  "message": {
+    "info": [
+      {
+        "type": 0,
+        "timestamp": "string",
+        "message": "string",
+        "code": 0
+      }
+    ]
+  }
+}

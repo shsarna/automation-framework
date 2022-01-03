@@ -1,0 +1,22 @@
+{
+  "selectColumnModels": [
+    {
+      "columnName": "relation_id",
+      "columnValue": "1"
+    }
+  ],
+  "assertColumnModels": [
+    {
+      "columnName": "relation_type_id",
+      "columnValue": "-1"
+    },
+    {
+      "columnName": "object_id_1",
+      "columnValue": "7"
+    },
+    {
+      "columnName": "object_id_2",
+      "columnValue": "1"
+    }
+  ]
+}

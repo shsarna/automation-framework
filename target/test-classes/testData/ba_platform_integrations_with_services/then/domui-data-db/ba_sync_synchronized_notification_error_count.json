@@ -1,0 +1,4 @@
+{
+ "selectStatement": "select count(*) from domui_data_service.ba_sync where ba_sync_id in(1,2,3) and sync_resource_type='urn:com:mercedess-benz:oa:dom-ui-data-service:basync' and sync_resource_location like '%http://dom-ui-data-service-tsy-integration:8080/dom-ui-data-service/v1/basync/%' and sync_resource_status=-1",
+ "expectedCount": 3
+}
